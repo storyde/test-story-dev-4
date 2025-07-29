@@ -1,0 +1,41 @@
+# This scene contains information for the sidebar.
+= Status
+Your personal development and community standing.
+
+---
+
+**Personal Growth**
+Curiosity: [+ curiosity : curiosity +]
+Systems Awareness: [+ systems_awareness : systems_awareness +]
+Resilience: [+ resilience : resilience +]
+Open-mindedness: [+ open_mindedness +]
+
+---
+
+**Community Relations**
+Community Trust: [+ community_trust : community_trust +]
+Reputation: [+ reputation +]
+Helpfulness: [+ helpfulness +]
+
+---
+
+**Skills & Attitudes**
+Practical Skills: [+ practical_skills +]
+Tech Dependency: [+ tech_dependency +]
+Skepticism: [+ skepticism : skepticism +]
+
+---
+
+[? if systems_awareness >= 7 : You see the world as interconnected systems. ?]
+[? if community_trust >= 5 : People in the community look to you for guidance. ?]
+[? if resilience >= 6 : You adapt well to changing circumstances. ?]
+[? if tech_dependency <= 3 : You're comfortable with low-tech solutions. ?]
+
+---
+
+- @back_to_game: Back to Game
+
+@back_to_game
+title: Back to Game
+subtitle: Continue Your Journey
+go-to: last_scene

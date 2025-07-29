@@ -1,0 +1,18 @@
+title: Root Scene
+on-arrival: time = 0; abstract_level = 1; degradation = 5; pollution = 5; social_unrest = 5; hunger = 5; thirst = 5; economic_instability = 5
+new-page: true
+
+= Test story
+
+In a time not so far into the future, society grapples with the symptoms of the polycrisis—a complex web of social, economic, and environmental challenges.
+
+- @start_game: Start game
+- @go_to_credits: Credits
+
+@start_game
+subtitle: go on an adventure
+go-to: intro
+
+@go_to_credits
+subtitle: View credits and inspirations
+go-to: credits

@@ -1,0 +1,23 @@
+@behavior
+title: Behavior
+subtitle: Building Resilience
+
+---
+
+Facilitator: "How must you behave to support your vision of quality of life? Consider both personal and collective behaviors."
+
+- @describe_behavior: "Describe the behavior needed to support your vision"
+- @seek_guidance: "Seek guidance on defining your behavior"
+
+@describe_behavior
+title: Describing Your Behavior
+subtitle: Painting a Picture
+
+---
+
+Facilitator: "Imagine the behaviors that will support your vision of quality of life. What are the personal and collective behaviors that you need? Let your vision guide you."
+
+---
+
+- @share_behavior: "Share your behavior with the facilitator"
+- @reflect_further: "Reflect further on your behavior"

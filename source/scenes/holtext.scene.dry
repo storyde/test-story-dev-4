@@ -1,0 +1,21 @@
+# This scene contains information for the sidebar.
+= Context Qualities
+This is your holistic context. Your choices are displayed here.
+
+---
+
+Statement of Purpose: [+ statement_of_purpose +]
+Whole Under Management: [+ whole_under_management +]
+Quality of Life: [+ quality_of_life +]
+Future Resource Base: [+ future_resource_base +]
+Conditions: [+ conditions +]
+Behavior: [+ behavior +]
+
+---
+
+- @back_to_game: Back to Game
+
+@back_to_game
+title: Back to Game
+subtitle: Continue Your Journey
+go-to: last_scene

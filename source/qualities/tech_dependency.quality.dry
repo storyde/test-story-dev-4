@@ -1,0 +1,4 @@
+name: tech_dependency
+initial: 5
+min: 0
+max: 10

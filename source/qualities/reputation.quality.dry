@@ -1,0 +1,4 @@
+name: reputation
+initial: 0
+min: -5
+max: 10

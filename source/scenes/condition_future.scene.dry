@@ -1,0 +1,23 @@
+@conditions
+title: Conditions
+subtitle: Building Sustainability
+
+---
+
+Facilitator: "What are the conditions needed to support your vision of quality of life? Consider both internal and external conditions."
+
+- @describe_conditions: "Describe the conditions needed for your vision"
+- @seek_guidance: "Seek guidance on exploring your conditions"
+
+@describe_conditions
+title: Describing Your Conditions
+subtitle: Painting a Picture
+
+---
+
+Facilitator: "Imagine the conditions that will support your vision of quality of life. What are the internal and external conditions that you need? Let your vision guide you."
+
+---
+
+- @share_conditions: "Share your conditions with the facilitator"
+- @reflect_further: "Reflect further on your conditions"
