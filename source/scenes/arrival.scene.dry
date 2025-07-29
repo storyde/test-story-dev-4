@@ -1,0 +1,332 @@
+title: Arrival
+subtitle: First Impressions of the Future
+new-page: true
+tags: arrival, observation, world-building
+on-arrival: observation_skills += 1; tech_exposure += 1
+
+Narration: The air tastes *metallic*. A delivery drone circles overhead, confused by broken GPS signals. It's been trying to deliver the same package for **three hours**. The package is addressed to "The Future" with no street number.
+
+Narration: Street vendors hawk water purifiers made from old smartphone parts. A cleaning robot rolls by, spraying the sidewalk with what appears to be *orange juice* instead of disinfectant. Its cheerful voice announces:
+
+Robotsign: CLEANING COMPLETE! HAVE A CITRUSY DAY!
+
+Narration: An elderly woman sits on a bench, feeding pigeons with *synthetic breadcrumbs*. She notices you looking around.
+
+Elena: "First time seeing it up close? The... **mess** we've made? Don't mind the robot—it's been having an identity crisis since the last software update."
+
+Narration: A holographic advertisement flickers against a cracked wall:
+
+Infosign: SOLUTIONS FOR TOMORROW, TODAY!
+
+Narration: But the projector sparks and dies.
+
+Elena: "That ad's been promising solutions for six months. The only thing it's solved is how to waste electricity."
+
+[? if tech_skepticism >= 2 : You're already developing a healthy skepticism about technological solutions. ?]
+
+[? if part_of = "family" : You think about how this chaotic world affects families like yours. ?]
+[? if part_of = "organization" : You wonder how organizations can function in this environment. ?]
+[? if part_of = "alone" : You're grateful to be navigating this alone, without others depending on you. ?]
+
+- @ask_about_mess: "What do you mean by 'the mess'?"
+- @look_for_help: "I'm looking for someone who might help me understand all this."
+- @observe_more: "Let me just observe for a moment."
+- @polycrisis_side: "Is this what they call the polycrisis?"
+
+@ask_about_mess
+title: Understanding the Mess
+subtitle: Seeking clarity about the situation
+tags: inquiry, systems-thinking, curiosity
+title: Ask About the Mess
+on-arrival: curiosity += 1
+
+Elena: "Oh, you know... everything connected to everything else, falling apart **together**. Economy crashes, climate goes wild, people stop trusting each other. One thing breaks, *everything* breaks."
+
+Narration: She gestures at a group of teenagers trying to fix a malfunctioning street cleaning robot that's stuck in a loop, repeatedly bumping into the same pothole while playing *elevator music*.
+
+Elena: "That robot cost the city **fifty thousand dollars**. It's been stuck there for two weeks. The teenagers are taking bets on whether it'll achieve sentience or just explode first."
+
+Elena: "But there's someone around here who thinks differently. Says there's a way to look at the *whole picture*, not just the broken pieces. She's probably the only person in the city who still believes technology can be helpful."
+
+- @ask_about_someone: "Who is this someone?"
+- @polycrisis_side: "Tell me more about this polycrisis."
+- @look_for_help: "I'd like to meet them."
+
+@look_for_help
+title: Seeking Understanding
+subtitle: Looking for guidance
+tags: help-seeking, guidance, mentorship
+title: Seek Understanding
+on-arrival: help_seeking += 1
+
+Me: "I'm looking for someone who might help me understand all this."
+
+Elena: "Ah, a **seeker**! There's a woman who comes by here sometimes. Calls herself a facilitator. She has this way of asking questions that makes you *think differently*."
+
+Narration: She points toward a small community garden where solar panels power a water filtration system.
+
+Elena: "She's usually over there, helping people figure out what they **really want** from life. Not what they think they should want, but what they *actually* want."
+
+- @go_to_facilitator: "Take me to her."
+- @ask_more_about_facilitator: "What kind of questions does she ask?"
+- @polycrisis_side: "But first, what exactly is happening here?"
+
+@observe_more
+title: Taking It All In
+subtitle: Careful observation of the environment
+tags: observation, analysis, patience
+title: Take It All In
+on-arrival: observation_skills += 1; systems_awareness += 1
+
+Narration: You watch the scene unfold. A food truck powered by pedaling customers—the AI chef inside keeps apologizing for burning everything. Children playing with broken tablets, using them as building blocks. 
+
+---
+
+A community bulletin board covered in handwritten notes:
+
+> "Need: batteries."
+> "Offer: tomatoes." 
+> "Lost: hope (reward if found)."
+> "Found: robot dignity (please claim)."
+
+Narration: Everything seems *improvised*, adaptive, but also **fragile**. Like society is being held together with digital duct tape and good intentions. A maintenance drone flies by upside down, apparently convinced that gravity is optional.
+
+Elena: "See how people are making it work anyway? That's the thing about **humans**. We adapt. The robots, on the other hand, are still trying to figure out what their purpose is. But wouldn't it be better if we *planned* for this instead of just reacting?"
+
+- @ask_about_planning: "What do you mean by planning for this?"
+- @look_for_help: "Is there someone who thinks about this kind of planning?"
+- @polycrisis_side: "How did we get to this point?"
+
+@ask_about_planning
+title: Ask About Planning
+on-arrival: strategic_thinking += 1
+
+Elena: "Well, there's this woman who comes around. She talks about something called 'holistic management.' Says most people try to fix one problem at a time, but everything's connected."
+
+Narration: A maintenance robot rolls by, spraying the wrong kind of fertilizer on the sidewalk instead of the plants.
+
+Elena: "See that? Someone programmed it to solve the 'plant growth problem' without thinking about the 'don't poison the walkway problem.' She says there's a better way."
+
+- @go_to_facilitator: "I'd like to meet this woman."
+- @ask_more_about_facilitator: "What exactly is holistic management?"
+- @humanmade: "Is all this chaos human-made?"
+
+@ask_more_about_facilitator
+title: Learn About the Facilitator
+on-arrival: curiosity += 1
+
+Elena: "She asks questions like 'How do you want your life to be?' and 'What are you really managing?' Sounds simple, but it gets deep fast."
+
+Narration: A group of people nearby are arguing about whether to fix the broken streetlight or use the materials for something else. Their voices rise as each person defends their priority.
+
+Elena: "See that argument? She'd probably ask them what they're all trying to achieve together, instead of letting them fight over solutions."
+
+- @go_to_facilitator: "That sounds like exactly what I need."
+- @watch_argument: "Let me watch this argument first."
+- @polycrisis_side: "But what caused all these problems in the first place?"
+
+@watch_argument
+title: Observe the Conflict
+on-arrival: conflict_awareness += 1; systems_awareness += 1
+
+Narration: You listen to the heated discussion:
+
+Person A: "We need light for safety!"
+Person B: "We need those materials for the water filter!"
+Person C: "Why not ask the city to fix it?"
+Person B: "The city's broke, remember?"
+Person A: "Then we prioritize safety!"
+Person C: "Water is more important than light!"
+
+Elena: "Each one's right, from their perspective. But they're all thinking about their piece of the puzzle."
+
+- @intervene_in_argument: "Maybe I can help them see the bigger picture."
+- @go_to_facilitator: "I think I need to learn that framework first."
+- @ask_what_would_facilitator_do: "What would the facilitator do here?"
+
+@ask_what_would_facilitator_do
+title: Learn the Approach
+on-arrival: learning_orientation += 1
+
+Elena: "She'd probably ask them: 'What do you all want this neighborhood to be like?' Get them talking about the life they want, not just the problems they see."
+
+Narration: The argument continues, getting more heated. A small child tugs on Person A's sleeve, ignored.
+
+Elena: "Then she might ask: 'What are you all managing together?' Help them see they're not managing streetlights or water filters—they're managing a community."
+
+- @try_facilitator_approach: "Let me try that approach with them."
+- @go_to_facilitator: "I need to learn this properly first."
+- @realize_connection: "I'm starting to see how everything connects."
+
+@try_facilitator_approach
+title: Apply the Framework
+on-arrival: practical_application += 1; leadership += 1; community_engagement += 1
+
+Me: "Excuse me, everyone. What if we stepped back and asked: what do you all want this neighborhood to be like?"
+
+Narration: The argument stops. They look at you with surprise.
+
+Person A: "Well... safe, obviously."
+Person B: "And healthy. Clean water, clean air."
+Person C: "A place where we can actually rely on things working."
+
+Me: "So you all want the same thing—a neighborhood that's safe, healthy, and reliable?"
+
+Narration: They look at each other, the hostility fading.
+
+Person B: "When you put it like that..."
+Person A: "Maybe we can figure out a solution that addresses both the light and the water."
+
+Elena: "Not bad for a beginner! But there's more to learn. Want to meet the real expert?"
+
+- @go_to_facilitator: "Yes, take me to her."
+- @continue_helping: "Let me help them work this out first."
+
+@continue_helping
+title: Keep Helping
+on-arrival: helpfulness += 2; practical_skills += 1; community_trust += 1
+
+Narration: You spend the next hour helping the group brainstorm solutions. They end up deciding to use some materials for a solar-powered water filter that also provides LED lighting—solving both problems.
+
+Person A: "Thanks for helping us see past our individual concerns."
+Person C: "You should meet Sarah. She's the one who taught us about thinking holistically."
+
+Elena: "Maya's the facilitator I mentioned. Looks like you're ready to meet her."
+
+- @go_to_facilitator: "Let's go find Maya."
+
+@go_to_facilitator
+title: Meet the Facilitator
+go-to: meet_facilitator
+
+@polycrisis_side
+title: Understanding the Polycrisis
+on-arrival: understanding += 1; systems_awareness += 1
+
+Elena: "Polycrisis... that's when everything goes wrong at once, and each problem makes the others worse."
+
+Narration: She points to different scenes around you: the broken infrastructure, the improvised economy, the social tensions.
+
+Elena: "Climate change stresses the power grid. Power failures crash the economy. Economic stress breaks down social trust. Broken trust makes it harder to solve climate change. Round and round."
+
+Narration: A food delivery drone crashes into a tree, its AI confused by the heat-warped GPS signals. A small crowd gathers to salvage the packages.
+
+- @humanmade: "Is this all human-made?"
+- @ask_about_solutions: "Is there a way out of this cycle?"
+- @go_to_facilitator: "I need to understand how to think about this differently."
+
+@humanmade
+title: Human Origins
+on-arrival: responsibility_awareness += 1
+
+Elena: "Human-made? Well, we didn't create the heat waves directly, but we created the systems that can't handle them."
+
+Narration: She gestures at the struggling infrastructure around you.
+
+Elena: "We built everything to be efficient, not resilient. Cheap, not sustainable. Fast, not thoughtful. Each decision made sense at the time, but nobody was looking at the whole picture."
+
+- @ask_about_solutions: "So how do we fix it?"
+- @feel_overwhelmed: "This feels too big to solve."
+- @go_to_facilitator: "I want to learn how to see the whole picture."
+
+@ask_about_solutions
+title: Seeking Solutions
+on-arrival: solution_orientation += 1
+
+Elena: "That's exactly what Maya talks about. She says the solution isn't to fix each problem separately, but to change how we make decisions in the first place."
+
+Narration: A group of teenagers walks by, their homemade air purifier backpacks humming softly. They've adapted, but it shouldn't have to be this way.
+
+Elena: "She calls it 'holistic management'—making decisions that consider everything together: what you want, what you're responsible for, and what's actually sustainable."
+
+- @go_to_facilitator: "I need to learn this approach."
+- @ask_how_it_works: "How does that actually work in practice?"
+
+@ask_how_it_works
+title: Practical Application
+on-arrival: practical_thinking += 1
+
+Elena: "She starts with simple questions, but they get you thinking differently. Like, instead of asking 'How do we fix the power grid?' she might ask 'How do we want our community to live?'"
+
+Narration: The questions hang in the air as you watch people around you making do, adapting, surviving—but not thriving.
+
+Elena: "Once you're clear on what you really want, then you can ask what you're actually managing, and what practices will get you there sustainably."
+
+- @go_to_facilitator: "I want to learn this framework."
+- @feel_overwhelmed: "It sounds complicated."
+
+@feel_overwhelmed
+title: Feeling Overwhelmed
+on-arrival: overwhelm += 1
+
+Me: "This all feels too big, too complicated."
+
+Elena: "That's exactly why Maya's approach works. Instead of trying to solve everything at once, you start with clarity about what you actually want."
+
+Narration: She smiles kindly.
+
+Elena: "You don't have to fix the world today. You just have to get clear about your piece of it."
+
+- @go_to_facilitator: "Okay, let's start with my piece."
+- @ask_about_my_piece: "What do you mean by 'my piece'?"
+
+@ask_about_my_piece
+title: Understanding Your Role
+on-arrival: self_awareness += 1
+
+[? if part_of = "alone" : Elena: "Well, you said you're here by yourself. So maybe your piece is just you—your life, your choices, your impact." ?]
+
+[? if part_of = "family" : Elena: "You mentioned you're here with family. So maybe your piece is your family unit—how you all want to live together, what you're building together." ?]
+
+[? if part_of = "organization" : Elena: "You said you're part of an organization. So maybe your piece is understanding what that organization is really trying to achieve, and how it fits into the bigger picture." ?]
+
+Elena: "Maya would help you get clear on exactly what you're managing, and then how to manage it well."
+
+- @go_to_facilitator: "That makes sense. Let's go meet Maya."
+
+@intervene_in_argument
+title: Try to Help
+on-arrival: intervention_skills += 1; community_engagement += 1
+
+Me: "Excuse me, what if you all stepped back and thought about what you're trying to achieve together?"
+
+Narration: The arguing stops. They look at you with a mix of curiosity and annoyance.
+
+Person A: "We're trying to solve the streetlight problem."
+Person B: "No, we're trying to solve the water problem."
+Me: "But what are you both trying to create for this neighborhood?"
+
+Narration: There's a pause as they consider this.
+
+Person C: "A place that... works, I guess. Where we can live safely and healthily."
+
+Elena: "Not bad! You're thinking like Maya already. Want to meet her and learn the full framework?"
+
+- @go_to_facilitator: "Yes, let's go."
+- @ask_more_questions: "What other questions should I ask?"
+
+@ask_more_questions
+title: Learn More Questions
+on-arrival: questioning_skills += 1
+
+Elena: "Maya has a whole framework. She'd ask them what they're really managing—not streetlights or water filters, but their community. Then she'd help them figure out what practices actually support their vision."
+
+Narration: The group is still standing there, looking thoughtful rather than argumentative.
+
+Elena: "But you should learn it properly. Come on, let's find her."
+
+- @go_to_facilitator: "Lead the way."
+
+@realize_connection
+title: See the Connections
+on-arrival: systems_awareness += 2; insight += 1
+
+Me: "I'm starting to see how everything connects. The problems, the solutions, the people..."
+
+Elena: "Exactly! That's the beginning of holistic thinking. Maya says most people try to solve problems in isolation, but everything affects everything else."
+
+Narration: You look around with new eyes. The broken streetlight affects safety, which affects community trust, which affects cooperation, which affects the ability to solve problems like broken streetlights.
+
+Elena: "Ready to learn how to work with those connections instead of against them?"
+
+- @go_to_facilitator: "Absolutely. Let's go."
