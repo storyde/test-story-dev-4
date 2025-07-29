@@ -1,0 +1,515 @@
+title: Whole Under Management
+new-page: true
+tags: framework_core
+
+Maya: "Now we get to the heart of it. What is the 'whole' you're actually managing?"
+
+Narration: She picks up a handful of soil from the garden bed. A smart sprinkler system nearby suddenly activates, spraying everyone with recycled dishwater while cheerfully announcing:
+
+Robotsign: PREMIUM IRRIGATION ACTIVATED! PLANTS WILL LOVE THIS ARTISANAL WATER!
+
+Maya: "Most people think they're managing their job, or their family, or their organization. But everything's connected. When you make a decision, what all gets affected?"
+
+Narration: She lets the soil run through her fingers, dodging another spray from the confused sprinkler system.
+
+Maya: "This soil depends on the plants, which depend on the water—hopefully cleaner than what that sprinkler is providing—which depends on the community maintaining the system, which depends on the economy supporting the community..."
+
+[? if part_of = "organization" : Maya: "Your organization doesn't exist in isolation. What's the whole system you're really responsible for?" ?]
+
+[? if part_of = "family" : Maya: "Your family doesn't exist in isolation. What's the whole system that affects your family's wellbeing?" ?]
+
+[? if part_of = "alone" : Maya: "Even as an individual, you're part of larger systems. What's the whole that your decisions affect?" ?]
+
+- @just_me: "Just me, myself."
+- @my_family: "My family unit."
+- @my_household: "My household and immediate surroundings."
+- @my_organization: "My organization or business."
+- @my_community: "My local community."
+- @my_region: "My region or city."
+- @my_nation: "My country or nation."
+- @global_impact: "The global community."
+- @think_about_boundaries: "How do I figure out the boundaries?"
+- #scope_exploration
+
+@just_me
+title: Individual Focus
+on-arrival: scope_individual += 1; individual_responsibility += 1
+
+Maya: "Just you... but let's test that. When you make decisions about your health, your spending, your time—who else gets affected?"
+
+Narration: A neighbor walks by, watering plants with greywater from their kitchen.
+
+Maya: "That person's decision to reuse water affects the whole building's water bill, the local water system, even the plants that clean the air you breathe."
+
+Me: "I guess my decisions do ripple out..."
+
+Maya: "Exactly. So maybe your 'whole' is bigger than just you. What feels like the right boundary for what you're taking responsibility for?"
+
+- @my_household: "My household and immediate surroundings."
+- @my_community: "My local community."
+- @expand_gradually: "I should start small and expand gradually."
+
+@my_family
+title: Family Focus
+on-arrival: scope_family += 1; family_responsibility += 1
+
+Maya: "Your family—that's a natural whole. But families don't exist in bubbles. What affects your family's ability to thrive?"
+
+Narration: A family nearby is teaching their children to tend the community garden.
+
+Maya: "That family's wellbeing depends on this garden, which depends on the community, which depends on the broader systems that support or stress communities."
+
+Me: "So managing my family means thinking about all those connections?"
+
+Maya: "What do you think? Where would you draw the boundary of what you're responsible for?"
+
+- @my_household: "Our household and immediate environment."
+- @my_community: "The community that supports our family."
+- @extended_network: "Our extended network of relationships."
+
+@my_household
+title: Household Focus
+on-arrival: scope_household += 1; household_responsibility += 1
+
+Sarah: "Your household—that's concrete and manageable. But even households are connected to larger systems."
+
+Narration: She points to the solar panels powering the garden's water pump.
+
+Sarah: "This household decision to use solar power affects the electrical grid, reduces pollution, creates demand for renewable technology..."
+
+Sarah: "But household-level thinking can be very powerful. You can see direct cause and effect, make changes quickly, learn from results."
+
+- @confirm_household: "Yes, I want to focus on the household level."
+- @expand_to_community: "Maybe I should think about the community level too."
+
+@my_organization
+title: Organizational Focus
+on-arrival: scope_organization += 1; organizational_responsibility += 1
+
+Sarah: "Your organization—but what's the boundary? Just the employees? The customers? The suppliers? The community where you operate?"
+
+Narration: A small business owner walks by, carrying produce to trade with the garden collective.
+
+Sarah: "That business affects its customers, suppliers, competitors, the local economy, the environment where it operates..."
+
+Sarah: "Organizations can have tremendous impact, but they're also embedded in larger systems. What feels like the right scope for your responsibility?"
+
+- @just_internal: "Just our internal operations and employees."
+- @including_stakeholders: "Including our key stakeholders and community."
+- @full_ecosystem: "The full ecosystem we're part of."
+
+@my_community
+title: Community Focus
+on-arrival: scope_community += 1; community_responsibility += 1
+
+Sarah: "Community-level thinking—that's ambitious and important. But which community? Geographic? Professional? Cultural?"
+
+Narration: She gestures at the diverse group of people working in and around the garden.
+
+Sarah: "This community includes people from different backgrounds, ages, economic situations. They're connected by geography and shared needs, but they're also connected to other communities."
+
+Sarah: "Community-level management can be very powerful, but it requires understanding many different perspectives and needs."
+
+- @geographic_community: "My geographic neighborhood or area."
+- @professional_community: "My professional or industry community."
+- @multiple_communities: "The multiple communities I'm part of."
+
+@my_region
+title: Regional Focus
+on-arrival: scope_region += 1; regional_responsibility += 1
+
+Sarah: "Regional thinking—that's getting into complex systems. Regions include multiple communities, ecosystems, economic networks..."
+
+Narration: A delivery truck passes by, part of the supply chains that connect this community to the broader region.
+
+Sarah: "Regional decisions affect millions of people, multiple ecosystems, complex economic and political systems. It's important work, but it requires understanding many interconnected parts."
+
+Sarah: "Are you sure you want to take on that level of complexity? Or would it be better to start smaller and build up?"
+
+- @start_smaller: "Maybe I should start with a smaller scope."
+- @regional_role: "I think my role requires regional thinking."
+- @step_by_step: "I could start smaller but keep the regional perspective in mind."
+
+@my_nation
+title: National Focus
+on-arrival: scope_nation += 1; national_responsibility += 1
+
+Sarah: "National level... that's policy, large-scale systems, millions of people. Very important, but also very complex."
+
+Narration: A news drone flies overhead, broadcasting updates about national economic and climate policies.
+
+Sarah: "National decisions ripple through every community, every family, every individual. The responsibility is enormous."
+
+Sarah: "Are you in a position where you actually influence national-level decisions? Or would your energy be better focused on a scale where you can see direct results?"
+
+- @direct_influence: "I do have some influence at the national level."
+- @start_smaller: "Maybe I should focus on a smaller scale first."
+- @both_levels: "I need to think about both local action and national impact."
+
+@global_impact
+title: Global Focus
+on-arrival: scope_global += 1; global_responsibility += 1
+
+Sarah: "Global thinking—climate, international economics, planetary systems. The ultimate 'whole.'"
+
+Narration: She looks up at the sky, where the effects of global climate change are visible in the unusual weather patterns.
+
+Sarah: "Everything is ultimately connected to everything else on this planet. But global-scale management is incredibly complex."
+
+Sarah: "The question is: where can you actually make a difference? Sometimes the most global thing you can do is manage your local whole really well."
+
+- @think_globally_act_locally: "Think globally, act locally?"
+- @direct_global_impact: "I believe I can have direct global impact."
+- @start_local: "Maybe I should start with a smaller scope."
+
+@think_about_boundaries
+title: Understanding Boundaries
+tags: scope_exploration
+on-arrival: systems_thinking += 1; boundary_awareness += 1
+
+Sarah: "Great question! Boundaries are partly practical and partly philosophical."
+
+Narration: She draws a circle in the dirt with her finger.
+
+Sarah: "Practically, what can you actually influence? What resources do you control? What relationships do you have?"
+
+Narration: She draws a larger circle around the first one.
+
+Sarah: "Philosophically, what do you feel responsible for? What aligns with your values and purpose?"
+
+Narration: She draws connecting lines between the circles.
+
+Sarah: "And systemically, what's connected to what? What affects what you care about?"
+
+- @practical_influence: "Focus on what I can practically influence."
+- @value_based_responsibility: "Focus on what I feel responsible for."
+- @systemic_connections: "Focus on the key systemic connections."
+- @all_three: "I need to consider all three perspectives."
+
+@practical_influence
+title: Practical Influence
+tags: scope_exploration
+on-arrival: pragmatic_thinking += 1
+
+Sarah: "Smart approach. What can you actually influence with the resources, relationships, and authority you have?"
+
+[? if part_of = "organization" : Sarah: "In your organization, what decisions do you make or influence? What resources do you control? Who listens to your input?" ?]
+
+[? if part_of = "family" : Sarah: "In your family, what decisions are you part of? What resources do you help manage? What relationships do you help maintain?" ?]
+
+[? if part_of = "alone" : Sarah: "As an individual, what decisions do you make? What resources do you control? What relationships do you have?" ?]
+
+- @assess_influence: "Let me think about my actual influence."
+- @ready_to_choose: "I think I know my scope now."
+
+@value_based_responsibility
+title: Value-Based Responsibility
+tags: scope_exploration
+on-arrival: values_clarity += 1
+
+Sarah: "Values-based thinking—what feels right to you? What do you feel called to take care of?"
+
+Narration: She points to the garden around you.
+
+Sarah: "Some people feel responsible for their immediate family. Others feel responsible for their community, their profession, their ecosystem, their planet."
+
+Sarah: "There's no right answer, but there is your answer. What scope of responsibility feels authentic to who you are?"
+
+- @feel_responsible_for: "Let me think about what I feel responsible for."
+- @ready_to_choose: "I think I know my scope now."
+
+@systemic_connections
+title: Systemic Connections
+tags: scope_exploration
+on-arrival: systems_awareness += 2
+
+Sarah: "Systems thinking—what's connected to what? What affects the things you care about most?"
+
+Narration: She points to different elements of the garden ecosystem.
+
+Sarah: "If you care about these tomatoes, you have to think about the soil, the water, the pollinators, the climate, the community that maintains this space..."
+
+Sarah: "What are the key connections that affect what you care about most?"
+
+- @map_connections: "Help me map those connections."
+- @ready_to_choose: "I think I understand my scope now."
+
+@all_three
+title: Integrating All Perspectives
+on-arrival: holistic_thinking += 2; integration_skills += 1
+
+Sarah: "Excellent! That's truly holistic thinking—considering practical influence, values-based responsibility, and systemic connections together."
+
+Narration: She draws overlapping circles in the dirt.
+
+Sarah: "Your 'whole under management' is where these three perspectives overlap. What you can influence, what you feel responsible for, and what's systemically connected to your goals."
+
+Sarah: "This might take some reflection, but it's worth getting right. Your whole under management shapes every decision you make."
+
+- @take_time_to_integrate: "I need time to think this through."
+- @ready_to_choose: "I think I can see where they overlap."
+
+@expand_gradually
+title: Gradual Expansion
+on-arrival: adaptive_thinking += 1
+
+Sarah: "Wise approach. Start with a scope you can manage well, learn from experience, then expand as you develop capacity."
+
+Narration: She points to the garden's growth from a single bed to multiple raised beds.
+
+Sarah: "This garden started with one person growing herbs in a container. As people learned and resources grew, so did the scope."
+
+Sarah: "What feels like the right starting scope for you?"
+
+- @my_household: "My household and immediate surroundings."
+- @my_community: "My local community."
+
+@extended_network
+title: Extended Network
+on-arrival: network_thinking += 1
+
+Sarah: "Your extended network—that's thinking about relationships and influence patterns. Family, friends, colleagues, neighbors..."
+
+Narration: A group of people wave as they pass by, clearly part of Sarah's extended network.
+
+Sarah: "Networks can be very powerful for creating change, because influence flows through relationships."
+
+Sarah: "But networks are also complex to manage, because you're working with and through other people's decisions."
+
+- @confirm_network: "Yes, I want to focus on my network."
+- @simplify_to_household: "Maybe I should start simpler."
+
+@confirm_household
+title: Confirm Household Scope
+on-arrival: scope_clarity += 1; household_focus += 1
+go-to: scope_confirmed
+
+@expand_to_community
+title: Expand to Community
+on-arrival: scope_expansion += 1
+go-to: my_community
+
+@just_internal
+title: Internal Operations Focus
+on-arrival: internal_focus += 1
+go-to: scope_confirmed
+
+@including_stakeholders
+title: Stakeholder Focus
+on-arrival: stakeholder_focus += 1
+go-to: scope_confirmed
+
+@full_ecosystem
+title: Ecosystem Focus
+on-arrival: ecosystem_focus += 1
+go-to: scope_confirmed
+
+@geographic_community
+title: Geographic Community
+on-arrival: geographic_focus += 1
+go-to: scope_confirmed
+
+@professional_community
+title: Professional Community
+on-arrival: professional_focus += 1
+go-to: scope_confirmed
+
+@multiple_communities
+title: Multiple Communities
+on-arrival: multi_community_focus += 1
+go-to: scope_confirmed
+
+@start_smaller
+title: Start with Smaller Scope
+on-arrival: scale_adjustment += 1
+
+Sarah: "That's often the wisest choice. You can always expand your scope as you develop your skills and understanding."
+
+Sarah: "What feels like the right starting scope?"
+
+- @my_household: "My household and immediate surroundings."
+- @my_organization: "My organization or business."
+- @my_community: "My local community."
+
+@regional_role
+title: Regional Role Confirmed
+on-arrival: regional_focus += 1
+go-to: scope_confirmed
+
+@step_by_step
+title: Step by Step Approach
+on-arrival: strategic_thinking += 1
+go-to: scope_confirmed
+
+@direct_influence
+title: Direct National Influence
+on-arrival: national_focus += 1
+go-to: scope_confirmed
+
+@both_levels
+title: Multi-Level Thinking
+on-arrival: multi_level_focus += 1
+go-to: scope_confirmed
+
+@think_globally_act_locally
+title: Global Thinking, Local Action
+on-arrival: glocal_thinking += 1
+go-to: scope_confirmed
+
+@direct_global_impact
+title: Direct Global Impact
+on-arrival: global_focus += 1
+go-to: scope_confirmed
+
+@start_local
+title: Start Local
+on-arrival: local_focus += 1
+
+Sarah: "Starting local is often the most effective approach. You can see direct results, learn quickly, and build from there."
+
+Sarah: "What feels like the right local scope for you?"
+
+- @my_household: "My household and immediate surroundings."
+- @my_community: "My local community."
+
+@assess_influence
+title: Assess Your Influence
+on-arrival: self_assessment += 1
+
+Sarah: "Take a moment to really think about this. Where do you have actual decision-making power? What resources do you control or influence? Who asks for your input?"
+
+Narration: She waits patiently while you reflect.
+
+Sarah: "Remember, influence isn't just formal authority. It's also relationships, expertise, resources, and credibility."
+
+- @ready_to_choose: "I think I understand my scope of influence."
+
+@feel_responsible_for
+title: Feel Responsible For
+on-arrival: responsibility_clarity += 1
+
+Sarah: "What keeps you up at night? What do you feel you should be taking care of? What would you regret not addressing?"
+
+Narration: She looks at you with genuine curiosity.
+
+Sarah: "Sometimes our sense of responsibility is bigger than our current influence, and that's okay. It can motivate us to grow our capacity."
+
+- @ready_to_choose: "I think I know what I feel responsible for."
+
+@map_connections
+title: Map the Connections
+on-arrival: systems_mapping += 1
+
+Sarah: "Let's think through this systematically. What do you care about most? What affects that? What affects what affects that?"
+
+Narration: She starts drawing connections in the dirt.
+
+Sarah: "For example, if you care about your family's wellbeing, that's affected by your household resources, which are affected by your income, which is affected by your organization's success, which is affected by the broader economy..."
+
+Sarah: "What are the key connections in your situation?"
+
+- @ready_to_choose: "I can see the key connections now."
+
+@take_time_to_integrate
+title: Take Time to Integrate
+on-arrival: contemplation += 1
+
+Sarah: "That's wise. This is one of the most important decisions you'll make—it shapes everything else."
+
+Narration: She stands and brushes dirt from her hands.
+
+Sarah: "Why don't you spend some time observing this community? See how different people define their 'whole under management.' When you're ready, come find me."
+
+- @observe_community: "I'll spend time observing and reflecting."
+- @ready_to_choose: "Actually, I think I'm ready to decide."
+
+@ready_to_choose
+title: Ready to Choose Scope
+on-arrival: decision_readiness += 1
+
+Sarah: "Good. What feels like the right scope for your 'whole under management'?"
+
+- @choose_individual: "Myself and my personal impact."
+- @choose_household: "My household and immediate environment."
+- @choose_organization: "My organization and its stakeholders."
+- @choose_community: "My local community."
+- @choose_network: "My extended network of relationships."
+- @choose_region: "My region or larger geographic area."
+- @choose_multiple: "Multiple interconnected scopes."
+
+@choose_individual
+title: Individual Scope
+on-arrival: individual_scope += 1
+go-to: scope_confirmed
+
+@choose_household
+title: Household Scope
+on-arrival: household_scope += 1
+go-to: scope_confirmed
+
+@choose_organization
+title: Organizational Scope
+on-arrival: organizational_scope += 1
+go-to: scope_confirmed
+
+@choose_community
+title: Community Scope
+on-arrival: community_scope += 1
+go-to: scope_confirmed
+
+@choose_network
+title: Network Scope
+on-arrival: network_scope += 1
+go-to: scope_confirmed
+
+@choose_region
+title: Regional Scope
+on-arrival: regional_scope += 1
+go-to: scope_confirmed
+
+@choose_multiple
+title: Multiple Scopes
+on-arrival: multi_scope += 1
+go-to: scope_confirmed
+
+@confirm_network
+title: Confirm Network Focus
+on-arrival: network_focus += 1
+go-to: scope_confirmed
+
+@simplify_to_household
+title: Simplify to Household
+on-arrival: simplification += 1
+go-to: my_household
+
+@scope_confirmed
+title: Scope Confirmed
+on-arrival: scope_clarity += 2; framework_progress += 1
+
+Sarah: "Excellent. Now you're clear about what you're actually managing. That's the foundation for everything else."
+
+Narration: She makes notes in her worn notebook.
+
+Sarah: "Next, we need to get clear about how you want that whole to be. What's your vision for the life you want to create within your scope of management?"
+
+Sarah: "But first, let me ask: do you want to explore some of the background concepts, or dive straight into defining your quality of life?"
+
+- @explore_background: "I'd like to understand more about the background concepts."
+- @define_quality_of_life: "Let's define my quality of life vision."
+- @ask_about_framework: "How does this all fit together as a framework?"
+
+@explore_background
+title: Explore Background
+go-to: background_concepts
+
+@define_quality_of_life
+title: Define Quality of Life
+go-to: quality_of_life
+
+@ask_about_framework
+title: Ask About Framework
+go-to: framework_overview
+
+@observe_community
+title: Observe Community
+go-to: community_observation

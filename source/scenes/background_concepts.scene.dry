@@ -1,5 +1,6 @@
 title: Background Concepts
 new-page: true
+tags: learning
 
 Sarah: "Good choice. Understanding the context helps everything else make sense."
 
@@ -17,9 +18,11 @@ Sarah: "See that? That's a small example. The robot was designed to solve one pr
 - @ask_about_human_causes: "Is this all human-made?"
 - @ask_about_solutions: "How do we solve interconnected problems?"
 - @ready_for_framework: "I understand. Let's get to the framework."
+- #deep_dive_topics
 
 @ask_about_polycrisis
 title: Understanding Polycrisis
+tags: deep_dive_topics
 on-arrival: polycrisis_understanding += 2
 
 Sarah: "Polycrisis means everything's connected, and when one system fails, it cascades through others."
@@ -38,6 +41,7 @@ Sarah: "Each problem is real, but trying to solve them one at a time is like try
 
 @ask_about_human_causes
 title: Human Causes
+tags: deep_dive_topics
 on-arrival: human_responsibility += 1; systems_awareness += 1
 
 Sarah: "We didn't set out to create a polycrisis. We made thousands of individual decisions that seemed rational at the time."
@@ -92,6 +96,7 @@ Sarah: "What's your piece of the puzzle?"
 
 @ask_about_solutions
 title: Solving Interconnected Problems
+tags: deep_dive_topics
 on-arrival: solution_focus += 1; holistic_thinking += 1
 
 Sarah: "That's exactly what Holistic Management is for. Instead of trying to solve problems in isolation, we make decisions that consider the whole system."

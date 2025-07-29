@@ -1,0 +1,191 @@
+title: Community Observation
+new-page: true
+tags: exploration
+
+Narration: You spend time walking around the community, watching how different people and groups define their scope of responsibility.
+
+Narration: At the community garden, you see a woman teaching children about composting. Her focus seems to be on education and environmental stewardship.
+
+Narration: Near the solar charging station, a man is helping neighbors troubleshoot their devices. His focus appears to be on technical problem-solving and mutual aid.
+
+Narration: A group of teenagers has set up a small repair café, fixing everything from clothing to electronics. Their focus is on reducing waste and building skills.
+
+Narration: An elderly couple maintains a little free library and information board. Their focus is on community communication and knowledge sharing.
+
+Alertsign: COMMUNITY MEETING TONIGHT 7PM - DISCUSSING WINTER PREPAREDNESS
+
+Narration: Each person or group has found their niche, their way of contributing to the whole. Some focus on immediate needs, others on long-term resilience.
+
+- @talk_to_educator: "Talk to the woman teaching composting."
+- @talk_to_tech_helper: "Talk to the man helping with devices."
+- @talk_to_repair_cafe: "Talk to the teenagers running the repair café."
+- @talk_to_librarians: "Talk to the couple maintaining the library."
+- @ready_to_decide: "I think I understand my scope now."
+- #community_interactions
+
+@talk_to_educator
+title: Talk to the Educator
+tags: community_interactions
+on-arrival: education_perspective += 1
+
+Educator: "Oh, you're working with Sarah! She helped me realize that teaching composting isn't just about waste reduction—it's about helping people understand cycles, interconnection, resilience."
+
+Educator: "I used to think I was just teaching a skill. Now I see I'm helping people develop a different relationship with natural systems."
+
+Narration: A child holds up a handful of rich, dark compost.
+
+Child: "Look! The food scraps became soil!"
+
+Educator: "Exactly. Everything's connected. What we throw away becomes what feeds us."
+
+- @ask_about_scope: "How do you define what you're responsible for?"
+- @continue_observing: "Thank you. I'll keep observing."
+
+@ask_about_scope
+title: Ask About Scope
+on-arrival: scope_learning += 1
+
+Educator: "I manage this composting program and the educational workshops. But really, I'm managing relationships—between people and natural cycles, between waste and resources, between knowledge and practice."
+
+Educator: "Sarah helped me see that I'm not just managing a program. I'm managing a piece of the community's resilience."
+
+- @continue_observing: "That's helpful. Thank you."
+
+@talk_to_tech_helper
+title: Talk to the Tech Helper
+tags: community_interactions
+on-arrival: tech_perspective += 1
+
+Tech Helper: "Sarah calls it 'appropriate technology'—not the fanciest solution, but the one that actually works for this community."
+
+Narration: He's helping an elderly man get his tablet connected to the community wifi.
+
+Tech Helper: "I used to think my job was fixing devices. Now I see it's maintaining the community's connection to information and each other."
+
+Tech Helper: "When the power grid failed, I realized I wasn't just managing technology. I was managing the community's ability to communicate and coordinate."
+
+- @ask_about_challenges: "What's the biggest challenge in that role?"
+- @continue_observing: "Thank you for sharing that perspective."
+
+@ask_about_challenges
+title: Ask About Challenges
+on-arrival: challenge_awareness += 1
+
+Tech Helper: "The biggest challenge is balancing individual needs with collective resources. Everyone wants their device to work perfectly, but we have limited power, limited bandwidth, limited repair materials."
+
+Tech Helper: "Sarah's framework helps me think about what we're all trying to achieve together, not just what each person wants individually."
+
+- @continue_observing: "That makes sense. Thank you."
+
+@talk_to_repair_cafe
+title: Talk to the Repair Café
+tags: community_interactions
+on-arrival: youth_perspective += 1
+
+Teenager 1: "We started this because we were tired of throwing things away when they broke. But it became about so much more."
+
+Teenager 2: "People bring us their stuff, but they also bring their stories. This jacket belonged to someone's grandmother. This radio was a wedding gift."
+
+Teenager 1: "We're not just fixing objects. We're helping people maintain their connections to things that matter."
+
+Narration: An older woman watches as they carefully repair a vintage sewing machine.
+
+Teenager 2: "Sarah helped us see that we're managing the flow of materials through the community. Keeping things in use instead of letting them become waste."
+
+- @ask_about_learning: "What have you learned from this work?"
+- @continue_observing: "Thank you for sharing your perspective."
+
+@ask_about_learning
+title: Ask About Learning
+on-arrival: learning_from_youth += 1
+
+Teenager 1: "We learned that everything can be fixed if you understand how it works and you have the right tools."
+
+Teenager 2: "But also that some things are worth fixing and some aren't. We had to learn to help people decide what's worth their time and resources."
+
+Teenager 1: "And we learned that teaching people to fix their own stuff is more important than just fixing it for them."
+
+- @continue_observing: "Wise insights. Thank you."
+
+@talk_to_librarians
+title: Talk to the Librarians
+tags: community_interactions
+on-arrival: information_perspective += 1
+
+Librarian: "Information is like water—it needs to flow to stay healthy. Our job is maintaining the channels."
+
+Narration: She's updating the community bulletin board with handwritten notices.
+
+Librarian: "When the digital systems failed, people rediscovered the value of physical information sharing. But it's not just about posting notices."
+
+Librarian: "We're managing the community's collective memory and knowledge. What gets remembered, what gets shared, what gets preserved."
+
+Narration: Her husband is organizing donated books by topic.
+
+Husband: "Sarah helped us see that we're not just managing books and information. We're managing the community's capacity to learn and adapt."
+
+- @ask_about_information_flow: "How do you decide what information is most important?"
+- @continue_observing: "Thank you for that perspective."
+
+@ask_about_information_flow
+title: Ask About Information Flow
+on-arrival: information_literacy += 1
+
+Librarian: "We ask: What does the community need to know to thrive? Not just survive, but thrive."
+
+Librarian: "Practical information—how to purify water, how to preserve food, how to maintain solar panels. But also cultural information—stories, songs, traditions that give people meaning and connection."
+
+Husband: "And we try to connect people who have knowledge with people who need it. Sometimes the most important information isn't in books—it's in people's heads and hands."
+
+- @continue_observing: "That's a beautiful way to think about it."
+
+@continue_observing
+title: Continue Observing
+on-arrival: observation_complete += 1
+
+Narration: You continue walking through the community, noticing how each person or group has found their way to contribute to the whole.
+
+Narration: Some focus on immediate needs—food, shelter, safety. Others focus on longer-term resilience—education, culture, systems maintenance.
+
+Narration: Some work alone, others in groups. Some lead, others support. But everyone seems to have found a role that matches their skills and interests with the community's needs.
+
+Narration: You begin to see how your own skills, interests, and situation might fit into this larger pattern.
+
+- @ready_to_decide: "I think I understand how to define my scope now."
+- @find_sarah: "I want to talk to Sarah about what I've observed."
+
+@ready_to_decide
+title: Ready to Decide
+on-arrival: decision_readiness += 2
+go-to: whole_under_management
+
+@find_sarah
+title: Find Sarah
+on-arrival: integration_seeking += 1
+
+Narration: You find Sarah back at the garden, now working with a small group planning winter preparations.
+
+Sarah: "How was your observation time? What did you notice?"
+
+Me: "Everyone has found their piece of the puzzle. Their way of contributing that matches their abilities with the community's needs."
+
+Sarah: "Exactly. And what's your piece?"
+
+- @ready_to_decide: "I think I know now."
+- @still_uncertain: "I'm still not completely sure."
+
+@still_uncertain
+title: Still Uncertain
+on-arrival: uncertainty += 1
+
+Sarah: "That's okay. Clarity often comes through action, not just thinking."
+
+Sarah: "Why don't we start with a smaller scope—something you can manage well—and see how it feels? You can always expand later."
+
+- @start_small: "That sounds wise."
+- @ready_to_decide: "Actually, I think I do know my scope."
+
+@start_small
+title: Start Small
+on-arrival: incremental_approach += 1
+go-to: whole_under_management

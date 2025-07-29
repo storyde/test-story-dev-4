@@ -1,6 +1,7 @@
 title: Meeting the Facilitator
 subtitle: An Encounter with Wisdom
 new-page: true
+tags: main_story
 on-arrival: understanding += 1
 
 Narration: You find Maya in the community garden, kneeling beside a raised bed where tomatoes grow in recycled containers. She's maybe forty, with dirt under her fingernails and an easy smile. A small group of people sits in a circle nearby, deep in conversation.
@@ -33,6 +34,7 @@ Maya: "Before we dive into frameworks, let me ask: are you acting just for yours
 [? if part_of = "family" : - @confirm_family: "I'm here with my family." ?]
 [? if part_of = "alone" : - @confirm_individual: "Just for myself." ?]
 - @reconsider_scope: "Let me think about that..."
+- #exploration_options
 
 @confirm_organization
 title: Confirm Organizational Role
@@ -65,6 +67,20 @@ Maya: "Exactly. So let's be clear about what you're taking responsibility for ri
 - @acting_for_organization: "I need to think about my organization's role."
 - @acting_for_family: "I'm focused on my family's wellbeing."
 - @acting_individually: "I'm starting with just myself."
+
+@exploration_options
+title: Explore the Community
+subtitle: Learn more about this place
+tags: exploration_options
+
+Maya: "Before we dive into the framework, would you like to explore the community a bit? Sometimes seeing how others are managing their pieces helps clarify your own."
+
+Narration: She gestures around the garden and the broader community.
+
+Maya: "There are different approaches people are taking here. You might find it helpful to see them in action."
+
+- @observe_community: "I'd like to observe how others are managing."
+- @acting_individually: "No, let's focus on my situation."
 
 @acting_for_organization
 title: Organizational Responsibility

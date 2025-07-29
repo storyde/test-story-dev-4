@@ -1,6 +1,7 @@
 title: Arrival
 subtitle: First Impressions of the Future
 new-page: true
+tags: exploration
 on-arrival: understanding += 1
 
 Narration: The air tastes metallic. A delivery drone circles overhead, confused by broken GPS signals. It's been trying to deliver the same package for three hours. The package is addressed to "The Future" with no street number.
@@ -28,7 +29,7 @@ Elena: "That ad's been promising solutions for six months. The only thing it's s
 - @ask_about_mess: "What do you mean by 'the mess'?"
 - @look_for_help: "I'm looking for someone who might help me understand all this."
 - @observe_more: "Let me just observe for a moment."
-- @polycrisis_side: "Is this what they call the polycrisis?"
+- #side_conversations
 
 @ask_about_mess
 title: Understanding the Mess
@@ -44,7 +45,7 @@ Elena: "That robot cost the city fifty thousand dollars. It's been stuck there f
 Elena: "But there's someone around here who thinks differently. Says there's a way to look at the *whole picture*, not just the broken pieces. She's probably the only person in the city who still believes technology can be helpful."
 
 - @ask_about_someone: "Who is this someone?"
-- @polycrisis_side: "Tell me more about this polycrisis."
+- #side_conversations
 - @look_for_help: "I'd like to meet them."
 
 @look_for_help
@@ -61,7 +62,7 @@ Elena: "She's usually over there, helping people figure out what they really wan
 
 - @go_to_facilitator: "Take me to her."
 - @ask_more_about_facilitator: "What kind of questions does she ask?"
-- @polycrisis_side: "But first, what exactly is happening here?"
+- #side_conversations
 
 @observe_more
 title: Taking It All In
@@ -85,7 +86,7 @@ Elena: "See how people are making it work anyway? That's the thing about humans.
 
 - @ask_about_planning: "What do you mean by planning for this?"
 - @look_for_help: "Is there someone who thinks about this kind of planning?"
-- @polycrisis_side: "How did we get to this point?"
+- #side_conversations
 
 @ask_about_planning
 title: Ask About Planning
@@ -98,7 +99,7 @@ Elena: "See that? Someone programmed it to solve the 'plant growth problem' with
 
 - @go_to_facilitator: "I'd like to meet this woman."
 - @ask_more_about_facilitator: "What exactly is holistic management?"
-- @humanmade: "Is all this chaos human-made?"
+- #side_conversations
 
 @ask_more_about_facilitator
 title: Learn About the Facilitator
@@ -112,7 +113,7 @@ Elena: "See that argument? She'd probably ask them what they're all trying to ac
 
 - @go_to_facilitator: "That sounds like exactly what I need."
 - @watch_argument: "Let me watch this argument first."
-- @polycrisis_side: "But what caused all these problems in the first place?"
+- #side_conversations
 
 @watch_argument
 title: Observe the Conflict
@@ -206,6 +207,40 @@ Narration: A food delivery drone crashes into a tree, its AI confused by the hea
 
 @humanmade
 title: Human Origins
+on-arrival: responsibility_awareness += 1
+
+Elena: "Human-made? Well, we didn't create the heat waves directly, but we created the systems that can't handle them."
+
+Narration: She gestures at the struggling infrastructure around you.
+
+Elena: "We built everything to be efficient, not resilient. Cheap, not sustainable. Fast, not thoughtful. Each decision made sense at the time, but nobody was looking at the whole picture."
+
+- @ask_about_solutions: "So how do we fix it?"
+- @feel_overwhelmed: "This feels too big to solve."
+- @go_to_facilitator: "I want to learn how to see the whole picture."
+
+@polycrisis_side
+title: Understanding the Polycrisis
+subtitle: Side conversation about the crisis
+tags: side_conversations
+on-arrival: understanding += 1; systems_awareness += 1
+
+Elena: "Polycrisis... that's when everything goes wrong at once, and each problem makes the others worse."
+
+Narration: She points to different scenes around you: the broken infrastructure, the improvised economy, the social tensions.
+
+Elena: "Climate change stresses the power grid. Power failures crash the economy. Economic stress breaks down social trust. Broken trust makes it harder to solve climate change. Round and round."
+
+Narration: A food delivery drone crashes into a tree, its AI confused by the heat-warped GPS signals. A small crowd gathers to salvage the packages.
+
+- @humanmade: "Is this all human-made?"
+- @ask_about_solutions: "Is there a way out of this cycle?"
+- @go_to_facilitator: "I need to understand how to think about this differently."
+
+@humanmade
+title: Human Origins
+subtitle: Understanding our role in the crisis
+tags: side_conversations
 on-arrival: responsibility_awareness += 1
 
 Elena: "Human-made? Well, we didn't create the heat waves directly, but we created the systems that can't handle them."
