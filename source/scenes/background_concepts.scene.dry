@@ -1,0 +1,198 @@
+title: Background Concepts
+new-page: true
+
+Sarah: "Good choice. Understanding the context helps everything else make sense."
+
+Narration: She settles back on the wooden crate, clearly comfortable with teaching. A nearby AI assistant keeps trying to interrupt with helpful suggestions:
+
+Robotvoice: DID YOU KNOW? THE OPTIMAL TEACHING POSITION IS 47.3 DEGREES FROM VERTICAL!
+
+Sarah: "We're living through what some people call a 'polycrisis'—multiple crises happening at once, each making the others worse."
+
+Narration: A malfunctioning street sweeper robot passes by, spreading litter instead of collecting it while playing a cheerful jingle about cleanliness.
+
+Sarah: "See that? That's a small example. The robot was designed to solve one problem—street cleaning. But it wasn't designed to handle the heat, the power fluctuations, or the new types of debris from climate events. Also, someone apparently programmed it to believe that spreading trash is a form of modern art."
+
+- @ask_about_polycrisis: "Tell me more about this polycrisis."
+- @ask_about_human_causes: "Is this all human-made?"
+- @ask_about_solutions: "How do we solve interconnected problems?"
+- @ready_for_framework: "I understand. Let's get to the framework."
+
+@ask_about_polycrisis
+title: Understanding Polycrisis
+on-arrival: polycrisis_understanding += 2
+
+Sarah: "Polycrisis means everything's connected, and when one system fails, it cascades through others."
+
+Narration: She points to different scenes around the community.
+
+Sarah: "Climate change stresses the power grid. Power failures crash digital systems. Digital failures disrupt supply chains. Supply chain problems create economic stress. Economic stress increases social tension. Social tension makes it harder to cooperate on climate solutions."
+
+Narration: A group of neighbors is sharing a generator, but arguing about whose devices get priority.
+
+Sarah: "Each problem is real, but trying to solve them one at a time is like trying to fix a spider web by repairing one strand at a time."
+
+- @ask_about_human_causes: "How did we create this web of problems?"
+- @ask_about_solutions: "So how do we fix the whole web?"
+- @feel_overwhelmed_by_complexity: "This feels impossibly complex."
+
+@ask_about_human_causes
+title: Human Causes
+on-arrival: human_responsibility += 1; systems_awareness += 1
+
+Sarah: "We didn't set out to create a polycrisis. We made thousands of individual decisions that seemed rational at the time."
+
+Narration: She picks up a piece of plastic packaging that's blowing by.
+
+Sarah: "Someone invented this packaging to keep food fresh and reduce waste. Good intention. But nobody was thinking about what happens to billions of these packages, or how they interact with ocean systems, or how microplastics affect human health."
+
+Narration: A delivery drone drops a package in the wrong location and flies away without correcting its mistake.
+
+Sarah: "We optimized each piece of the system separately—make it cheaper, faster, more efficient. But we didn't optimize for resilience, sustainability, or interconnection."
+
+- @ask_about_solutions: "So how do we make better decisions?"
+- @feel_guilty: "I feel guilty about my part in this."
+- @ask_about_responsibility: "Who's responsible for fixing it?"
+
+@feel_guilty
+title: Feeling Guilty
+on-arrival: guilt += 1; self_awareness += 1
+
+Me: "I feel guilty about my part in all this."
+
+Sarah: "Guilt isn't very useful here. You made decisions with the information and options you had at the time."
+
+Narration: She looks at you kindly.
+
+Sarah: "The question isn't 'How do I feel bad about the past?' It's 'How do I make better decisions going forward?'"
+
+Narration: A child runs by, playing with a toy made from recycled electronics parts.
+
+Sarah: "That child isn't guilty about the world they inherited. But they're already learning to think differently about resources and waste."
+
+- @ask_about_solutions: "How do I make better decisions?"
+- @ask_about_responsibility: "What's my responsibility now?"
+
+@ask_about_responsibility
+title: Understanding Responsibility
+on-arrival: responsibility_clarity += 1
+
+Sarah: "Everyone's responsible for their piece. The question is: what's your piece?"
+
+Narration: She gestures at the community garden around you.
+
+Sarah: "The person who started this garden isn't responsible for fixing global agriculture. But they are responsible for growing food for their neighbors."
+
+Sarah: "The teenager who built that air purifier isn't responsible for cleaning all the air. But they are responsible for the air their family breathes."
+
+Sarah: "What's your piece of the puzzle?"
+
+- @ask_about_solutions: "How do I figure out my piece and manage it well?"
+- @ready_for_framework: "That's what the framework helps with, isn't it?"
+
+@ask_about_solutions
+title: Solving Interconnected Problems
+on-arrival: solution_focus += 1; holistic_thinking += 1
+
+Sarah: "That's exactly what Holistic Management is for. Instead of trying to solve problems in isolation, we make decisions that consider the whole system."
+
+Narration: She draws interconnected circles in the dirt.
+
+Sarah: "First, get clear about what you want—not just what you don't want, but what you're trying to create."
+
+Sarah: "Second, understand what you're actually managing—not just your job or your organization, but the whole system that affects and is affected by your decisions."
+
+Sarah: "Third, choose practices that move you toward what you want while strengthening the whole system."
+
+- @ask_how_it_works: "How does that work in practice?"
+- @ready_for_framework: "I want to learn this framework."
+- @ask_about_examples: "Can you give me an example?"
+
+@ask_how_it_works
+title: How It Works in Practice
+on-arrival: practical_interest += 1
+
+Sarah: "Let me give you a simple example. That argument we saw earlier about the streetlight versus the water filter?"
+
+Narration: She points toward where the neighbors were arguing.
+
+Sarah: "Traditional problem-solving would pick one: either fix the light or fix the water. Holistic Management asks: 'What do we want this neighborhood to be like?' Then: 'What are we all managing together?' Then: 'What solution serves both needs?'"
+
+Sarah: "They ended up with a solar-powered water filter that also provides LED lighting. More expensive than either solution alone, but it serves their real goal: a safe, healthy neighborhood."
+
+- @ready_for_framework: "I want to learn to think like that."
+- @ask_about_examples: "Do you have other examples?"
+
+@ask_about_examples
+title: More Examples
+on-arrival: example_learning += 1
+
+Sarah: "Sure. A business owner was losing customers because of unreliable power. Traditional thinking: buy a generator. Holistic thinking: what do customers really need? Reliable service. What are we managing? The whole customer experience."
+
+Sarah: "Solution: partner with other businesses to create a micro-grid that serves the whole block. More complex, but more resilient, and it strengthened the whole business community."
+
+Narration: A small business owner waves as they pass by, carrying solar batteries.
+
+Sarah: "That's her, actually. Her business is thriving now, and so are her neighbors'."
+
+- @ready_for_framework: "I want to learn this approach."
+- @ask_personal_application: "How would this apply to my situation?"
+
+@ask_personal_application
+title: Personal Application
+on-arrival: personal_relevance += 1
+
+Sarah: "That depends on your situation. What challenges are you facing? What are you trying to achieve?"
+
+Narration: She looks at you with genuine curiosity.
+
+Sarah: "The framework works the same way whether you're managing yourself, a family, an organization, or a community. The scale changes, but the thinking process is the same."
+
+- @ready_for_framework: "Let's start with the framework."
+- @share_my_challenges: "Let me tell you about my challenges."
+
+@share_my_challenges
+title: Share Your Challenges
+on-arrival: openness += 1; trust += 1
+
+Me: "Well, I'm trying to figure out..."
+
+Narration: You pause, realizing you're not even sure how to articulate your challenges.
+
+Sarah: "That's exactly where the framework starts. Most people know what they don't like, but they're not clear about what they do want."
+
+Sarah: "The first step is getting clear about your vision for how you want life to be. Not what you'll do, but how you want it to be."
+
+- @ready_for_framework: "That sounds like exactly what I need."
+
+@feel_overwhelmed_by_complexity
+title: Overwhelmed by Complexity
+on-arrival: overwhelm += 2
+
+Me: "This feels impossibly complex. How can anyone manage all these interconnections?"
+
+Sarah: "You don't manage all the interconnections. You manage your piece in a way that strengthens the whole."
+
+Narration: She points to a single plant in the garden.
+
+Sarah: "This tomato plant doesn't manage the whole ecosystem. It just does its job—converting sunlight to food, providing oxygen, supporting soil health. But by doing its job well, it strengthens everything around it."
+
+Sarah: "That's what holistic management helps you do. Find your role in the larger system and play it well."
+
+- @ask_about_my_role: "How do I find my role?"
+- @ready_for_framework: "I want to learn this framework."
+
+@ask_about_my_role
+title: Finding Your Role
+on-arrival: role_clarity += 1
+
+Sarah: "That's what we're here to figure out. The framework helps you identify what you're uniquely positioned to manage, and how to manage it in a way that serves the larger whole."
+
+Sarah: "It starts with clarity about what you want, then understanding what you're responsible for, then choosing practices that move you toward your vision."
+
+- @ready_for_framework: "Let's start with the framework."
+
+@ready_for_framework
+title: Ready for Framework
+on-arrival: framework_readiness += 1
+go-to: quality_of_life

@@ -1,18 +1,15 @@
 title: Intro Scene
 subtitle: The Beginning of Understanding
 new-page: true
-tags: start, introduction, choice
-on-arrival: curiosity += 1; time_in_story = 1
+on-arrival: curiosity += 1
 
 = Welcome to the **near future**...
 
-...where streets crack under *inequality*. Climate trembles. Trust fades. And the economy is all over the place. Also, the robots are having an existential crisis.
+...where streets crack under inequality. Climate trembles. Trust fades. And the economy is all over the place. Also, the robots are having an existential crisis.
 
 ---
 
-Narration: You—just someone who got **curious** one day—arrive in the middle of it all. A delivery drone circles overhead, apparently trying to deliver a package to a cloud. 
-
-[? if curiosity >= 1 : Your curiosity brought you here, and now you must decide how to proceed. ?]
+Narration: You—just someone who got curious one day—arrive in the middle of it all. A delivery drone circles overhead, apparently trying to deliver a package to a cloud. 
 
 You are:
 
@@ -23,20 +20,17 @@ You are:
 @by_yourself
 title: Solo Journey
 subtitle: I travel alone
-tags: individual, solo, independence
-on-arrival: part_of = "alone"; individual_focus += 1; tech_skepticism += 1; independence += 1
+on-arrival: part_of = "alone"
 go-to: arrival
 
 @with_family
 title: Family Unit
 subtitle: It's not only me, I'm here with my family
-tags: family, collective, responsibility
-on-arrival: part_of = "family"; family_focus += 1; responsibility_awareness += 1; care_for_others += 1
+on-arrival: part_of = "family"
 go-to: arrival
 
 @for_organization
 title: Organizational Representative
 subtitle: I need to take my organisation into account
-tags: organization, professional, strategic
-on-arrival: part_of = "organization"; organizational_focus += 1; strategic_thinking += 1; leadership_potential += 1
+on-arrival: part_of = "organization"
 go-to: arrival

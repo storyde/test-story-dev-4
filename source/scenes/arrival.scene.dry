@@ -1,18 +1,17 @@
 title: Arrival
 subtitle: First Impressions of the Future
 new-page: true
-tags: arrival, observation, world-building
-on-arrival: observation_skills += 1; tech_exposure += 1
+on-arrival: understanding += 1
 
-Narration: The air tastes *metallic*. A delivery drone circles overhead, confused by broken GPS signals. It's been trying to deliver the same package for **three hours**. The package is addressed to "The Future" with no street number.
+Narration: The air tastes metallic. A delivery drone circles overhead, confused by broken GPS signals. It's been trying to deliver the same package for three hours. The package is addressed to "The Future" with no street number.
 
-Narration: Street vendors hawk water purifiers made from old smartphone parts. A cleaning robot rolls by, spraying the sidewalk with what appears to be *orange juice* instead of disinfectant. Its cheerful voice announces:
+Narration: Street vendors hawk water purifiers made from old smartphone parts. A cleaning robot rolls by, spraying the sidewalk with what appears to be orange juice instead of disinfectant. Its cheerful voice announces:
 
-Robotsign: CLEANING COMPLETE! HAVE A CITRUSY DAY!
+Robotvoice: CLEANING COMPLETE! HAVE A CITRUSY DAY!
 
-Narration: An elderly woman sits on a bench, feeding pigeons with *synthetic breadcrumbs*. She notices you looking around.
+Narration: An elderly woman sits on a bench, feeding pigeons with synthetic breadcrumbs. She notices you looking around.
 
-Elena: "First time seeing it up close? The... **mess** we've made? Don't mind the robot—it's been having an identity crisis since the last software update."
+Elena: "First time seeing it up close? The mess we've made? Don't mind the robot—it's been having an identity crisis since the last software update."
 
 Narration: A holographic advertisement flickers against a cracked wall:
 
@@ -21,8 +20,6 @@ Infosign: SOLUTIONS FOR TOMORROW, TODAY!
 Narration: But the projector sparks and dies.
 
 Elena: "That ad's been promising solutions for six months. The only thing it's solved is how to waste electricity."
-
-[? if tech_skepticism >= 2 : You're already developing a healthy skepticism about technological solutions. ?]
 
 [? if part_of = "family" : You think about how this chaotic world affects families like yours. ?]
 [? if part_of = "organization" : You wonder how organizations can function in this environment. ?]
@@ -36,15 +33,13 @@ Elena: "That ad's been promising solutions for six months. The only thing it's s
 @ask_about_mess
 title: Understanding the Mess
 subtitle: Seeking clarity about the situation
-tags: inquiry, systems-thinking, curiosity
-title: Ask About the Mess
 on-arrival: curiosity += 1
 
 Elena: "Oh, you know... everything connected to everything else, falling apart **together**. Economy crashes, climate goes wild, people stop trusting each other. One thing breaks, *everything* breaks."
 
-Narration: She gestures at a group of teenagers trying to fix a malfunctioning street cleaning robot that's stuck in a loop, repeatedly bumping into the same pothole while playing *elevator music*.
+Narration: She gestures at a group of teenagers trying to fix a malfunctioning street cleaning robot that's stuck in a loop, repeatedly bumping into the same pothole while playing elevator music.
 
-Elena: "That robot cost the city **fifty thousand dollars**. It's been stuck there for two weeks. The teenagers are taking bets on whether it'll achieve sentience or just explode first."
+Elena: "That robot cost the city fifty thousand dollars. It's been stuck there for two weeks. The teenagers are taking bets on whether it'll achieve sentience or just explode first."
 
 Elena: "But there's someone around here who thinks differently. Says there's a way to look at the *whole picture*, not just the broken pieces. She's probably the only person in the city who still believes technology can be helpful."
 
@@ -55,17 +50,14 @@ Elena: "But there's someone around here who thinks differently. Says there's a w
 @look_for_help
 title: Seeking Understanding
 subtitle: Looking for guidance
-tags: help-seeking, guidance, mentorship
-title: Seek Understanding
-on-arrival: help_seeking += 1
 
 Me: "I'm looking for someone who might help me understand all this."
 
-Elena: "Ah, a **seeker**! There's a woman who comes by here sometimes. Calls herself a facilitator. She has this way of asking questions that makes you *think differently*."
+Elena: "Ah, a seeker! There's a woman who comes by here sometimes. Calls herself a facilitator. She has this way of asking questions that makes you think differently."
 
 Narration: She points toward a small community garden where solar panels power a water filtration system.
 
-Elena: "She's usually over there, helping people figure out what they **really want** from life. Not what they think they should want, but what they *actually* want."
+Elena: "She's usually over there, helping people figure out what they really want from life. Not what they think they should want, but what they actually want."
 
 - @go_to_facilitator: "Take me to her."
 - @ask_more_about_facilitator: "What kind of questions does she ask?"
@@ -74,9 +66,7 @@ Elena: "She's usually over there, helping people figure out what they **really w
 @observe_more
 title: Taking It All In
 subtitle: Careful observation of the environment
-tags: observation, analysis, patience
-title: Take It All In
-on-arrival: observation_skills += 1; systems_awareness += 1
+on-arrival: understanding += 1
 
 Narration: You watch the scene unfold. A food truck powered by pedaling customers—the AI chef inside keeps apologizing for burning everything. Children playing with broken tablets, using them as building blocks. 
 
@@ -89,9 +79,9 @@ A community bulletin board covered in handwritten notes:
 > "Lost: hope (reward if found)."
 > "Found: robot dignity (please claim)."
 
-Narration: Everything seems *improvised*, adaptive, but also **fragile**. Like society is being held together with digital duct tape and good intentions. A maintenance drone flies by upside down, apparently convinced that gravity is optional.
+Narration: Everything seems improvised, adaptive, but also fragile. Like society is being held together with digital duct tape and good intentions. A maintenance drone flies by upside down, apparently convinced that gravity is optional.
 
-Elena: "See how people are making it work anyway? That's the thing about **humans**. We adapt. The robots, on the other hand, are still trying to figure out what their purpose is. But wouldn't it be better if we *planned* for this instead of just reacting?"
+Elena: "See how people are making it work anyway? That's the thing about humans. We adapt. The robots, on the other hand, are still trying to figure out what their purpose is. But wouldn't it be better if we planned for this instead of just reacting?"
 
 - @ask_about_planning: "What do you mean by planning for this?"
 - @look_for_help: "Is there someone who thinks about this kind of planning?"
@@ -99,7 +89,6 @@ Elena: "See how people are making it work anyway? That's the thing about **human
 
 @ask_about_planning
 title: Ask About Planning
-on-arrival: strategic_thinking += 1
 
 Elena: "Well, there's this woman who comes around. She talks about something called 'holistic management.' Says most people try to fix one problem at a time, but everything's connected."
 

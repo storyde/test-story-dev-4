@@ -1,34 +1,33 @@
 title: Meeting the Facilitator
 subtitle: An Encounter with Wisdom
 new-page: true
-tags: facilitator, introduction, holistic-management
-on-arrival: holistic_exposure += 1; mentor_met = true
+on-arrival: understanding += 1
 
-Narration: You find Maya in the community garden, kneeling beside a raised bed where tomatoes grow in recycled containers. She's maybe forty, with dirt under her fingernails and an easy smile. A small group of people sits in a circle nearby, deep in conversation. 
+Narration: You find Maya in the community garden, kneeling beside a raised bed where tomatoes grow in recycled containers. She's maybe forty, with dirt under her fingernails and an easy smile. A small group of people sits in a circle nearby, deep in conversation.
 
 ---
 
-A gardening robot nearby is watering the same plant for the **fifteenth time** while muttering:
+A gardening robot nearby is watering the same plant for the fifteenth time while muttering:
 
-Robotsign: OPTIMAL HYDRATION ACHIEVED. RECALCULATING... OPTIMAL HYDRATION ACHIEVED. RECALCULATING...
+Robotvoice: OPTIMAL HYDRATION ACHIEVED. RECALCULATING... OPTIMAL HYDRATION ACHIEVED. RECALCULATING...
 
-Maya: "You must be the person Elena mentioned—the one asking **good questions**."
+Maya: "You must be the person Elena mentioned—the one asking good questions."
 
-Narration: She stands, brushing soil from her hands. The gardening robot finally moves to the next plant, immediately *flooding* it.
+Narration: She stands, brushing soil from her hands. The gardening robot finally moves to the next plant, immediately flooding it.
 
-Maya: "I'm Maya. I help people think through complex situations using something called **Holistic Management**. Elena says you're trying to understand... *all this*." 
+Maya: "I'm Maya. I help people think through complex situations using something called Holistic Management. Elena says you're trying to understand... all this."
 
 Narration: She gestures at the improvised world around you. The gardening robot has now somehow gotten itself tangled in a tomato vine.
 
-Maya: "Don't worry about the robot—it's been having an *existential crisis* since someone taught it about permaculture. Apparently, it can't compute the concept of '**beneficial chaos**'."
+Maya: "Don't worry about the robot—it's been having an existential crisis since someone taught it about permaculture. Apparently, it can't compute the concept of 'beneficial chaos'."
 
-[? if part_of = "alone" : Maya: "And you're navigating this on your own, which takes **courage**." ?]
+[? if part_of = "alone" : Maya: "And you're navigating this on your own, which takes courage." ?]
 
-[? if part_of = "family" : Maya: "And you're thinking about your family's wellbeing in all this chaos, which shows real **care**." ?]
+[? if part_of = "family" : Maya: "And you're thinking about your family's wellbeing in all this chaos, which shows real care." ?]
 
-[? if part_of = "organization" : Maya: "And you're here representing an organization, which means you're thinking **beyond just yourself**." ?]
+[? if part_of = "organization" : Maya: "And you're here representing an organization, which means you're thinking beyond just yourself." ?]
 
-Maya: "Before we dive into frameworks, let me ask: are you acting just for yourself, or are you part of something *larger*?"
+Maya: "Before we dive into frameworks, let me ask: are you acting just for yourself, or are you part of something larger?"
 
 [? if part_of = "organization" : - @confirm_organization: "I'm here as part of an organization." ?]
 [? if part_of = "family" : - @confirm_family: "I'm here with my family." ?]
@@ -38,30 +37,20 @@ Maya: "Before we dive into frameworks, let me ask: are you acting just for yours
 @confirm_organization
 title: Confirm Organizational Role
 subtitle: Representing something larger
-tags: organization, leadership, responsibility
-title: Confirm Organizational Role
-on-arrival: organizational_clarity += 1
 go-to: statement_of_purpose
 
 @confirm_family
 title: Confirm Family Focus
 subtitle: Caring for loved ones
-tags: family, care, collective-wellbeing
-title: Confirm Family Focus
-on-arrival: family_clarity += 1
 go-to: whole_under_management
 
 @confirm_individual
 title: Confirm Individual Focus
 subtitle: Personal journey of understanding
-tags: individual, self-development, autonomy
-title: Confirm Individual Focus
-on-arrival: individual_clarity += 1
 go-to: whole_under_management
 
 @reconsider_scope
 title: Reconsider Your Scope
-on-arrival: reflection += 1
 
 Maya: "Good question to sit with. In this interconnected world, even individual decisions affect others. And organizational decisions affect individuals."
 
@@ -79,15 +68,12 @@ Maya: "Exactly. So let's be clear about what you're taking responsibility for ri
 
 @acting_for_organization
 title: Organizational Responsibility
-on-arrival: organizational_focus += 1
 go-to: statement_of_purpose
 
 @acting_for_family
 title: Family Responsibility
-on-arrival: family_focus += 1
 go-to: whole_under_management
 
 @acting_individually
 title: Individual Responsibility
-on-arrival: individual_focus += 1
 go-to: whole_under_management
