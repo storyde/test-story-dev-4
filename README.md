@@ -1,8 +1,6 @@
-This template is built on [smwhr's dendry starter pack](https://github.com/smwhr/dendry-starter-pack), with the addition of an editable sidebar and stylesheet. Everything else is mostly the same.
+This template is built on [smwhr's dendry starter pack](https://github.com/smwhr/dendry-starter-pack), with the addition of sidebars, chat like interface and custom styles. 
 
-
-
-One difference is that to change the game's title and author, you'll have to change line 6 of `out/html/index.html` and line 20 of `out/html/game.js`, as well as `source/info.dry`.
+Another difference is that to change the game's title and author, you'll have to change line 6 of `out/html/index.html` and line 20 of `out/html/game.js`, as well as `source/info.dry`.
 
 To see what the page looks like, see [https://aucchen.github.io/dendry_sidebar_template/](https://aucchen.github.io/dendry_sidebar_template/).
 
