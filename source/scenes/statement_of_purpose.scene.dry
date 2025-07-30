@@ -1,372 +1,81 @@
 title: Statement of Purpose
+subtitle: Your Organization's Core Drive
 new-page: true
+on-arrival: time_in_story += 1
 
-Maya: "Since you're thinking organizationally, let's start with purpose. What is your organization actually trying to achieve in the world?"
+Narration: Since you're here representing an organization, we need to be clear about its fundamental purpose. Not your mission statement or marketing copy, but the real reason your organization exists.
 
-Narration: She sits on a wooden crate, pulling out a worn notebook. A productivity app on a nearby abandoned tablet keeps chiming with reminders for meetings that were scheduled three years ago.
+Narration: If your organization disappeared tomorrow, what would the world lose?
 
-Maya: "I don't mean your mission statement or marketing copy. I mean: if your organization disappeared tomorrow, what would the world lose?"
+Narration: A cleaning robot rolls by, spraying the sidewalk with what appears to be orange juice instead of disinfectant. Its cheerful voice announces:
 
-Narration: A delivery drone buzzes overhead, drops a package in the wrong yard, and flies away without correcting its mistake. The package is labeled "URGENT: Ice cream for tropical fish."
+Robotvoice: CLEANING COMPLETE! HAVE A CITRUSY DAY!
 
-Maya: "See that? That's an organization that's lost sight of its real purpose. It's optimized for efficiency, not effectiveness. Though I have to admire its commitment to delivering ice cream to fish."
+Narration: That's an organization that's lost sight of its real purpose. What is your organization's true contribution to the world?
 
-- @producing_goods: "We produce and sell goods or services."
-- @financial_services: "We provide financial and investment services."
-- @digital_tech: "We develop digital technologies and platforms."
-- @consulting: "We offer professional advice and consulting."
-- @education: "We educate and cultivate skills."
-- @healthcare: "We promote health and deliver medical services."
-- @advocacy: "We advocate for social or environmental causes."
-- @culture: "We preserve arts, culture, and heritage."
-- @safety: "We ensure public safety and emergency response."
-- @community_support: "We support communities through engagement and aid."
-- @think_deeper: "I need to think more deeply about our real purpose."
+- @producing_goods: Producing and selling goods or services
+- @financial_services: Providing financial and investment services
+- @digital_tech: Developing digital technologies and platforms
+- @consulting: Offering professional advice and consulting
+- @education: Educating and cultivating skills
+- @healthcare: Promoting health and delivering medical services
+- @advocacy: Advocating for social or environmental causes
+- @culture: Preserving arts, culture, and heritage
+- @safety: Ensuring public safety and emergency response
+- @community_support: Supporting communities through engagement and aid
+- @side_purpose_examples: Can you give me examples of good purpose statements?
 
 @producing_goods
-title: Goods and Services
-on-arrival: purpose_clarity += 1; production_focus += 1
-
-Maya: "Producing goods and services—that's broad. But let's go deeper. What need are you really meeting? What would people lose if your goods or services didn't exist?"
-
-Narration: She points to a vendor nearby selling hand-cranked phone chargers.
-
-Maya: "That person isn't just selling chargers. They're providing connection, communication, hope. What's the deeper need your organization serves?"
-
-- @essential_needs: "We meet essential daily needs."
-- @convenience_efficiency: "We make life more convenient and efficient."
-- @innovation_progress: "We drive innovation and progress."
-- @think_deeper: "I need to think about this more carefully."
+on-arrival: player_purpose = "production"
+go-to: purpose_deeper
 
 @financial_services
-title: Financial Services
-on-arrival: purpose_clarity += 1; finance_focus += 1
-
-Maya: "Financial services... in a world where the economy keeps breaking down. What's your organization's real role in people's lives?"
-
-Narration: A group of people nearby are trading vegetables for repair services, bypassing money entirely.
-
-Maya: "Are you helping people build security? Enabling dreams? Facilitating exchange? Or just moving money around?"
-
-- @building_security: "We help people build financial security."
-- @enabling_dreams: "We help people achieve their goals and dreams."
-- @facilitating_exchange: "We make economic exchange possible and fair."
-- @think_deeper: "I'm not sure we've been clear about this."
+on-arrival: player_purpose = "finance"
+go-to: purpose_deeper
 
 @digital_tech
-title: Digital Technology
-on-arrival: purpose_clarity += 1; tech_focus += 1
-
-Maya: "Digital technology... like that confused drone?"
-
-Narration: She gestures at another malfunctioning delivery bot stuck in a loop.
-
-Maya: "Technology can connect or isolate, empower or control, solve problems or create new ones. What's your organization's real intention?"
-
-- @connecting_people: "We connect people and communities."
-- @solving_problems: "We solve real-world problems with digital tools."
-- @empowering_individuals: "We empower individuals with information and capabilities."
-- @think_deeper: "We might need to reconsider what we're really doing."
+on-arrival: player_purpose = "technology"
+go-to: purpose_deeper
 
 @consulting
-title: Professional Consulting
-on-arrival: purpose_clarity += 1; consulting_focus += 1
-
-Maya: "Consulting... helping others make better decisions. That's close to what I do, actually."
-
-Narration: She smiles.
-
-Maya: "But there's a difference between giving people answers and helping them find their own wisdom. Which are you doing?"
-
-- @providing_expertise: "We provide specialized expertise and knowledge."
-- @building_capacity: "We help organizations build their own capabilities."
-- @facilitating_decisions: "We help people make better decisions."
-- @think_deeper: "I'm not sure we've been intentional about this distinction."
+on-arrival: player_purpose = "consulting"
+go-to: purpose_deeper
 
 @education
-title: Education and Skills
-on-arrival: purpose_clarity += 1; education_focus += 1
-
-Maya: "Education... that's powerful. But are you preparing people for the world that was, or the world that's becoming?"
-
-Narration: A group of children nearby are learning to repair electronics from an elderly man who used to work in tech.
-
-Maya: "Real education helps people adapt, think, and grow. What kind of learning are you fostering?"
-
-- @practical_skills: "We teach practical skills people need."
-- @critical_thinking: "We develop people's ability to think and adapt."
-- @personal_growth: "We support people's personal and professional growth."
-- @think_deeper: "We should examine whether our education is truly serving people."
+on-arrival: player_purpose = "education"
+go-to: purpose_deeper
 
 @healthcare
-title: Health and Medical Services
-on-arrival: purpose_clarity += 1; health_focus += 1
-
-Maya: "Health services... essential, especially now. But are you treating symptoms or addressing root causes?"
-
-Narration: A community health worker walks by, checking on elderly residents in the heat.
-
-Maya: "True health includes physical, mental, social, and environmental wellbeing. How broad is your vision?"
-
-- @treating_illness: "We treat illness and injury."
-- @promoting_wellness: "We promote overall health and wellness."
-- @addressing_systems: "We address the systems that affect health."
-- @think_deeper: "We might be too narrow in our approach."
+on-arrival: player_purpose = "health"
+go-to: purpose_deeper
 
 @advocacy
-title: Social and Environmental Advocacy
-on-arrival: purpose_clarity += 1; advocacy_focus += 1
-
-Maya: "Advocacy... fighting for change. But are you fighting against what you don't want, or for what you do want?"
-
-Narration: A small protest march passes by, people carrying signs about climate action and social justice.
-
-Maya: "There's a difference between opposition and vision. Which drives your organization?"
-
-- @fighting_injustice: "We fight against injustice and harm."
-- @building_alternatives: "We build and promote better alternatives."
-- @changing_systems: "We work to change systems and structures."
-- @think_deeper: "We might need to clarify our positive vision."
+on-arrival: player_purpose = "advocacy"
+go-to: purpose_deeper
 
 @culture
-title: Arts, Culture, and Heritage
-on-arrival: purpose_clarity += 1; culture_focus += 1
-
-Maya: "Preserving culture... that's about identity, meaning, continuity. Especially important when everything else is changing so fast."
-
-Narration: A street musician plays an old song on a guitar made from recycled materials.
-
-Maya: "But culture isn't just about preserving the past. It's about helping people make sense of the present and imagine the future. How do you see your role?"
-
-- @preserving_heritage: "We preserve important cultural heritage."
-- @creating_meaning: "We help people create meaning and identity."
-- @fostering_creativity: "We foster creativity and artistic expression."
-- @think_deeper: "We should think about culture's role in these changing times."
+on-arrival: player_purpose = "culture"
+go-to: purpose_deeper
 
 @safety
-title: Public Safety and Emergency Response
-on-arrival: purpose_clarity += 1; safety_focus += 1
-
-Maya: "Safety and emergency response... crucial work, especially as systems become more fragile."
-
-Narration: A community emergency coordinator walks by, checking on the solar-powered communication station.
-
-Maya: "But are you just responding to crises, or building resilience? There's a difference between managing emergencies and preventing them."
-
-- @crisis_response: "We respond effectively to crises and emergencies."
-- @building_resilience: "We help communities become more resilient."
-- @preventing_problems: "We work to prevent problems before they become crises."
-- @think_deeper: "We might be too reactive in our approach."
+on-arrival: player_purpose = "safety"
+go-to: purpose_deeper
 
 @community_support
-title: Community Support and Aid
-on-arrival: purpose_clarity += 1; community_focus += 1
+on-arrival: player_purpose = "community"
+go-to: purpose_deeper
 
-Maya: "Community support... that's about connection, mutual aid, collective strength."
+@side_purpose_examples
+title: Examples of Purpose Statements
+tags: side_conversations
 
-Narration: She gestures at the garden around you, clearly a community effort.
+Narration: A hospital's purpose isn't "to make money from sick people" - it's "to heal and restore health." A school's purpose isn't "to process students" - it's "to develop human potential and knowledge."
 
-Maya: "But there's a difference between helping people and empowering them. Between charity and justice. What's your approach?"
+Narration: A good purpose statement captures the positive change your organization creates in the world. It's the "why" behind everything you do.
 
-- @providing_aid: "We provide direct aid and support to those in need."
-- @building_capacity: "We help communities build their own capacity."
-- @fostering_connection: "We foster connection and mutual support."
-- @think_deeper: "We should examine our assumptions about helping."
+Narration: Even a factory's purpose isn't just "to make things" - it might be "to create tools that improve people's lives" or "to transform raw materials into useful products."
 
-@think_deeper
-title: Deeper Reflection on Purpose
-on-arrival: reflection += 2; purpose_uncertainty += 1
+- @back_to_purpose: I understand. Let me choose our purpose.
 
-Maya: "Good. That uncertainty is valuable. Most organizations never question their real purpose—they just keep doing what they've always done."
-
-Narration: She closes her notebook and looks at you directly.
-
-Maya: "Here's what I've learned: your purpose isn't what you do, it's why you do it. It's the change you want to see in the world."
-
-Narration: A child runs by, chasing a butterfly that's somehow thriving despite the urban chaos.
-
-Maya: "Take your time with this. Your purpose will shape every other decision you make. When you're ready, we can talk about what you're actually managing."
-
-- @continue_reflection: "I need more time to think about this."
-- @ready_for_next_step: "I think I understand. What's next?"
-
-@continue_reflection
-title: Continue Reflecting
-on-arrival: contemplation += 1
-
-Maya: "That's wise. Purpose isn't something to rush. Why don't you observe this community for a while? See what different organizations are actually achieving, not just what they say they're doing."
-
-Narration: She stands and brushes dirt from her pants.
-
-Maya: "When you're clearer about your organization's real purpose, come find me. We'll talk about the whole you're managing."
-
-- @observe_community: "I'll spend some time observing."
-- @ready_for_next_step: "Actually, I think I'm ready to continue."
-
-@observe_community
-title: Observe the Community
-on-arrival: observation_skills += 2; community_awareness += 1
-go-to: community_observation
-
-@ready_for_next_step
-title: Ready to Continue
-on-arrival: decision_making += 1
-go-to: whole_under_management
-
-# Continuation paths for each purpose choice
-@essential_needs
-title: Meeting Essential Needs
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@convenience_efficiency
-title: Convenience and Efficiency
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@innovation_progress
-title: Innovation and Progress
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@building_security
-title: Building Financial Security
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@enabling_dreams
-title: Enabling Dreams
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@facilitating_exchange
-title: Facilitating Exchange
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@connecting_people
-title: Connecting People
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@solving_problems
-title: Solving Problems
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@empowering_individuals
-title: Empowering Individuals
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@providing_expertise
-title: Providing Expertise
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@building_capacity
-title: Building Capacity
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@facilitating_decisions
-title: Facilitating Decisions
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@practical_skills
-title: Teaching Practical Skills
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@critical_thinking
-title: Developing Critical Thinking
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@personal_growth
-title: Supporting Personal Growth
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@treating_illness
-title: Treating Illness
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@promoting_wellness
-title: Promoting Wellness
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@addressing_systems
-title: Addressing Health Systems
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@fighting_injustice
-title: Fighting Injustice
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@building_alternatives
-title: Building Alternatives
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@changing_systems
-title: Changing Systems
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@preserving_heritage
-title: Preserving Heritage
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@creating_meaning
-title: Creating Meaning
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@fostering_creativity
-title: Fostering Creativity
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@crisis_response
-title: Crisis Response
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@building_resilience
-title: Building Resilience
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@preventing_problems
-title: Preventing Problems
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@providing_aid
-title: Providing Aid
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@fostering_connection
-title: Fostering Connection
-on-arrival: purpose_focus += 1
-go-to: purpose_confirmed
-
-@purpose_confirmed
-title: Purpose Confirmed
-on-arrival: purpose_clarity += 2
-
-Maya: "Good. Now you're thinking about your organization's real contribution to the world. That clarity will guide everything else."
-
-Narration: She makes a note in her book.
-
-Maya: "Next question: what exactly are you managing? It's not just your organization—it's everything your organization affects and is affected by."
-
-- @whole_under_management: "Tell me about this 'whole under management.'"
+@back_to_purpose
+go-to: statement_of_purpose

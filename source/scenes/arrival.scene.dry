@@ -60,7 +60,7 @@ Narration: She points toward a small community garden where solar panels power a
 
 Elena: "She's usually over there, helping people figure out what they really want from life. Not what they think they should want, but what they actually want."
 
-- @go_to_facilitator: "Take me to her."
+- @go_to_framework: "Take me to learn this framework."
 - @ask_more_about_facilitator: "What kind of questions does she ask?"
 - #side_conversations
 
@@ -97,7 +97,7 @@ Narration: A maintenance robot rolls by, spraying the wrong kind of fertilizer o
 
 Elena: "See that? Someone programmed it to solve the 'plant growth problem' without thinking about the 'don't poison the walkway problem.' She says there's a better way."
 
-- @go_to_facilitator: "I'd like to meet this woman."
+- @go_to_framework: "I'd like to learn this framework."
 - @ask_more_about_facilitator: "What exactly is holistic management?"
 - #side_conversations
 
@@ -111,7 +111,7 @@ Narration: A group of people nearby are arguing about whether to fix the broken 
 
 Elena: "See that argument? She'd probably ask them what they're all trying to achieve together, instead of letting them fight over solutions."
 
-- @go_to_facilitator: "That sounds like exactly what I need."
+- @go_to_framework: "That sounds like exactly what I need."
 - @watch_argument: "Let me watch this argument first."
 - #side_conversations
 
@@ -131,7 +131,7 @@ Person C: "Water is more important than light!"
 Elena: "Each one's right, from their perspective. But they're all thinking about their piece of the puzzle."
 
 - @intervene_in_argument: "Maybe I can help them see the bigger picture."
-- @go_to_facilitator: "I think I need to learn that framework first."
+- @go_to_framework: "I think I need to learn that framework first."
 - @ask_what_would_facilitator_do: "What would the facilitator do here?"
 
 @ask_what_would_facilitator_do
@@ -145,7 +145,7 @@ Narration: The argument continues, getting more heated. A small child tugs on Pe
 Elena: "Then she might ask: 'What are you all managing together?' Help them see they're not managing streetlights or water filters—they're managing a community."
 
 - @try_facilitator_approach: "Let me try that approach with them."
-- @go_to_facilitator: "I need to learn this properly first."
+- @go_to_framework: "I need to learn this properly first."
 - @realize_connection: "I'm starting to see how everything connects."
 
 @try_facilitator_approach
@@ -169,7 +169,7 @@ Person A: "Maybe we can figure out a solution that addresses both the light and 
 
 Elena: "Not bad for a beginner! But there's more to learn. Want to meet the real expert?"
 
-- @go_to_facilitator: "Yes, take me to her."
+- @go_to_framework: "Yes, take me to learn this."
 - @continue_helping: "Let me help them work this out first."
 
 @continue_helping
@@ -183,11 +183,11 @@ Person C: "You should meet Sarah. She's the one who taught us about thinking hol
 
 Elena: "Maya's the facilitator I mentioned. Looks like you're ready to meet her."
 
-- @go_to_facilitator: "Let's go find Maya."
+- @go_to_framework: "Let's go learn this framework."
 
-@go_to_facilitator
-title: Meet the Facilitator
-go-to: meet_facilitator
+@go_to_framework
+title: Learn the Framework
+go-to: framework_intro
 
 @polycrisis_side
 title: Understanding the Polycrisis

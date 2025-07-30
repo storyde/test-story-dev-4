@@ -1,0 +1,31 @@
+title: Stakeholder Commitment
+subtitle: Building Shared Understanding
+new-page: true
+
+Narration: Excellent choice. By involving all key stakeholders, you're building the foundation for decisions that everyone can understand and support.
+
+Narration: This process will take more time and effort upfront, but it creates much stronger results. When people help create the context, they're invested in making it work.
+
+Narration: For now, let's proceed with you representing this broader group, but remember that in real implementation, you'd want to facilitate this process with everyone present.
+
+- @proceed_with_representation: I'll represent the broader stakeholder group
+- @side_facilitation_tips: How do you facilitate this with a large group?
+
+@proceed_with_representation
+on-arrival: stakeholder_commitment = true
+go-to: whole_under_management
+
+@side_facilitation_tips
+title: Facilitation Tips
+tags: side_conversations
+
+Narration: Facilitating holistic context creation with a large group requires patience and skill. You'd typically work through each question together, allowing different perspectives to emerge and finding common ground.
+
+Narration: The key is helping people see beyond their individual roles to the larger whole they're all part of. A teacher, student, and parent might have different immediate concerns, but they all want education that truly serves young people.
+
+Narration: It's about finding the shared vision that everyone can commit to, even if they contribute to it in different ways.
+
+- @back_to_commitment: I understand. Let's proceed.
+
+@back_to_commitment
+go-to: stakeholder_commitment

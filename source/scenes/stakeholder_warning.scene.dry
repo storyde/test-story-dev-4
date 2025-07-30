@@ -1,0 +1,21 @@
+title: Stakeholder Warning
+subtitle: The Risk of Limited Involvement
+new-page: true
+
+Narration: You've chosen to involve a limited group in creating your holistic context. While this might seem more efficient, it carries risks.
+
+Narration: A food delivery drone crashes into a tree, its AI confused by heat-warped GPS signals. It was programmed by engineers who never had to navigate the real conditions it faces.
+
+Narration: When key stakeholders aren't involved in creating the context, they may not understand or support the decisions that flow from it. This can lead to resistance, poor implementation, or unintended consequences.
+
+Narration: However, you can always expand involvement later as you learn and grow. For now, let's proceed with your chosen approach.
+
+- @proceed_anyway: Proceed with limited stakeholder involvement
+- @expand_involvement: Actually, let's involve more stakeholders
+
+@proceed_anyway
+on-arrival: stakeholder_risk = true
+go-to: whole_under_management
+
+@expand_involvement
+go-to: get_stakeholders_involved

@@ -1,0 +1,74 @@
+title: Getting Everyone Involved
+subtitle: Bringing Stakeholders to the Table
+new-page: true
+
+Narration: Now that we're clear about your organization's purpose, there's something crucial to understand: this framework works best when everyone who's affected by decisions is involved in creating the context.
+
+Narration: A maintenance robot rolls by, apparently trying to fix a pothole by filling it with flower petals while playing elevator music. Someone programmed it with good intentions, but without involving the people who actually use the street.
+
+Narration: For your organization to truly manage holistically, you need the right people at the table. Who should be involved in defining your holistic context?
+
+[? if player_context = "school" : - @school_stakeholders: Teachers, students, parents, and community members
+- @school_leadership_only: Just the school leadership and administration
+- @school_teachers_only: Primarily teachers and educational staff ?]
+
+[? if player_context = "company" : - @company_all_stakeholders: Employees, customers, suppliers, and community
+- @company_management: Management and key decision-makers
+- @company_workers: Workers and their representatives ?]
+
+[? if player_context = "organization" : - @org_all_stakeholders: All affected parties and stakeholders
+- @org_leadership: Organizational leadership and board
+- @org_members: Members and active participants ?]
+
+- @side_why_involve_everyone: Why involve so many people?
+
+@school_stakeholders
+on-arrival: stakeholder_inclusion = "comprehensive"
+go-to: stakeholder_commitment
+
+@school_leadership_only
+on-arrival: stakeholder_inclusion = "limited"
+go-to: stakeholder_warning
+
+@school_teachers_only
+on-arrival: stakeholder_inclusion = "partial"
+go-to: stakeholder_warning
+
+@company_all_stakeholders
+on-arrival: stakeholder_inclusion = "comprehensive"
+go-to: stakeholder_commitment
+
+@company_management
+on-arrival: stakeholder_inclusion = "limited"
+go-to: stakeholder_warning
+
+@company_workers
+on-arrival: stakeholder_inclusion = "partial"
+go-to: stakeholder_warning
+
+@org_all_stakeholders
+on-arrival: stakeholder_inclusion = "comprehensive"
+go-to: stakeholder_commitment
+
+@org_leadership
+on-arrival: stakeholder_inclusion = "limited"
+go-to: stakeholder_warning
+
+@org_members
+on-arrival: stakeholder_inclusion = "partial"
+go-to: stakeholder_warning
+
+@side_why_involve_everyone
+title: Why Involve Everyone?
+tags: side_conversations
+
+Narration: Because decisions made without input from affected parties often create unintended consequences. The people doing the work know things that managers don't. The people receiving services understand needs that providers might miss.
+
+Narration: A group of teenagers walks by, their homemade air purifier backpacks humming softly. They've solved a problem that expensive corporate solutions couldn't - because they understood their own needs.
+
+Narration: Holistic management works best when it includes all the perspectives that matter. Otherwise, you're managing based on incomplete information.
+
+- @back_to_stakeholders: I see. Let me choose who to involve.
+
+@back_to_stakeholders
+go-to: get_stakeholders_involved

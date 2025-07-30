@@ -1,0 +1,68 @@
+title: A New Way of Thinking
+subtitle: Beyond the Broken Pieces
+new-page: true
+on-arrival: time_in_story += 1
+
+Narration: Elena's words echo in your mind: "There's a way to look at the *whole picture*, not just the broken pieces." You find yourself drawn to a quiet corner of the community garden, where the air hums with the desperate ingenuity of survival. 
+
+Narration: A smart sprinkler system nearby suddenly activates, spraying everyone with recycled dishwater while cheerfully announcing:
+
+Robotvoice: PREMIUM IRRIGATION ACTIVATED! PLANTS WILL LOVE THIS ARTISANAL WATER!
+
+Narration: The system, designed for efficiency, now just adds to the chaos. It's a stark reminder that solving one problem in isolation often creates another. This world demands a different kind of logic. It demands a framework for making decisions that considers everything, not just the immediate fix.
+
+Narration: This framework begins with clarity. Clarity about what truly drives you, what you are truly responsible for, and what kind of future you are striving to build.
+
+Narration: But first, let's be clear about your situation. Are you here alone, with family, or as part of something larger?
+
+- @here_alone: I'm here by myself
+- @here_with_family: I'm here with my family
+- @here_as_organization: I'm here as part of an organization
+- @here_as_school: I represent a school or educational institution
+- @here_as_company: I represent a company or business
+- @here_as_community: I represent a community group
+- @here_as_nation: I represent a government or nation
+- @side_why_this_matters: Why does this distinction matter?
+
+@here_alone
+on-arrival: player_context = "individual"
+go-to: whole_under_management
+
+@here_with_family
+on-arrival: player_context = "family"
+go-to: whole_under_management
+
+@here_as_organization
+on-arrival: player_context = "organization"
+go-to: statement_of_purpose
+
+@here_as_school
+on-arrival: player_context = "school"
+go-to: statement_of_purpose
+
+@here_as_company
+on-arrival: player_context = "company"
+go-to: statement_of_purpose
+
+@here_as_community
+on-arrival: player_context = "community"
+go-to: whole_under_management
+
+@here_as_nation
+on-arrival: player_context = "nation"
+go-to: whole_under_management
+
+@side_why_this_matters
+title: Why This Distinction Matters
+tags: side_conversations
+
+Narration: The distinction matters because different entities have different purposes and responsibilities. An individual manages their personal life. A family manages their collective wellbeing. But organizations - schools, companies, hospitals - exist to serve a specific purpose in society.
+
+Narration: A delivery drone buzzes overhead, drops a package in the wrong yard, and flies away. The package is labeled "URGENT: Ice cream for tropical fish." That's an organization that has clearly lost sight of its purpose.
+
+Narration: Understanding your role helps determine what questions we need to ask and what you're truly managing.
+
+- @back_to_context: I understand. Let me choose my context.
+
+@back_to_context
+go-to: framework_intro
