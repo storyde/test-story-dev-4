@@ -8,7 +8,7 @@ This holistic context can help you manage complexity.
 Whole Under Management: [+ whole_under_management +]
 If Whole under management = Me : skip Statement of purpose. otherwhise:
 Statement of Purpose: [+ statement_of_purpose +]
-Quality of Life: List the Qualities of life, that the player selected. so if the qol_clean_water = 1, then list that, otherwise, dont list is. make the list simple, comma saparated
+Quality of Life: List the Qualities of life, that the player selected. so if the qol_clean_water = 1, then list that, otherwise, dont list is. make the list simple, comma saparated. only include non-empty qualities.
 Future Resource Base: [+ future_resource_base +]
 Conditions: [+ conditions +]
 Behavior: [+ behavior +]
