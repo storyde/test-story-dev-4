@@ -32,10 +32,3 @@ Skepticism: [+ skepticism : skepticism +]
 [? if tech_dependency <= 3 : You're comfortable with low-tech solutions. ?]
 
 ---
-
-- @back_to_game: Back to Game
-
-@back_to_game
-title: Back to Game
-subtitle: Continue Your Journey
-go-to: last_scene
