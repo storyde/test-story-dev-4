@@ -58,6 +58,105 @@ go-to: stakeholder_warning
 on-arrival: stakeholder_inclusion = "partial"
 go-to: stakeholder_warning
 
+@community_stakeholders
+on-arrival: stakeholder_inclusion = "comprehensive"
+go-to: community_type
+
+@nation_stakeholders
+on-arrival: stakeholder_inclusion = "comprehensive"
+go-to: stakeholder_commitment
+
+@community_type
+title: Community Type
+subtitle: Understanding Your Community Context
+new-page: true
+
+Narration: Communities vary greatly depending on their setting and character. To get the right stakeholders involved, we need to understand what kind of community you're representing.
+
+Narration: A maintenance robot rolls by, apparently trying to deliver mail to a fire hydrant. It's been at this for hours, convinced the hydrant is a very quiet resident.
+
+- @rural_community: A rural community (farming, small towns, countryside)
+- @urban_community: An urban community (city neighborhoods, districts)
+- @mixed_community: A mixed community (suburban, small cities)
+
+@rural_community
+on-arrival: community_type = "rural"
+go-to: rural_stakeholders
+
+@urban_community
+on-arrival: community_type = "urban"
+go-to: urban_stakeholders
+
+@mixed_community
+on-arrival: community_type = "mixed"
+go-to: mixed_stakeholders
+
+@rural_stakeholders
+title: Rural Community Stakeholders
+subtitle: Getting Everyone to the Table
+new-page: true
+
+Narration: Rural communities have their own unique dynamics. For holistic management to work, you'll want to involve representatives from all the key groups that make up your community.
+
+Narration: A farming drone flies overhead, apparently trying to plant seeds in the clouds. Innovation meets confusion.
+
+Narration: Consider involving: farmers and landowners, local business owners, parents and families, youth representatives, elderly community members, local government officials, environmental stewards, and cultural/religious leaders.
+
+- @rural_comprehensive: Include all key rural stakeholder groups
+- @rural_limited: Focus on just the main decision-makers
+
+@rural_comprehensive
+on-arrival: rural_stakeholders = "comprehensive"
+go-to: stakeholder_commitment
+
+@rural_limited
+on-arrival: rural_stakeholders = "limited"
+go-to: stakeholder_warning
+
+@urban_stakeholders
+title: Urban Community Stakeholders
+subtitle: Representing City Diversity
+new-page: true
+
+Narration: Urban communities are incredibly diverse. Getting holistic management right means hearing from all the different voices that make up your neighborhood or district.
+
+Narration: A street cleaning robot passes by, apparently convinced that graffiti is a form of advanced urban agriculture. It's been watering the walls for weeks.
+
+Narration: Consider involving: residents from different backgrounds, local business owners, youth and student representatives, parents and families, elderly residents, community organization leaders, local government representatives, and advocates for different interest groups.
+
+- @urban_comprehensive: Include diverse urban stakeholder groups
+- @urban_limited: Focus on established community leaders
+
+@urban_comprehensive
+on-arrival: urban_stakeholders = "comprehensive"
+go-to: stakeholder_commitment
+
+@urban_limited
+on-arrival: urban_stakeholders = "limited"
+go-to: stakeholder_warning
+
+@mixed_stakeholders
+title: Mixed Community Stakeholders
+subtitle: Bridging Different Worlds
+new-page: true
+
+Narration: Mixed communities often bridge rural and urban elements, creating unique opportunities and challenges. Your stakeholder group should reflect this diversity.
+
+Narration: A delivery drone hovers uncertainly between a farm stand and a coffee shop, apparently unable to decide which represents the "real" community. Both, obviously.
+
+Narration: Consider involving: residents from different areas (rural and urban parts), local farmers and business owners, commuters and long-time residents, parents and youth from different backgrounds, community organization leaders, and representatives of different economic interests.
+
+- @mixed_comprehensive: Include stakeholders from all community segments
+- @mixed_limited: Focus on the most vocal community members
+
+@mixed_comprehensive
+on-arrival: mixed_stakeholders = "comprehensive"
+go-to: stakeholder_commitment
+
+@mixed_limited
+on-arrival: mixed_stakeholders = "limited"
+go-to: stakeholder_warning
+
 @side_why_involve_everyone
 title: Why Involve Everyone?
 tags: side_conversations

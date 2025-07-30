@@ -1,0 +1,4 @@
+name: qol_stage
+initial: 0
+min: 0
+max: 10

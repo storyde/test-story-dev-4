@@ -1,0 +1,4 @@
+name: qol_clean_water
+initial: 0
+min: 0
+max: 1

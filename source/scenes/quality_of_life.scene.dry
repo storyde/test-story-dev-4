@@ -1,596 +1,511 @@
-@quality_of_life
 title: Quality of Life
-subtitle: Envisioning Your Future
+subtitle: How Do You Want Your Life to Be?
+new-page: true
+on-arrival: qol_stage = 1
 
----
+Narration: Now comes the heart of it all. This question might sound simple, but it's the foundation for everything else. How do you want your life to be?
 
-Facilitator: "So, here's a simple but powerful question: How do you want your life to be? Take your time. You can think big or small, wild or quiet, whatever comes to mind. How do you want your life to be?"
+Narration: Not what you want to do, not what you want to have, but how you want your life to *be*. What qualities do you want your life to possess?
 
----
+Narration: A food delivery drone crashes into a tree, its AI confused by heat-warped GPS signals. It was programmed to deliver happiness, but apparently took a wrong turn at contentment.
 
-- @fast_car: "I want to own a fast car."
-- @lake_house: "I want to live on a lake with lots of fish."
-- @be_doctor: "I want to be a doctor."
-- @climb_mountains: "I want to climb mountains."
-- @use_chemicals: "I want to use chemicals in my garden."
-- @drill_springs: "I want to solve water scarcity by drilling springs."
-- @negative_not_poor: "I don't want to be poor."
-- @clean_water: "I want clean water."
+Narration: Take your time. You can think big or small, wild or quiet, whatever comes to mind. How do you want your life to be?
+
+- @fast_car: I want to own a fast car
+- @lake_house: I want to live on a lake with lots of fish
+- @be_doctor: I want to be a doctor
+- @climb_mountains: I want to climb mountains
+- @use_chemicals: I want to use chemicals in my garden
+- @drill_springs: I want to solve water scarcity by drilling springs
+- @negative_not_poor: I don't want to be poor
+- @negative_not_sick: I don't want to be sick
+- @clean_water: I want clean water
+- @side_practices: Why aren't we talking about what I should do?
 
 @fast_car
 title: Fast Car
-subtitle: Exploring Freedom
+subtitle: Exploring the Deeper Desire
+new-page: false
 
----
+Narration: A fast car! That sounds exciting. But let's dig a little deeper. What do you imagine when you picture that fast car? What would it give you?
 
-Facilitator: "A fast car! That sounds exciting. What do you imagine when you picture that?"
-
----
-
-- @fast_car_freedom: "Freedom, I guess. Like… being able to go anywhere. No limits."
+- @fast_car_freedom: Freedom, I guess. Like... being able to go anywhere. No limits
+- @fast_car_status: Status and respect from others
+- @fast_car_literal: No, I really just want a fast car
 
 @fast_car_freedom
-title: Freedom
-subtitle: Understanding the Desire
-
----
-
-Facilitator: "That’s a great insight. So maybe it's not really the car itself, but that feeling of freedom and independence that matters to you?"
-
----
-
-- @fast_car_agree: "Yeah, probably."
-- @fast_car_disagree: "No, I really just want a fast car."
-
-@fast_car_agree
 title: Freedom and Independence
-subtitle: Shaping Your Context
+subtitle: Getting to the Heart of It
+new-page: false
+on-arrival: qol_freedom = 1
 
----
+Narration: Ah, so it's not really about the car itself, but about that feeling of freedom and independence. That's much more useful for making decisions.
 
-Facilitator: "Then we can start shaping your context with that. Something like: 'I want to feel free and independent.' Want to try more?"
+Narration: "I want to feel free and independent" - that's something that can guide choices about transportation, work, living situations, and much more.
 
----
+- @continue_exploring: Let me explore more aspects of how I want life to be
+- @fast_car_literal: Actually, I really do just want the car
 
-- @lake_house: "I want to live on a lake with lots of fish."
-- @be_doctor: "I want to be a doctor."
+@fast_car_status
+title: Recognition and Respect
+subtitle: Understanding the Need
+new-page: false
+on-arrival: qol_respect = 1
 
-@fast_car_disagree
-title: Fast Car Desire
-subtitle: Exploring Further
+Narration: So you want to be recognized and respected by others. That's a very human need, and much more useful than focusing on one specific status symbol.
 
----
+Narration: "I want to be respected and valued" - that can guide decisions about career, community involvement, how you treat others, and much more.
 
-Facilitator: "That's fine too. A fast car can be a symbol of many things. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
+- @continue_exploring: Let me explore more aspects of how I want life to be
+- @fast_car_literal: No, I really do want the car specifically
 
----
+@fast_car_literal
+title: Specific Desires
+subtitle: That's Valid Too
+new-page: false
 
-- @lake_house: "I want to live on a lake with lots of fish."
-- @be_doctor: "I want to be a doctor."
+Narration: That's fine too. Sometimes we want specific things, and that's part of being human. Just remember that focusing too narrowly on specific solutions can limit your options.
+
+- @continue_exploring: Let me think about other aspects of how I want life to be
 
 @lake_house
 title: Lake House
-subtitle: Exploring Peace
+subtitle: Exploring Peace and Nature
+new-page: false
 
----
+Narration: Living on a lake with lots of fish - that paints a peaceful picture. What draws you to that vision?
 
-Facilitator: "Nice! What draws you to that picture?"
-
----
-
-- @lake_house_peace: "It's peaceful. And I could fish every day. No noise. Just nature."
+- @lake_house_peace: It's peaceful. And I could fish every day. No noise. Just nature
+- @lake_house_food: Fresh fish for food security
+- @lake_house_literal: I just want to live on a lake
 
 @lake_house_peace
-title: Peace and Nature
-subtitle: Understanding the Desire
+title: Peace and Connection with Nature
+subtitle: A Deeper Understanding
+new-page: false
+on-arrival: qol_peace = 1; qol_nature = 1
 
----
+Narration: Beautiful. So what you're really describing is "I want peace in my life" and "I want a close connection with nature." Those are qualities that can guide many different decisions.
 
-Facilitator: "Sounds really serene. So maybe what you’re really saying is something like 'I want peace and a close relationship with nature.' Does that feel closer to the core of what you want?"
+Narration: You could find peace and nature connection in many ways - not just a lake house, but also through gardening, hiking, living in a quiet neighborhood, or even bringing nature into an urban space.
 
----
+- @continue_exploring: Let me explore more aspects of how I want life to be
+- @lake_house_literal: No, I specifically want the lake house
 
-- @lake_house_agree: "Yeah, I like that better actually."
-- @lake_house_disagree: "No, I really just want to live on a lake."
+@lake_house_food
+title: Food Security and Self-Reliance
+subtitle: Understanding the Need
+new-page: false
+on-arrival: qol_security = 1; qol_self_reliance = 1
 
-@lake_house_agree
-title: Peace and Nature
-subtitle: Shaping Your Context
+Narration: Ah, so it's about food security and being able to provide for yourself. "I want food security" and "I want self-reliance" - those are qualities that can guide decisions about where to live, what skills to develop, how to manage resources.
 
----
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
-Facilitator: "Great. Here's another one: some people might say 'I want to be a doctor,' or 'I want to cure cancer.' What do you think about those kinds of answers?"
+@lake_house_literal
+title: Specific Location Desire
+new-page: false
 
----
+Narration: Fair enough. Sometimes we have specific visions of where we want to be, and that's valid too.
 
-- @be_doctor: "I want to be a doctor."
-- @cure_cancer: "I want to cure cancer."
-
-@lake_house_disagree
-title: Lake House Desire
-subtitle: Exploring Further
-
----
-
-Facilitator: "That's fine too. Living on a lake can be a symbol of peace and tranquility. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
-
----
-
-- @be_doctor: "I want to be a doctor."
-- @cure_cancer: "I want to cure cancer."
+- @continue_exploring: Let me think about other aspects of how I want life to be
 
 @be_doctor
-title: Be a Doctor
-subtitle: Exploring Purpose
+title: Being a Doctor
+subtitle: Exploring Purpose and Service
+new-page: false
 
----
+Narration: Being a doctor - that's a noble path. But let's explore what draws you to that. Why do you want to be a doctor?
 
-Facilitator: "That's a noble path. But just for a second, let’s ask: why do you want to be a doctor?"
+- @doctor_help: To help people. To make a difference. And maybe also to be respected
+- @doctor_money: For financial security and good income
+- @doctor_literal: I just want to be a doctor
 
----
+@doctor_help
+title: Helping Others and Making a Difference
+subtitle: The Heart of Service
+new-page: false
+on-arrival: qol_service = 1; qol_respect = 1; qol_meaning = 1
 
-- @be_doctor_help: "To help people. To make a difference. And… maybe also to be respected?"
+Narration: Those are beautiful motivations. "I want to help others live better lives," "I want to make a meaningful contribution," and "I want to be respected for my work."
 
-@be_doctor_help
-title: Helping Others
-subtitle: Understanding the Desire
+Narration: These qualities could guide you toward medicine, but also toward teaching, counseling, community organizing, or many other paths of service.
 
----
+- @continue_exploring: Let me explore more aspects of how I want life to be
+- @doctor_literal: No, I specifically want to be a doctor
 
-Facilitator: "All very human motivations. So how would it feel to say: 'I want to help others live better lives,' or 'I want to feel like I’m making a meaningful contribution,' or even 'I want to be respected and useful'?"
+@doctor_money
+title: Financial Security
+subtitle: A Practical Need
+new-page: false
+on-arrival: qol_security = 1
 
----
+Narration: Financial security is a very real need. "I want financial security" - that's something that can guide decisions about career, education, saving, and lifestyle.
 
-- @be_doctor_agree: "Yeah. That’s what I really want, deep down."
-- @be_doctor_disagree: "No, I really just want to be a doctor."
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
-@be_doctor_agree
-title: Helping Others
-subtitle: Shaping Your Context
+@doctor_literal
+title: Specific Career Goal
+new-page: false
 
----
+Narration: That's a clear goal. Just remember that focusing on one specific career path might limit your ability to adapt if circumstances change.
 
-Facilitator: "Perfect. You’re starting to get it. Here's a mix of other answers. Pick one that speaks to you — or more than one:"
-
----
-
-- @climb_mountains: "I want to climb mountains."
-- @use_chemicals: "I want to use chemicals in my garden."
-- @drill_springs: "I want to solve water scarcity by drilling springs."
-- @negative_not_poor: "I don't want to be poor."
-- @clean_water: "I want clean water."
-
-@be_doctor_disagree
-title: Doctor Desire
-subtitle: Exploring Further
-
----
-
-Facilitator: "That's fine too. Being a doctor can be a symbol of many things. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
-
----
-
-- @climb_mountains: "I want to climb mountains."
-- @use_chemicals: "I want to use chemicals in my garden."
+- @continue_exploring: Let me think about other aspects of how I want life to be
 
 @climb_mountains
-title: Climb Mountains
-subtitle: Exploring Adventure
+title: Climbing Mountains
+subtitle: Exploring Adventure and Challenge
+new-page: false
 
----
+Narration: Mountain climbing! What attracts you to that?
 
-Facilitator: "What attracts you to that?"
+- @mountains_challenge: The challenge, the view, the adventure. It makes me feel alive
+- @mountains_fitness: Physical fitness and health
+- @mountains_literal: I just want to climb mountains
 
----
-
-- @climb_mountains_challenge: "The challenge, the view, the adventure. It makes me feel alive."
-
-@climb_mountains_challenge
+@mountains_challenge
 title: Adventure and Feeling Alive
-subtitle: Understanding the Desire
+subtitle: The Thrill of Challenge
+new-page: false
+on-arrival: qol_adventure = 1; qol_vitality = 1
 
----
+Narration: "I want adventure in my life" and "I want to feel alive and capable" - those are wonderful qualities that could guide decisions about work, hobbies, where to live, how to spend time.
 
-Facilitator: "So maybe something like: 'I want adventure in my life,' or 'I want to feel alive and capable.'"
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@mountains_fitness
+title: Health and Physical Vitality
+subtitle: Taking Care of Your Body
+new-page: false
+on-arrival: qol_health = 1; qol_vitality = 1
 
-- @climb_mountains_agree: "Yeah, I like that second one."
-- @climb_mountains_disagree: "No, I really just want to climb mountains."
+Narration: "I want good health" and "I want physical vitality" - essential qualities that can guide decisions about food, exercise, work-life balance, healthcare, and lifestyle.
 
-@climb_mountains_agree
-title: Adventure and Feeling Alive
-subtitle: Shaping Your Context
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@mountains_literal
+title: Specific Activity Goal
+new-page: false
 
-Facilitator: "Great. Here's another one: some people might say 'I don't want to be poor.' What do you think about that kind of answer?"
+Narration: Mountain climbing is a great goal. Just remember there are many ways to find challenge and adventure in life.
 
----
-
-- @negative_not_poor: "I don't want to be poor."
-- @clean_water: "I want clean water."
-
-@climb_mountains_disagree
-title: Climb Mountains Desire
-subtitle: Exploring Further
-
----
-
-Facilitator: "That's fine too. Climbing mountains can be a symbol of adventure and feeling alive. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
-
----
-
-- @use_chemicals: "I want to use chemicals in my garden."
-- @drill_springs: "I want to solve water scarcity by drilling springs."
+- @continue_exploring: Let me think about other aspects of how I want life to be
 
 @use_chemicals
-title: Use Chemicals
-subtitle: Exploring Health
+title: Using Chemicals in Garden
+subtitle: Exploring the Deeper Need
+new-page: false
 
----
+Narration: Chemicals in your garden - what's the deeper need there? What are you trying to achieve?
 
-Facilitator: "What’s the deeper need in using chemicals?"
+- @chemicals_health: Healthy plants, vibrant growth, pest control
+- @chemicals_easy: Easy gardening without much work
+- @chemicals_literal: I just want to use chemicals
 
----
+@chemicals_health
+title: Healthy and Vibrant Environment
+subtitle: The Desire for Flourishing
+new-page: false
+on-arrival: qol_health = 1; qol_abundance = 1
 
-- @use_chemicals_health: "Healthy plants, vibrant life, pest control."
+Narration: So you want "a healthy, vibrant environment" and "abundance in my surroundings." Those are qualities that could guide many decisions about gardening, but also about where to live, how to care for your space, what products to use.
 
-@use_chemicals_health
-title: Healthy Environment
-subtitle: Understanding the Desire
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@chemicals_easy
+title: Ease and Simplicity
+subtitle: Reducing Burden
+new-page: false
+on-arrival: qol_ease = 1
 
-Facilitator: "So: 'I want a healthy, vibrant environment.'"
+Narration: "I want ease and simplicity in my daily tasks" - that's a quality that can guide decisions about tools, systems, lifestyle, and time management.
 
----
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
-- @use_chemicals_agree: "Yeah, that feels right."
-- @use_chemicals_disagree: "No, I really just want to use chemicals in my garden."
+@chemicals_literal
+title: Specific Method Preference
+new-page: false
 
-@use_chemicals_agree
-title: Healthy Environment
-subtitle: Shaping Your Context
+Narration: That's a specific approach. Just remember that focusing on one method might limit your options if circumstances change.
 
----
-
-Facilitator: "Great. Here's another one: some people might say 'I want clean water.' What do you think about that kind of answer?"
-
----
-
-- @clean_water: "I want clean water."
-- @drill_springs: "I want to solve water scarcity by drilling springs."
-
-@use_chemicals_disagree
-title: Use Chemicals Desire
-subtitle: Exploring Further
-
----
-
-Facilitator: "That's fine too. Using chemicals can be a symbol of a healthy environment. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
-
----
-
-- @clean_water: "I want clean water."
-- @drill_springs: "I want to solve water scarcity by drilling springs."
+- @continue_exploring: Let me think about other aspects of how I want life to be
 
 @drill_springs
-title: Drill Springs
-subtitle: Exploring Solutions
+title: Drilling Springs for Water
+subtitle: Exploring the Solution Behind the Solution
+new-page: false
 
----
+Narration: Drilling springs to solve water scarcity - what's driving that idea? What do you really want to achieve?
 
-Facilitator: "Why drilling springs to solve water scarcity?"
+- @springs_water: Clean, reliable water for everyone
+- @springs_control: Control over our water supply
+- @springs_literal: I want to drill springs
 
----
+@springs_water
+title: Clean Water and Community Wellbeing
+subtitle: A Fundamental Need
+new-page: false
+on-arrival: qol_clean_water = 1; qol_community = 1
 
-- @drill_springs_water: "To give people clean water and wellbeing."
+Narration: "I want clean, reliable water" and "I want my community to thrive" - those are fundamental qualities that can guide decisions about water systems, but also about community organizing, resource management, and environmental stewardship.
 
-@drill_springs_water
-title: Clean Water and Wellbeing
-subtitle: Understanding the Desire
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@springs_control
+title: Self-Reliance and Security
+subtitle: Independence from External Systems
+new-page: false
+on-arrival: qol_self_reliance = 1; qol_security = 1
 
-Facilitator: "So: 'I want clean, life-giving water for people.'"
+Narration: "I want self-reliance" and "I want security from external disruptions" - those qualities can guide decisions about many aspects of life, not just water systems.
 
----
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
-- @drill_springs_agree: "Yeah, that feels right."
-- @drill_springs_disagree: "No, I really just want to drill springs."
+@springs_literal
+title: Specific Technical Solution
+new-page: false
 
-@drill_springs_agree
-title: Clean Water and Wellbeing
-subtitle: Shaping Your Context
+Narration: That's a specific technical approach. Remember that focusing on one solution might prevent you from seeing other possibilities.
 
----
-
-Facilitator: "Great. Here's another one: some people might say 'I don't want to be poor.' What do you think about that kind of answer?"
-
----
-
-- @negative_not_poor: "I don't want to be poor."
-- @clean_water: "I want clean water."
-
-@drill_springs_disagree
-title: Drill Springs Desire
-subtitle: Exploring Further
-
----
-
-Facilitator: "That's fine too. Drilling springs can be a symbol of providing clean water. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
-
----
-
-- @negative_not_poor: "I don't want to be poor."
-- @clean_water: "I want clean water."
+- @continue_exploring: Let me think about other aspects of how I want life to be
 
 @negative_not_poor
-title: Negative Not Poor
-subtitle: Exploring Positivity
+title: Not Wanting to Be Poor
+subtitle: Reframing Negatives
+new-page: false
 
----
+Narration: "I don't want to be poor" - that's understandable, but let's try to reframe this positively. What do you want instead of poverty?
 
-Facilitator: "That’s valid—but how to reframe it positively? What do you want?"
+- @reframe_security: I want financial security and stability
+- @reframe_comfort: I want comfort and abundance
+- @stay_negative: No, I just don't want to be poor
 
----
-
-- @negative_reframe: "I want to feel financially secure."
-
-@negative_reframe
+@reframe_security
 title: Financial Security
-subtitle: Understanding the Desire
+subtitle: A Positive Frame
+new-page: false
+on-arrival: qol_security = 1
 
----
+Narration: Much better! "I want financial security and stability" - that's a positive quality that can guide decisions about career, spending, saving, and lifestyle.
 
-Facilitator: "Perfect positive framing: 'Financial security.'"
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@reframe_comfort
+title: Comfort and Abundance
+subtitle: Positive Aspirations
+new-page: false
+on-arrival: qol_comfort = 1; qol_abundance = 1
 
-- @negative_reframe_agree: "Yeah, that feels better."
-- @negative_reframe_disagree: "No, I really just don't want to be poor."
+Narration: "I want comfort and abundance" - those are positive qualities that can guide many life decisions.
 
-@negative_reframe_agree
-title: Financial Security
-subtitle: Shaping Your Context
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@stay_negative
+title: Staying with Negative Framing
+new-page: false
 
-Facilitator: "Great. Here's another one: some people might say 'I want clean water.' What do you think about that kind of answer?"
+Narration: I understand the feeling, but negative framing makes it harder to know what you're working toward. It's more helpful to focus on what you do want.
 
----
+- @continue_exploring: Let me think about what I do want in life
 
-- @clean_water: "I want clean water."
-- @fast_car: "I want to own a fast car."
+@negative_not_sick
+title: Not Wanting to Be Sick
+subtitle: Health as a Positive
+new-page: false
 
-@negative_reframe_disagree
-title: Negative Not Poor Desire
-subtitle: Exploring Further
+Narration: "I don't want to be sick" - completely understandable. But let's flip this to the positive. What do you want for your health?
 
----
+- @reframe_health: I want good health and vitality
+- @reframe_energy: I want energy and physical capability
+- @stay_negative_health: I just don't want to be sick
 
-Facilitator: "That's fine too. Not wanting to be poor can be a symbol of financial security. Let's keep that in mind. Want to explore another aspect of how you want your life to be?"
+@reframe_health
+title: Good Health and Vitality
+subtitle: Positive Health Vision
+new-page: false
+on-arrival: qol_health = 1; qol_vitality = 1
 
----
+Narration: Perfect! "I want good health and vitality" - that's a quality that can guide decisions about food, exercise, work-life balance, healthcare, and environment.
 
-- @clean_water: "I want clean water."
-- @fast_car: "I want to own a fast car."
+- @continue_exploring: Let me explore more aspects of how I want life to be
+
+@reframe_energy
+title: Energy and Physical Capability
+subtitle: Active Health
+new-page: false
+on-arrival: qol_energy = 1; qol_capability = 1
+
+Narration: "I want energy and physical capability" - excellent qualities that can guide many life decisions.
+
+- @continue_exploring: Let me explore more aspects of how I want life to be
+
+@stay_negative_health
+title: Negative Health Framing
+new-page: false
+
+Narration: The fear of sickness is natural, but it's more empowering to focus on what you want for your health rather than what you want to avoid.
+
+- @continue_exploring: Let me think about positive health goals
 
 @clean_water
 title: Clean Water
-subtitle: Exploring Essentials
+subtitle: A Clear and Essential Need
+new-page: false
+on-arrival: qol_clean_water = 1
 
----
+Narration: "I want clean water" - that's already clear and essential. Clean water is fundamental to life and health.
 
-Facilitator: "That’s already clear and essential. 'I want clean water.'"
+- @continue_exploring: Let me explore more aspects of how I want life to be
 
----
+@side_practices
+title: Why Not Practices?
+subtitle: Understanding the Process
+tags: side_conversations
+new-page: false
 
-- @clean_water_agree: "Yeah, that feels right."
-- @clean_water_disagree: "No, I really just want clean water."
+Narration: Great question! At this point, no practice is better than others, because that can only be determined once you have your context - which we're creating right now.
 
-@clean_water_agree
-title: Clean Water
-subtitle: Shaping Your Context
+Narration: A repair drone hovers nearby, apparently trying to fix a broken streetlight by singing to it. Without context about what the light is supposed to do, even the best intentions go astray.
 
----
+Narration: Think of it this way: if someone asks "Should I use organic farming or conventional farming?" the answer depends entirely on their context. What are they trying to achieve? What's their situation? What are their values?
 
-Facilitator: "Great. So far, you’ve surfaced these life-qualities:"
+Narration: Once you're clear on how you want your life to be, then you can evaluate which practices actually support that vision.
 
----
+- @continue_exploring: I understand. Let me continue defining how I want life to be
 
-- Freedom & independence
-- Peace & connection with nature
-- Helping others & respect
-- Feeling alive & capable
-- A healthy, vibrant environment
-- Clean, life-giving water
-- Financial security
+@continue_exploring
+title: Continue Exploring
+subtitle: Building Your Vision
+new-page: false
+on-arrival: qol_stage += 1
 
----
+[? if qol_stage = 2 : Narration: You're starting to build a picture of how you want your life to be. Let's explore some more aspects. ?]
 
-Facilitator: "These describe how you want your life to be, not what you’ll do. That aligns with research showing quality of life is multidimensional: physical, emotional, social, autonomy, and purpose. Would you like to add more, or move to practices?"
+[? if qol_stage = 3 : Narration: Your vision is getting richer. What other qualities do you want in your life? ?]
 
----
+[? if qol_stage >= 4 : Narration: You're developing a comprehensive vision. Are there other important aspects of how you want life to be? ?]
 
-- @add_more: "Add more qualities."
-- @finish: "Move on."
+Narration: Here are some other ways people often describe how they want their life to be:
 
-@add_more
-title: Add More Qualities
-subtitle: Exploring Further
-
----
-
-Facilitator: "You might also consider:"
-
----
-
-- I want nutritious food
-- I want to feel confident
-- I want personal growth
-- I want laughter
-- I want to live in a close-knit community
-
----
-
-- @nutritious_food: "I want nutritious food."
-- @feel_confident: "I want to feel confident."
-- @grow_person: "I want to grow as a person."
-- @laugh_often: "I want to laugh often."
-- @close_community: "I want to live in a close-knit community."
+- @nutritious_food: I want nutritious food
+- @feel_confident: I want to feel confident
+- @personal_growth: I want to grow as a person
+- @laugh_often: I want to laugh often
+- @close_community: I want to live in a close-knit community
+- @meaningful_work: I want meaningful work
+- @creative_expression: I want creative expression
+- @learning_growth: I want continuous learning
+- @finish_qol: I think I've covered the main aspects
 
 @nutritious_food
 title: Nutritious Food
-subtitle: Exploring Health
+subtitle: Nourishment and Health
+new-page: false
+on-arrival: qol_nutrition = 1; qol_health = 1
 
----
+Narration: "I want nutritious food" - fundamental for health and wellbeing. This can guide decisions about where to shop, what to grow, how to prepare meals, and how to structure your food systems.
 
-Facilitator: "I want nutritious food. Deeper: 'I want health and nourishment.'"
-
----
-
-- @nutritious_food_agree: "Yeah, that feels right."
-- @nutritious_food_disagree: "No, I really just want nutritious food."
-
-@nutritious_food_agree
-title: Health and Nourishment
-subtitle: Shaping Your Context
-
----
-
-Facilitator: "Great. Want to add more or move to practices?"
-
----
-
-- @add_more: "Add more qualities."
-- @finish: "Move on."
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
 @feel_confident
-title: Feel Confident
-subtitle: Exploring Self-Assurance
+title: Feeling Confident
+subtitle: Self-Assurance and Inner Strength
+new-page: false
+on-arrival: qol_confidence = 1
 
----
+Narration: "I want to feel confident" - that's about inner strength and self-assurance. This can guide decisions about learning, relationships, challenges you take on, and how you present yourself.
 
-Facilitator: "I want to feel confident. Deeper: 'I want self-assurance and trust in myself.'"
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
----
+@personal_growth
+title: Personal Growth
+subtitle: Continuous Development
+new-page: false
+on-arrival: qol_growth = 1
 
-- @feel_confident_agree: "Yeah, that feels right."
-- @feel_confident_disagree: "No, I really just want to feel confident."
+Narration: "I want to grow as a person" - continuous development and learning. This can guide decisions about education, experiences, relationships, and challenges.
 
-@feel_confident_agree
-title: Self-Assurance and Trust
-subtitle: Shaping Your Context
-
----
-
-Facilitator: "Great. Want to add more or move to practices?"
-
----
-
-- @add_more: "Add more qualities."
-- @finish: "Move on."
-
-@grow_person
-title: Grow as a Person
-subtitle: Exploring Development
-
----
-
-Facilitator: "I want to grow as a person. Deeper: 'I want ongoing personal development.'"
-
----
-
-- @grow_person_agree: "Yeah, that feels right."
-- @grow_person_disagree: "No, I really just want to grow as a person."
-
-@grow_person_agree
-title: Ongoing Personal Development
-subtitle: Shaping Your Context
-
----
-
-Facilitator: "Great. Want to add more or move to practices?"
-
----
-
-- @add_more: "Add more qualities."
-- @finish: "Move on."
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
 @laugh_often
-title: Laugh Often
-subtitle: Exploring Joy
+title: Laughter and Joy
+subtitle: Lightness in Life
+new-page: false
+on-arrival: qol_joy = 1
 
----
+Narration: "I want to laugh often" - joy and lightness in life. This can guide decisions about relationships, activities, work environment, and how you spend your time.
 
-Facilitator: "I want to laugh often. Deeper: 'I want joy and lightness in life.'"
-
----
-
-- @laugh_often_agree: "Yeah, that feels right."
-- @laugh_often_disagree: "No, I really just want to laugh often."
-
-@laugh_often_agree
-title: Joy and Lightness
-subtitle: Shaping Your Context
-
----
-
-Facilitator: "Great. Want to add more or move to practices?"
-
----
-
-- @add_more: "Add more qualities."
-- @finish: "Move on."
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
 @close_community
 title: Close-Knit Community
-subtitle: Exploring Belonging
+subtitle: Belonging and Connection
+new-page: false
+on-arrival: qol_community = 1; qol_belonging = 1
 
----
+Narration: "I want to live in a close-knit community" - belonging and supportive relationships. This can guide decisions about where to live, how to engage with neighbors, and how to contribute to community life.
 
-Facilitator: "I want to live in a close-knit community. Deeper: 'I want belonging and supportive relationships.'"
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
----
+@meaningful_work
+title: Meaningful Work
+subtitle: Purpose in Daily Activity
+new-page: false
+on-arrival: qol_meaning = 1; qol_purpose = 1
 
-- @close_community_agree: "Yeah, that feels right."
-- @close_community_disagree: "No, I really just want to live in a close-knit community."
+Narration: "I want meaningful work" - purpose and fulfillment in your daily activities. This can guide career decisions, volunteer work, and how you structure your time.
 
-@close_community_agree
-title: Belonging and Supportive Relationships
-subtitle: Shaping Your Context
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
----
+@creative_expression
+title: Creative Expression
+subtitle: Artistic and Creative Fulfillment
+new-page: false
+on-arrival: qol_creativity = 1
 
-Facilitator: "Great. Looks like you're creating a context based on freedom, peace, meaning, health, and growth. That’s powerful. Just remember—we’re not talking about practices yet. That means no judgment about which solution is best: whether it’s gardening organically or drilling springs or becoming a therapist. Why?"
+Narration: "I want creative expression" - the ability to create and express yourself artistically. This can guide decisions about hobbies, career, living space, and how you spend free time.
 
----
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
-- @why_no_practices: "Why?"
-- @finish: "Move on."
+@learning_growth
+title: Continuous Learning
+subtitle: Intellectual Development
+new-page: false
+on-arrival: qol_learning = 1; qol_growth = 1
 
-@why_no_practices
-title: Why No Practices?
-subtitle: Understanding the Process
+Narration: "I want continuous learning" - intellectual growth and curiosity. This can guide decisions about education, reading, experiences, and relationships.
 
----
+- @continue_exploring: Let me explore more aspects
+- @finish_qol: I think I've covered the main aspects
 
-Facilitator: "Because practices only make sense after you have your context. Once you’re clear on how you want your life to be, then you can ask: 'What methods or actions align with that?'"
+@finish_qol
+title: Quality of Life Summary
+subtitle: Your Vision Takes Shape
+new-page: true
+on-arrival: qol_complete = 1
 
----
+Narration: Excellent work. You've articulated how you want your life to be - not what you want to do or have, but the qualities you want your life to possess.
 
-- @finish: "Move on."
+[? if qol_freedom = 1 : Narration: You want freedom and independence. ?]
+[? if qol_peace = 1 : Narration: You want peace in your life. ?]
+[? if qol_nature = 1 : Narration: You want connection with nature. ?]
+[? if qol_service = 1 : Narration: You want to help others and serve. ?]
+[? if qol_respect = 1 : Narration: You want to be respected and valued. ?]
+[? if qol_security = 1 : Narration: You want security and stability. ?]
+[? if qol_health = 1 : Narration: You want good health and vitality. ?]
+[? if qol_community = 1 : Narration: You want strong community connections. ?]
+[? if qol_meaning = 1 : Narration: You want meaning and purpose. ?]
+[? if qol_clean_water = 1 : Narration: You want clean, reliable water. ?]
 
-@finish
-title: Finish
-subtitle: Moving On
+Narration: This vision of how you want life to be will now serve as your context for making decisions. When you face choices, you can ask: "Which option better supports the life I want to live?"
 
----
+Narration: But there's more to your holistic context. Next, we need to understand your future resource base - what will sustain this vision over time?
 
-Facilitator: "Perfect. You’ve done great work. Just remember—this context is not fixed. You can return to it, refine it, and grow with it over time. But for now, it’s a powerful start."
-
----
-
-- @credits: "View the credits."
+- @future_resource_base: Continue to Future Resource Base
