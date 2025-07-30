@@ -1,0 +1,34 @@
+title: Refining Your Behavior
+subtitle: The Person You Need to Become
+new-page: true
+
+Narration: You're identifying the behavioral qualities that will help create the social environment you need. Let's explore this further.
+
+[? if behavior_open = 1 : Narration: Being open and transparent builds trust and prevents misunderstandings. People can support you better when they understand your real situation and needs. ?]
+
+[? if behavior_respectful = 1 : Narration: Respect for others creates reciprocal respect. When people feel valued by you, they're more likely to value and support you in return. ?]
+
+[? if behavior_collaborative = 1 : Narration: Collaboration creates win-win situations. When you help others achieve their goals, they become invested in helping you achieve yours. ?]
+
+[? if behavior_honest = 1 : Narration: Honesty and trustworthiness are the foundation of all strong relationships. Without trust, cooperation becomes impossible. ?]
+
+[? if behavior_generous = 1 : Narration: Generosity creates abundance. When you freely share what you have, others are inspired to share with you. ?]
+
+[? if behavior_patient = 1 : Narration: Patience allows relationships to develop naturally. Rushing or pressuring others often backfires and damages the social fabric you need. ?]
+
+[? if behavior_curious = 1 : Narration: Curiosity and willingness to learn shows respect for others' knowledge and experience. People love to share with someone who genuinely wants to understand. ?]
+
+[? if behavior_responsible = 1 : Narration: Reliability and responsibility make you someone others can count on. This creates the reciprocal relationships that sustain communities. ?]
+
+Narration: A counseling robot sits on a bench, apparently providing therapy to a confused parking meter. The meter seems to be working through some deep issues about its purpose in life.
+
+Narration: Are there other behavioral qualities that are important for creating the support you need?
+
+- @add_more_behaviors: Yes, there are other important behaviors
+- @complete_context: I think I've identified the key behaviors. Let's complete my holistic context.
+
+@add_more_behaviors
+go-to: behavior
+
+@complete_context
+go-to: holistic_context_complete

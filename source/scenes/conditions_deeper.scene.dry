@@ -1,0 +1,30 @@
+title: Building Your Conditions
+subtitle: Creating the Context for Success
+new-page: true
+
+Narration: You're building a picture of the conditions your resource base needs to support your vision of life. Let's explore this further.
+
+[? if condition_soil = 1 : Narration: You recognize that healthy, regenerating soil and biodiversity are essential. Without these, food systems collapse and ecosystems can't function. ?]
+
+[? if condition_water = 1 : Narration: You understand that clean water systems and healthy watersheds are fundamental. Water is life, and polluted or depleted water systems can't support thriving communities. ?]
+
+[? if condition_climate = 1 : Narration: You see that stable climate and functioning weather patterns are necessary. Extreme weather and climate chaos make it impossible to plan or build sustainable systems. ?]
+
+[? if condition_economy = 1 : Narration: You recognize that an equitable economy with fair distribution is needed. Extreme inequality creates instability and prevents communities from thriving. ?]
+
+[? if condition_social = 1 : Narration: You value strong social cohesion and mutual support. Without trust and cooperation, communities can't solve problems or support their members. ?]
+
+[? if condition_culture = 1 : Narration: You understand that thriving education and cultural systems are vital. These preserve knowledge, values, and the capacity to adapt and learn. ?]
+
+Narration: A repair drone hovers nearby, apparently trying to fix a broken streetlight by telling it inspirational quotes. The light remains dark, but the drone's optimism is unwavering.
+
+Narration: Are there other conditions that are essential for your vision?
+
+- @add_more_conditions: Yes, there are other important conditions
+- @behavior: I think I've covered the key conditions. What's next?
+
+@add_more_conditions
+go-to: conditions
+
+@behavior
+go-to: behavior

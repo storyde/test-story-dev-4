@@ -1,0 +1,20 @@
+title: Understanding Your Resource Base
+subtitle: The Web of Support
+new-page: true
+
+[? if player_resource_base = "urban" : Narration: Living in a city means you depend on a vast network of farmers, ranchers, and rural communities. Your food travels hundreds or thousands of miles. Your water might come from distant watersheds. Your energy from power plants far away. ?]
+
+[? if player_resource_base = "local" : Narration: In a small town, you're more connected to your immediate landscape. You might know some of the farmers who grow your food, see the watershed that provides your water, understand the local economy that supports your community. ?]
+
+[? if player_resource_base = "direct" : Narration: Managing land yourself gives you direct control over part of your resource base. You can influence the health of the soil, the water cycle, the biodiversity. But you're still connected to larger systems for many needs. ?]
+
+[? if player_resource_base = "mixed" : Narration: A mixed resource base is common - some things local, some distant. You might grow some of your own food but buy other necessities. You might have strong local community but depend on distant systems for energy or technology. ?]
+
+Narration: A farming robot trundles past, apparently convinced that singing lullabies to the crops will improve their growth. The crops seem unimpressed, but the robot's enthusiasm is admirable.
+
+Narration: The critical question is: what condition does your resource base need to be in to support your vision of life, not just for you, but for your children and their children?
+
+- @conditions: Consider the conditions needed for a healthy resource base
+
+@conditions
+go-to: conditions

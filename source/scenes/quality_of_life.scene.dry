@@ -509,3 +509,5 @@ Narration: This vision of how you want life to be will now serve as your context
 Narration: But there's more to your holistic context. Next, we need to understand your future resource base - what will sustain this vision over time?
 
 - @future_resource_base: Continue to Future Resource Base
+@future_resource_base
+go-to: future_resource_base
