@@ -1,21 +1,15 @@
 # This scene contains information for the sidebar.
-= Context Qualities
-This is your holistic context. Your choices are displayed here.
+= My holistic Context
+
+This holistic context can help you manage complexity.
 
 ---
 
-Statement of Purpose: [+ statement_of_purpose +]
 Whole Under Management: [+ whole_under_management +]
-Quality of Life: [+ quality_of_life +]
+If Whole under management = Me : skip Statement of purpose. otherwhise:
+Statement of Purpose: [+ statement_of_purpose +]
+Quality of Life: List the Qualities of life, that the player selected. so if the qol_clean_water = 1, then list that, otherwise, dont list is. make the list simple, comma saparated
 Future Resource Base: [+ future_resource_base +]
 Conditions: [+ conditions +]
 Behavior: [+ behavior +]
 
----
-
-- @back_to_game: Back to Game
-
-@back_to_game
-title: Back to Game
-subtitle: Continue Your Journey
-go-to: last_scene
