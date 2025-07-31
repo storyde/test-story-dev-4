@@ -1,0 +1,44 @@
+title: Collaboration and Respect
+subtitle: Working Well with Others
+tags: behavior_collaboration
+new-page: true
+
+Narration: Your ability to work with others and show respect for their perspectives directly affects how willing they are to collaborate with you and support your goals.
+
+- @behavior_respectful: Respectful of others' perspectives and needs
+- @behavior_collaborative: Collaborative and willing to work together
+- @behavior_patient: Patient and understanding with others
+- @back_to_behavior_categories: Explore other behavior areas
+
+@behavior_respectful
+tags: behavior_collaboration
+max-visits: 1
+on-arrival: behavior_respectful = 1
+
+Narration: Respect for others creates reciprocal respect. When people feel valued by you, they're more likely to value and support you in return.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_collaboration: Consider other collaboration behaviors
+
+@behavior_collaborative
+tags: behavior_collaboration
+max-visits: 1
+on-arrival: behavior_collaborative = 1
+
+Narration: Collaboration creates win-win situations. When you help others achieve their goals, they become invested in helping you achieve yours.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_collaboration: Consider other collaboration behaviors
+
+@behavior_patient
+tags: behavior_collaboration
+max-visits: 1
+on-arrival: behavior_patient = 1
+
+Narration: Patience allows relationships to develop naturally. Rushing or pressuring others often backfires and damages the social fabric you need.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_collaboration: Consider other collaboration behaviors
+
+@back_to_behavior_categories
+go-to: behavior_categories

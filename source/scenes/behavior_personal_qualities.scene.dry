@@ -1,0 +1,44 @@
+title: Personal Qualities and Reliability
+subtitle: Being Someone Others Can Count On
+tags: behavior_personal_qualities
+new-page: true
+
+Narration: Your personal qualities and reliability determine whether others see you as someone they can depend on and want to support over the long term.
+
+- @behavior_responsible: Responsible and reliable in commitments
+- @behavior_generous: Generous with time, resources, and knowledge
+- @behavior_curious: Curious and willing to learn from others
+- @back_to_behavior_categories: Explore other behavior areas
+
+@behavior_responsible
+tags: behavior_personal_qualities
+max-visits: 1
+on-arrival: behavior_responsible = 1
+
+Narration: Reliability and responsibility make you someone others can count on. This creates the reciprocal relationships that sustain communities.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_personal_qualities: Consider other personal qualities
+
+@behavior_generous
+tags: behavior_personal_qualities
+max-visits: 1
+on-arrival: behavior_generous = 1
+
+Narration: Generosity creates abundance. When you freely share what you have, others are inspired to share with you.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_personal_qualities: Consider other personal qualities
+
+@behavior_curious
+tags: behavior_personal_qualities
+max-visits: 1
+on-arrival: behavior_curious = 1
+
+Narration: Curiosity and willingness to learn shows respect for others' knowledge and experience. People love to share with someone who genuinely wants to understand.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_personal_qualities: Consider other personal qualities
+
+@back_to_behavior_categories
+go-to: behavior_categories

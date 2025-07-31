@@ -27,4 +27,4 @@ Narration: Are there other conditions that are essential for your vision?
 go-to: conditions
 
 @behavior
-go-to: behavior
+go-to: behavior_categories

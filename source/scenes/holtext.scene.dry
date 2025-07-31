@@ -1,109 +1,107 @@
 # This scene contains information for the right sidebar.
 = My Holistic Context
 
-This holistic context can help you manage complexity.
+[? if context_progress < 1 : *Building your holistic context...* ?]
+[? if context_progress >= 7 : This holistic context guides all your decisions. ?]
+[? if context_progress >= 1 and context_progress < 7 : *Developing your holistic context...* ?]
 
 ---
 
-[? if player_background != "" : 
-**Statement of Purpose**
 [? if player_background = "organization" or player_background = "school" or player_background = "company" : 
-[? if purpose = "production" : We exist to produce goods and services that meet essential needs. ?]
-[? if purpose = "finance" : We exist to provide financial and investment services. ?]
-[? if purpose = "technology" : We exist to develop digital technologies and platforms. ?]
-[? if purpose = "consulting" : We exist to offer professional advice and consulting. ?]
-[? if purpose = "education" : We exist to educate and cultivate human potential and skills. ?]
-[? if purpose = "health" : We exist to promote health and deliver medical services. ?]
-[? if purpose = "advocacy" : We exist to advocate for social or environmental causes. ?]
-[? if purpose = "culture" : We exist to preserve arts, culture, and heritage. ?]
-[? if purpose = "safety" : We exist to ensure public safety and emergency response. ?]
-[? if purpose = "community" : We exist to support communities through engagement and aid. ?]
-[? if purpose = "" : Not yet defined. ?]
-?]
+**Statement of Purpose**
+[? if purpose = "production" : To produce goods and services that meet essential human needs. ?]
+[? if purpose = "finance" : To provide financial services that build security and enable dreams. ?]
+[? if purpose = "technology" : To develop technologies that solve real problems and empower people. ?]
+[? if purpose = "consulting" : To offer guidance that helps others achieve meaningful goals. ?]
+[? if purpose = "education" : To cultivate human potential and develop critical thinking. ?]
+[? if purpose = "health" : To promote health and address the systems that affect wellbeing. ?]
+[? if purpose = "advocacy" : To advocate for positive social and environmental change. ?]
+[? if purpose = "culture" : To preserve and nurture arts, culture, and heritage. ?]
+[? if purpose = "safety" : To ensure safety while building community resilience. ?]
+[? if purpose = "community" : To support thriving, connected communities. ?]
+[? if purpose = "" : *Not yet defined* ?]
 
 ---
 ?]
 
 [? if whole_under_management != "" : 
 **Whole Under Management**
-[? if whole_under_management = "individual" : Myself and my immediate well-being ?]
-[? if whole_under_management = "family" : My family unit and its direct environment ?]
-[? if whole_under_management = "household" : My household and immediate surroundings ?]
-[? if whole_under_management = "community" : My local community and its shared resources ?]
-[? if whole_under_management = "organization" : My organization and its direct stakeholders ?]
-[? if whole_under_management = "region" : My region or larger geographic area ?]
+[? if whole_under_management = "individual" : Myself and my personal impact on the world ?]
+[? if whole_under_management = "family" : My family and the environment that sustains us ?]
+[? if whole_under_management = "household" : My household and our immediate community ?]
+[? if whole_under_management = "community" : My community and our shared resources ?]
+[? if whole_under_management = "organization" : My organization and all who depend on it ?]
+[? if whole_under_management = "region" : My region and its interconnected systems ?]
 
 ---
 ?]
 
-[? if qol_complete = 1 : 
-**How I Want My Life to Be**
+[? if qol_freedom = 1 or qol_peace = 1 or qol_nature = 1 or qol_service = 1 or qol_respect = 1 or qol_security = 1 or qol_health = 1 or qol_community = 1 or qol_meaning = 1 or qol_clean_water = 1 : 
+**Quality of Life We Seek**
 {! 
 var qolList = [];
 if (Q.qol_freedom == 1) qolList.push("Freedom and independence");
-if (Q.qol_peace == 1) qolList.push("Peace and tranquility");
+if (Q.qol_peace == 1) qolList.push("Peace and balance");
 if (Q.qol_nature == 1) qolList.push("Close connection with nature");
-if (Q.qol_service == 1) qolList.push("Helping others and serving community");
-if (Q.qol_respect == 1) qolList.push("Being respected and valued");
+if (Q.qol_service == 1) qolList.push("Service to others and community");
+if (Q.qol_respect == 1) qolList.push("Respect and recognition");
 if (Q.qol_security == 1) qolList.push("Security and stability");
 if (Q.qol_health == 1) qolList.push("Good health and vitality");
-if (Q.qol_community == 1) qolList.push("Strong community connections");
-if (Q.qol_meaning == 1) qolList.push("Meaning and purpose in daily life");
-if (Q.qol_clean_water == 1) qolList.push("Clean, reliable water");
-return qolList.length > 0 ? qolList.join(", ") : "Not yet defined.";
+if (Q.qol_community == 1) qolList.push("Strong community bonds");
+if (Q.qol_meaning == 1) qolList.push("Meaningful, purposeful work");
+if (Q.qol_clean_water == 1) qolList.push("Clean water and healthy environment");
+if (Q.qol_creativity == 1) qolList.push("Creative expression");
+if (Q.qol_learning == 1) qolList.push("Continuous learning and growth");
+return qolList.length > 0 ? qolList.join("; ") : "*Not yet defined*";
 !}
 
 ---
 ?]
 
 [? if resource_base != "" : 
-**Future Resource Base**
-[? if resource_base = "urban" : Network of farmers, suppliers, and systems that support city life ?]
-[? if resource_base = "local" : Surrounding landscape and local community ?]
-[? if resource_base = "direct" : Land I manage directly plus supporting systems ?]
-[? if resource_base = "mixed" : Combination of local and distant sources ?]
+**Resource Base**
+[? if resource_base = "urban" : The network of land, people, and systems that sustain urban life ?]
+[? if resource_base = "local" : Our local landscape and community relationships ?]
+[? if resource_base = "direct" : The land we steward and the community we serve ?]
+[? if resource_base = "mixed" : Our diverse network of local and distant resources ?]
 
 ---
 ?]
 
 [? if condition_soil = 1 or condition_water = 1 or condition_climate = 1 or condition_economy = 1 or condition_social = 1 or condition_culture = 1 : 
-**Conditions Needed for the Future**
+**Future Resource Base Conditions**
 {! 
 var conditionsList = [];
-if (Q.condition_soil == 1) conditionsList.push("Regenerating soil and biodiversity");
-if (Q.condition_water == 1) conditionsList.push("Clean water systems and healthy watersheds");
-if (Q.condition_climate == 1) conditionsList.push("Stable climate and functioning weather patterns");
-if (Q.condition_economy == 1) conditionsList.push("Equitable economy with fair distribution");
-if (Q.condition_social == 1) conditionsList.push("Strong social cohesion and mutual support");
-if (Q.condition_culture == 1) conditionsList.push("Thriving education and cultural systems");
-return conditionsList.length > 0 ? conditionsList.join(", ") : "Not yet defined.";
+if (Q.condition_soil == 1) conditionsList.push("Regenerating soils and diverse biological communities");
+if (Q.condition_water == 1) conditionsList.push("Clean water and healthy watersheds");
+if (Q.condition_climate == 1) conditionsList.push("Stable climate and weather patterns");
+if (Q.condition_economy == 1) conditionsList.push("Equitable economy serving all people");
+if (Q.condition_social == 1) conditionsList.push("Strong social bonds and mutual support");
+if (Q.condition_culture == 1) conditionsList.push("Thriving education and cultural heritage");
+return conditionsList.length > 0 ? conditionsList.join("; ") : "*Not yet defined*";
 !}
 
 ---
 ?]
 
 [? if behavior_open = 1 or behavior_respectful = 1 or behavior_collaborative = 1 or behavior_honest = 1 or behavior_generous = 1 or behavior_patient = 1 or behavior_curious = 1 or behavior_responsible = 1 : 
-**How I Must Behave**
+**Behaviors for Social Support**
 {! 
 var behaviorList = [];
-if (Q.behavior_open == 1) behaviorList.push("Open and transparent");
-if (Q.behavior_respectful == 1) behaviorList.push("Respectful of others");
+if (Q.behavior_open == 1) behaviorList.push("Open and transparent communication");
+if (Q.behavior_respectful == 1) behaviorList.push("Respectful of all people");
 if (Q.behavior_collaborative == 1) behaviorList.push("Collaborative and cooperative");
 if (Q.behavior_honest == 1) behaviorList.push("Honest and trustworthy");
-if (Q.behavior_generous == 1) behaviorList.push("Generous with time and resources");
+if (Q.behavior_generous == 1) behaviorList.push("Generous with resources and knowledge");
 if (Q.behavior_patient == 1) behaviorList.push("Patient and understanding");
-if (Q.behavior_curious == 1) behaviorList.push("Curious and willing to learn");
-if (Q.behavior_responsible == 1) behaviorList.push("Responsible and reliable");
-return behaviorList.length > 0 ? behaviorList.join(", ") : "Not yet defined.";
+if (Q.behavior_curious == 1) behaviorList.push("Curious and eager to learn");
+if (Q.behavior_responsible == 1) behaviorList.push("Reliable and responsible");
+return behaviorList.length > 0 ? behaviorList.join("; ") : "*Not yet defined*";
 !}
 
 ---
 ?]
 
-[? if context_progress < 7 : 
-*Building your holistic context...*
-?]
-
-[? if context_progress = 7 : 
-*Your holistic context is complete and ready to guide your decisions.*
+[? if context_progress >= 7 : 
+*This holistic context guides all decisions, ensuring they move toward the life we want while maintaining the conditions needed for future generations.*
 ?]

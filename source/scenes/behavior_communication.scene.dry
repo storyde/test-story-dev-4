@@ -1,0 +1,33 @@
+title: Communication and Honesty
+subtitle: Building Trust Through Words and Actions
+tags: behavior_communication
+new-page: true
+
+Narration: Clear, honest communication is the foundation of all strong relationships. When people can trust what you say and how you say it, they're more likely to support your goals and work with you toward shared outcomes.
+
+- @behavior_open: Open and transparent in communications
+- @behavior_honest: Honest and trustworthy in all dealings
+- @back_to_behavior_categories: Explore other behavior areas
+
+@behavior_open
+tags: behavior_communication
+max-visits: 1
+on-arrival: behavior_open = 1
+
+Narration: Being open and transparent builds trust and prevents misunderstandings. People can support you better when they understand your real situation and needs.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_communication: Consider other communication behaviors
+
+@behavior_honest
+tags: behavior_communication
+max-visits: 1
+on-arrival: behavior_honest = 1
+
+Narration: Honesty and trustworthiness are the foundation of all strong relationships. Without trust, cooperation becomes impossible.
+
+- @back_to_behavior_categories: Explore other behavior areas
+- #behavior_communication: Consider other communication behaviors
+
+@back_to_behavior_categories
+go-to: behavior_categories

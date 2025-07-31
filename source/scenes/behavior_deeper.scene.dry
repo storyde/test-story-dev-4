@@ -28,7 +28,7 @@ Narration: Are there other behavioral qualities that are important for creating 
 - @complete_context: I think I've identified the key behaviors. Let's complete my holistic context.
 
 @add_more_behaviors
-go-to: behavior
+go-to: behavior_categories
 
 @complete_context
 go-to: holistic_context_complete
