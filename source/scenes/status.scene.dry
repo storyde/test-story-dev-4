@@ -5,7 +5,7 @@ You are currently: [+ context_progress +]
 
 ---
 
-[? if only_me != 1 : 
+[? if player_background != "individual" : 
 **Group Consensus**: [+ group_consensus +]
 
 ---

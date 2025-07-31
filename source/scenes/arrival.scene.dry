@@ -22,9 +22,9 @@ Narration: But the projector sparks and dies.
 
 Elena: "That ad's been promising solutions for six months. The only thing it's solved is how to waste electricity."
 
-[? if part_of = "family" : You think about how this chaotic world affects families like yours. ?]
-[? if part_of = "organization" : You wonder how organizations can function in this environment. ?]
-[? if part_of = "alone" : You're grateful to be navigating this alone, without others depending on you. ?]
+[? if player_background = "family" : You think about how this chaotic world affects families like yours. ?]
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : You wonder how organizations can function in this environment. ?]
+[? if player_background = "individual" : You're grateful to be navigating this alone, without others depending on you. ?]
 
 - @ask_about_mess: "What do you mean by 'the mess'?"
 - @look_for_help: "I'm looking for someone who might help me understand all this."

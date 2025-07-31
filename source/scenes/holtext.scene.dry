@@ -5,9 +5,9 @@ This holistic context can help you manage complexity.
 
 ---
 
-[? if player_context != "" : 
+[? if player_background != "" : 
 **Statement of Purpose**
-[? if player_context = "organization" or player_context = "school" or player_context = "company" : 
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : 
 [? if purpose = "production" : We exist to produce goods and services that meet essential needs. ?]
 [? if purpose = "finance" : We exist to provide financial and investment services. ?]
 [? if purpose = "technology" : We exist to develop digital technologies and platforms. ?]
