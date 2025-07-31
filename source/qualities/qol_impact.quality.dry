@@ -1,0 +1,4 @@
+name: qol_impact
+initial: 0
+min: 0
+max: 1

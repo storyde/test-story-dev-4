@@ -1,0 +1,73 @@
+title: Purpose and Meaning
+subtitle: Your Sense of Direction and Fulfillment
+tags: qol_purpose_meaning
+new-page: true
+
+Narration: Let's explore what purpose and meaning look like in your life. This includes your sense of direction, the work you do, and what gives your life significance.
+
+Narration: A purpose-seeking robot sits nearby, apparently trying to find its meaning in life by asking every passing pigeon for career advice. The pigeons seem surprisingly engaged in the conversation.
+
+- @meaningful_work: "I want meaningful work that makes a difference"
+- @personal_purpose: "I want a clear sense of purpose and direction"
+- @creative_expression: "I want opportunities for creative expression"
+- @continuous_learning: "I want continuous learning and growth"
+- @legacy_impact: "I want to leave a positive legacy"
+- @back_to_categories: "Explore other life categories"
+
+@meaningful_work
+title: Meaningful Work
+tags: qol_purpose_meaning
+max-visits: 1
+on-arrival: qol_meaning = 1; qol_work_satisfaction = 1
+
+Narration: "I want meaningful work that makes a difference" - work that aligns with your values and contributes positively. This can guide decisions about career, volunteer activities, skill development, and how you spend your productive time.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_purpose_meaning: "Consider other aspects of purpose and meaning"
+
+@personal_purpose
+title: Personal Purpose
+tags: qol_purpose_meaning
+max-visits: 1
+on-arrival: qol_purpose = 1; qol_direction = 1
+
+Narration: "I want a clear sense of purpose and direction" - knowing why you're here and where you're going. This can guide decisions about goals, priorities, relationships, and how you spend your time and energy.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_purpose_meaning: "Consider other aspects of purpose and meaning"
+
+@creative_expression
+title: Creative Expression
+tags: qol_purpose_meaning
+max-visits: 1
+on-arrival: qol_creativity = 1
+
+Narration: "I want opportunities for creative expression" - the ability to create and express yourself artistically. This can guide decisions about hobbies, career, living space, community involvement, and how you spend free time.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_purpose_meaning: "Consider other aspects of purpose and meaning"
+
+@continuous_learning
+title: Continuous Learning
+tags: qol_purpose_meaning
+max-visits: 1
+on-arrival: qol_learning = 1; qol_growth = 1
+
+Narration: "I want continuous learning and growth" - intellectual development and expanding understanding. This can guide decisions about education, reading, experiences, relationships, and challenges you take on.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_purpose_meaning: "Consider other aspects of purpose and meaning"
+
+@legacy_impact
+title: Legacy and Impact
+tags: qol_purpose_meaning
+max-visits: 1
+on-arrival: qol_legacy = 1; qol_impact = 1
+
+Narration: "I want to leave a positive legacy" - making a lasting positive difference in the world. This can guide decisions about career, community involvement, parenting, mentoring, and long-term projects.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_purpose_meaning: "Consider other aspects of purpose and meaning"
+
+@back_to_categories
+go-to: qol_categories

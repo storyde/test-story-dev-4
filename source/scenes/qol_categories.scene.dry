@@ -1,0 +1,46 @@
+title: Quality of Life Categories
+subtitle: How Do You Want Your Life to Be?
+new-page: true
+on-arrival: qol_stage = 1
+
+Narration: Now comes the heart of it all. This question might sound simple, but it's the foundation for everything else. How do you want your life to be?
+
+Narration: Not what you want to do, not what you want to have, but how you want your life to *be*. What qualities do you want your life to possess?
+
+Narration: A food delivery drone crashes into a tree, its AI confused by heat-warped GPS signals. It was programmed to deliver happiness, but apparently took a wrong turn at contentment.
+
+Narration: To help you think about this comprehensively, let's explore different aspects of life. You can explore as many categories as you like, and return to add more at any time.
+
+- #qol_personal_wellbeing: "Personal well-being and health"
+- #qol_relationships: "Relationships and community"
+- #qol_environment: "Environment and surroundings"
+- #qol_purpose_meaning: "Purpose and meaning"
+- @finish_qol: "I think I've covered the main aspects"
+
+@finish_qol
+title: Quality of Life Summary
+subtitle: Your Vision Takes Shape
+new-page: true
+on-arrival: qol_complete = 1; context_progress = 3; long_term_perspective += 1
+
+Narration: Excellent work. You've articulated how you want your life to be - not what you want to do or have, but the qualities you want your life to possess.
+
+[? if qol_freedom = 1 : Narration: You want freedom and independence. ?]
+[? if qol_peace = 1 : Narration: You want peace in your life. ?]
+[? if qol_nature = 1 : Narration: You want connection with nature. ?]
+[? if qol_service = 1 : Narration: You want to help others and serve. ?]
+[? if qol_respect = 1 : Narration: You want to be respected and valued. ?]
+[? if qol_security = 1 : Narration: You want security and stability. ?]
+[? if qol_health = 1 : Narration: You want good health and vitality. ?]
+[? if qol_community = 1 : Narration: You want strong community connections. ?]
+[? if qol_meaning = 1 : Narration: You want meaning and purpose. ?]
+[? if qol_clean_water = 1 : Narration: You want clean, reliable water. ?]
+
+Narration: This vision of how you want life to be will now serve as your context for making decisions. When you face choices, you can ask: "Which option better supports the life I want to live?"
+
+Narration: But there's more to your holistic context. Next, we need to understand your future resource base - what will sustain this vision over time?
+
+- @future_resource_base: Continue to Future Resource Base
+
+@future_resource_base
+go-to: future_resource_base

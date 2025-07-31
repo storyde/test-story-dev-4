@@ -14,15 +14,13 @@ Narration: A malfunctioning street sweeper robot passes by, spreading litter ins
 
 Sarah: "See that? That's a small example. The robot was designed to solve one problem—street cleaning. But it wasn't designed to handle the heat, the power fluctuations, or the new types of debris from climate events. Also, someone apparently programmed it to believe that spreading trash is a form of modern art."
 
-- @ask_about_polycrisis: "Tell me more about this polycrisis."
-- @ask_about_human_causes: "Is this all human-made?"
-- @ask_about_solutions: "How do we solve interconnected problems?"
+- #deep_dive_topics: "I want to explore these concepts more deeply"
 - @ready_for_framework: "I understand. Let's get to the framework."
-- #deep_dive_topics
 
 @ask_about_polycrisis
 title: Understanding Polycrisis
 tags: deep_dive_topics
+max-visits: 1
 on-arrival: polycrisis_understanding += 2
 
 Sarah: "Polycrisis means everything's connected, and when one system fails, it cascades through others."
@@ -35,13 +33,13 @@ Narration: A group of neighbors is sharing a generator, but arguing about whose 
 
 Sarah: "Each problem is real, but trying to solve them one at a time is like trying to fix a spider web by repairing one strand at a time."
 
-- @ask_about_human_causes: "How did we create this web of problems?"
-- @ask_about_solutions: "So how do we fix the whole web?"
-- @feel_overwhelmed_by_complexity: "This feels impossibly complex."
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @ask_about_human_causes
 title: Human Causes
 tags: deep_dive_topics
+max-visits: 1
 on-arrival: human_responsibility += 1; systems_awareness += 1
 
 Sarah: "We didn't set out to create a polycrisis. We made thousands of individual decisions that seemed rational at the time."
@@ -54,12 +52,13 @@ Narration: A delivery drone drops a package in the wrong location and flies away
 
 Sarah: "We optimized each piece of the system separately—make it cheaper, faster, more efficient. But we didn't optimize for resilience, sustainability, or interconnection."
 
-- @ask_about_solutions: "So how do we make better decisions?"
-- @feel_guilty: "I feel guilty about my part in this."
-- @ask_about_responsibility: "Who's responsible for fixing it?"
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @feel_guilty
 title: Feeling Guilty
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: guilt += 1; self_awareness += 1
 
 Me: "I feel guilty about my part in all this."
@@ -74,11 +73,13 @@ Narration: A child runs by, playing with a toy made from recycled electronics pa
 
 Sarah: "That child isn't guilty about the world they inherited. But they're already learning to think differently about resources and waste."
 
-- @ask_about_solutions: "How do I make better decisions?"
-- @ask_about_responsibility: "What's my responsibility now?"
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @ask_about_responsibility
 title: Understanding Responsibility
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: responsibility_clarity += 1
 
 Sarah: "Everyone's responsible for their piece. The question is: what's your piece?"
@@ -91,12 +92,13 @@ Sarah: "The teenager who built that air purifier isn't responsible for cleaning 
 
 Sarah: "What's your piece of the puzzle?"
 
-- @ask_about_solutions: "How do I figure out my piece and manage it well?"
-- @ready_for_framework: "That's what the framework helps with, isn't it?"
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @ask_about_solutions
 title: Solving Interconnected Problems
 tags: deep_dive_topics
+max-visits: 1
 on-arrival: solution_focus += 1; holistic_thinking += 1
 
 Sarah: "That's exactly what Holistic Management is for. Instead of trying to solve problems in isolation, we make decisions that consider the whole system."
@@ -109,12 +111,13 @@ Sarah: "Second, understand what you're actually managing—not just your job or 
 
 Sarah: "Third, choose practices that move you toward what you want while strengthening the whole system."
 
-- @ask_how_it_works: "How does that work in practice?"
-- @ready_for_framework: "I want to learn this framework."
-- @ask_about_examples: "Can you give me an example?"
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @ask_how_it_works
 title: How It Works in Practice
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: practical_interest += 1
 
 Sarah: "Let me give you a simple example. That argument we saw earlier about the streetlight versus the water filter?"
@@ -125,11 +128,13 @@ Sarah: "Traditional problem-solving would pick one: either fix the light or fix 
 
 Sarah: "They ended up with a solar-powered water filter that also provides LED lighting. More expensive than either solution alone, but it serves their real goal: a safe, healthy neighborhood."
 
-- @ready_for_framework: "I want to learn to think like that."
-- @ask_about_examples: "Do you have other examples?"
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @ask_about_examples
 title: More Examples
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: example_learning += 1
 
 Sarah: "Sure. A business owner was losing customers because of unreliable power. Traditional thinking: buy a generator. Holistic thinking: what do customers really need? Reliable service. What are we managing? The whole customer experience."
@@ -140,11 +145,13 @@ Narration: A small business owner waves as they pass by, carrying solar batterie
 
 Sarah: "That's her, actually. Her business is thriving now, and so are her neighbors'."
 
-- @ready_for_framework: "I want to learn this approach."
-- @ask_personal_application: "How would this apply to my situation?"
+- #deep_dive_topics: "Explore other concepts"
+- @ready_for_framework: "I'm ready to learn the framework"
 
 @ask_personal_application
 title: Personal Application
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: personal_relevance += 1
 
 Sarah: "That depends on your situation. What challenges are you facing? What are you trying to achieve?"
@@ -153,11 +160,12 @@ Narration: She looks at you with genuine curiosity.
 
 Sarah: "The framework works the same way whether you're managing yourself, a family, an organization, or a community. The scale changes, but the thinking process is the same."
 
-- @ready_for_framework: "Let's start with the framework."
-- @share_my_challenges: "Let me tell you about my challenges."
+- #deep_dive_topics: "Explore other concepts"
 
 @share_my_challenges
 title: Share Your Challenges
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: openness += 1; trust += 1
 
 Me: "Well, I'm trying to figure out..."
@@ -168,10 +176,12 @@ Sarah: "That's exactly where the framework starts. Most people know what they do
 
 Sarah: "The first step is getting clear about your vision for how you want life to be. Not what you'll do, but how you want it to be."
 
-- @ready_for_framework: "That sounds like exactly what I need."
+- #deep_dive_topics: "Explore other concepts"
 
 @feel_overwhelmed_by_complexity
 title: Overwhelmed by Complexity
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: overwhelm += 2
 
 Me: "This feels impossibly complex. How can anyone manage all these interconnections?"
@@ -184,18 +194,19 @@ Sarah: "This tomato plant doesn't manage the whole ecosystem. It just does its j
 
 Sarah: "That's what holistic management helps you do. Find your role in the larger system and play it well."
 
-- @ask_about_my_role: "How do I find my role?"
-- @ready_for_framework: "I want to learn this framework."
+- #deep_dive_topics: "Explore other concepts"
 
 @ask_about_my_role
 title: Finding Your Role
+tags: deep_dive_topics
+max-visits: 1
 on-arrival: role_clarity += 1
 
 Sarah: "That's what we're here to figure out. The framework helps you identify what you're uniquely positioned to manage, and how to manage it in a way that serves the larger whole."
 
 Sarah: "It starts with clarity about what you want, then understanding what you're responsible for, then choosing practices that move you toward your vision."
 
-- @ready_for_framework: "Let's start with the framework."
+- #deep_dive_topics: "Explore other concepts"
 
 @ready_for_framework
 title: Ready for Framework

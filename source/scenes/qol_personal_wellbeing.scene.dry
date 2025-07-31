@@ -1,0 +1,73 @@
+title: Personal Well-being
+subtitle: Your Health and Inner Life
+tags: qol_personal_wellbeing
+new-page: true
+
+Narration: Let's explore what personal well-being means to you. This includes your physical health, mental state, and inner sense of vitality and capability.
+
+Narration: A wellness robot rolls by, apparently trying to improve its own health by doing yoga poses while reciting affirmations to a confused fire hydrant.
+
+- @health_vitality: "I want good health and physical vitality"
+- @mental_peace: "I want mental peace and emotional balance"
+- @personal_freedom: "I want freedom and independence"
+- @confidence_growth: "I want confidence and personal growth"
+- @energy_capability: "I want energy and physical capability"
+- @back_to_categories: "Explore other life categories"
+
+@health_vitality
+title: Health and Vitality
+tags: qol_personal_wellbeing
+max-visits: 1
+on-arrival: qol_health = 1; qol_vitality = 1
+
+Narration: "I want good health and vitality" - fundamental for everything else in life. This can guide decisions about food, exercise, work-life balance, healthcare, and environment.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_personal_wellbeing: "Consider other aspects of personal well-being"
+
+@mental_peace
+title: Mental Peace and Balance
+tags: qol_personal_wellbeing
+max-visits: 1
+on-arrival: qol_peace = 1; qol_balance = 1
+
+Narration: "I want mental peace and emotional balance" - the foundation for clear thinking and good relationships. This can guide decisions about stress management, relationships, work environment, and lifestyle.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_personal_wellbeing: "Consider other aspects of personal well-being"
+
+@personal_freedom
+title: Freedom and Independence
+tags: qol_personal_wellbeing
+max-visits: 1
+on-arrival: qol_freedom = 1
+
+Narration: "I want freedom and independence" - the ability to make your own choices and live according to your values. This can guide decisions about career, finances, living situation, and relationships.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_personal_wellbeing: "Consider other aspects of personal well-being"
+
+@confidence_growth
+title: Confidence and Growth
+tags: qol_personal_wellbeing
+max-visits: 1
+on-arrival: qol_confidence = 1; qol_growth = 1
+
+Narration: "I want confidence and personal growth" - the sense that you're developing and becoming more capable over time. This can guide decisions about learning, challenges, relationships, and experiences.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_personal_wellbeing: "Consider other aspects of personal well-being"
+
+@energy_capability
+title: Energy and Capability
+tags: qol_personal_wellbeing
+max-visits: 1
+on-arrival: qol_energy = 1; qol_capability = 1
+
+Narration: "I want energy and physical capability" - the vitality to do what matters to you. This can guide decisions about health, rest, nutrition, and physical activity.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_personal_wellbeing: "Consider other aspects of personal well-being"
+
+@back_to_categories
+go-to: qol_categories

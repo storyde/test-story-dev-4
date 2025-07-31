@@ -1,0 +1,4 @@
+name: qol_capability
+initial: 0
+min: 0
+max: 1

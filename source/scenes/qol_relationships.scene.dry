@@ -1,0 +1,73 @@
+title: Relationships and Community
+subtitle: Your Connections with Others
+tags: qol_relationships
+new-page: true
+
+Narration: Let's explore what relationships and community mean to you. This includes your connections with family, friends, neighbors, and the broader community.
+
+Narration: A social networking robot nearby is trying to make friends with a street lamp, apparently convinced that consistent interaction will eventually lead to meaningful connection.
+
+- @community_belonging: "I want to belong to a close-knit community"
+- @respect_recognition: "I want to be respected and valued by others"
+- @helping_service: "I want to help others and serve my community"
+- @trust_support: "I want trustworthy relationships and mutual support"
+- @family_connection: "I want strong family bonds and connections"
+- @back_to_categories: "Explore other life categories"
+
+@community_belonging
+title: Community Belonging
+tags: qol_relationships
+max-visits: 1
+on-arrival: qol_community = 1; qol_belonging = 1
+
+Narration: "I want to belong to a close-knit community" - the sense of being part of something larger than yourself. This can guide decisions about where to live, how to engage with neighbors, and how to contribute to community life.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_relationships: "Consider other aspects of relationships"
+
+@respect_recognition
+title: Respect and Recognition
+tags: qol_relationships
+max-visits: 1
+on-arrival: qol_respect = 1
+
+Narration: "I want to be respected and valued by others" - recognition for your contributions and worth. This can guide decisions about career, community involvement, how you treat others, and the standards you maintain.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_relationships: "Consider other aspects of relationships"
+
+@helping_service
+title: Service and Helping
+tags: qol_relationships
+max-visits: 1
+on-arrival: qol_service = 1
+
+Narration: "I want to help others and serve my community" - the satisfaction of making a positive difference. This can guide decisions about career, volunteer work, community involvement, and how you spend your time.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_relationships: "Consider other aspects of relationships"
+
+@trust_support
+title: Trust and Support
+tags: qol_relationships
+max-visits: 1
+on-arrival: qol_trust = 1; qol_support = 1
+
+Narration: "I want trustworthy relationships and mutual support" - people you can count on and who can count on you. This can guide decisions about friendships, community involvement, and how you build and maintain relationships.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_relationships: "Consider other aspects of relationships"
+
+@family_connection
+title: Family Connection
+tags: qol_relationships
+max-visits: 1
+on-arrival: qol_family = 1
+
+Narration: "I want strong family bonds and connections" - meaningful relationships with family members. This can guide decisions about time allocation, living arrangements, communication, and family traditions.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_relationships: "Consider other aspects of relationships"
+
+@back_to_categories
+go-to: qol_categories

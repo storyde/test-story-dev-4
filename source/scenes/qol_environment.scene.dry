@@ -1,0 +1,73 @@
+title: Environment and Surroundings
+subtitle: Your Physical and Natural Environment
+tags: qol_environment
+new-page: true
+
+Narration: Let's explore what your environment and surroundings mean to you. This includes your connection to nature, your living space, and the broader environment you inhabit.
+
+Narration: An environmental monitoring robot hovers nearby, apparently trying to improve air quality by fanning the breeze with its tiny propellers while humming what sounds like whale songs.
+
+- @nature_connection: "I want a close connection with nature"
+- @clean_environment: "I want clean air, water, and surroundings"
+- @beautiful_spaces: "I want to live in beautiful, inspiring spaces"
+- @environmental_health: "I want a healthy, thriving environment"
+- @outdoor_access: "I want access to outdoor spaces and natural areas"
+- @back_to_categories: "Explore other life categories"
+
+@nature_connection
+title: Connection with Nature
+tags: qol_environment
+max-visits: 1
+on-arrival: qol_nature = 1
+
+Narration: "I want a close connection with nature" - regular contact with the natural world. This can guide decisions about where to live, how to spend time, gardening, outdoor activities, and environmental stewardship.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_environment: "Consider other aspects of environment"
+
+@clean_environment
+title: Clean Environment
+tags: qol_environment
+max-visits: 1
+on-arrival: qol_clean_water = 1; qol_clean_air = 1
+
+Narration: "I want clean air, water, and surroundings" - a healthy environment free from pollution. This can guide decisions about where to live, transportation choices, consumption patterns, and environmental advocacy.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_environment: "Consider other aspects of environment"
+
+@beautiful_spaces
+title: Beautiful Spaces
+tags: qol_environment
+max-visits: 1
+on-arrival: qol_beauty = 1; qol_aesthetics = 1
+
+Narration: "I want to live in beautiful, inspiring spaces" - surroundings that uplift and energize you. This can guide decisions about home design, community involvement, artistic expression, and how you care for your spaces.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_environment: "Consider other aspects of environment"
+
+@environmental_health
+title: Environmental Health
+tags: qol_environment
+max-visits: 1
+on-arrival: qol_environmental_health = 1
+
+Narration: "I want a healthy, thriving environment" - ecosystems that function well and support all life. This can guide decisions about consumption, transportation, energy use, and environmental stewardship.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_environment: "Consider other aspects of environment"
+
+@outdoor_access
+title: Outdoor Access
+tags: qol_environment
+max-visits: 1
+on-arrival: qol_outdoor_access = 1
+
+Narration: "I want access to outdoor spaces and natural areas" - the ability to spend time in nature regularly. This can guide decisions about where to live, recreation choices, and community planning.
+
+- @back_to_categories: "Explore other life categories"
+- #qol_environment: "Consider other aspects of environment"
+
+@back_to_categories
+go-to: qol_categories
