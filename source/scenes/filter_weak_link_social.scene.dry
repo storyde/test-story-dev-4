@@ -3,73 +3,16 @@ subtitle: Maintaining Crucial Relationships
 new-page: true
 on-arrival: filter_current_check_id = "wls"
 
-Narration: The Weak Link check applies in three different situations. We'll start with the social weak link.
-
-Narration: Like a chain, your success depends on the weakest link in your network of relationships. Any action that runs counter to prevailing attitudes and beliefs can create resistance that becomes a weak link.
+Narration: The **Social Weak Link** check helps you avoid damaging crucial relationships.
 
 Narration: The question you ask is: **"Could this action, due to prevailing attitudes or beliefs, create a weak link between us and those whose support we need?"**
 
 Narration: A communication robot nearby is trying to build consensus by shouting the same message louder and louder. It hasn't grasped that volume doesn't overcome fundamental disagreement.
 
-Narration: This check isn't just asking for yes or no - it's reminding you to address potential social weak links before they become actual problems.
+Narration: Like a chain, your success depends on the weakest link in your network of relationships. This check reminds you to consider whose support you need and whether your action might damage those relationships.
 
-**Example Scenario**: You want to introduce composting toilets in your community to save water.
-
-- @wls_example_announce: Announce the plan and start installation immediately
-- @wls_example_educate: First educate the community about water scarcity and composting benefits
-- @wls_example_pilot: Start with a small pilot program with willing volunteers
-
-@wls_example_announce
-title: Direct Implementation
-subtitle: Potential social weak link
-
-Narration: Announcing and implementing immediately might trigger resistance from people who find composting toilets culturally unacceptable or unsanitary. This could create strong opposition that blocks the entire project.
-
-Narration: **This action could create social weak links** due to cultural attitudes about waste and sanitation.
-
-- @wls_learn_more: Learn more about managing social weak links
 - @wls_complete: I understand this check
-
-@wls_example_educate
-title: Education First
-subtitle: Addressing potential weak links
-
-Narration: Education helps people understand the reasoning and benefits, potentially shifting attitudes before implementation. This addresses the weak link by changing the underlying beliefs that could cause resistance.
-
-Narration: **This action addresses potential social weak links** by working to shift attitudes first.
-
-- @wls_learn_more: Learn more about managing social weak links
-- @wls_complete: I understand this check
-
-@wls_example_pilot
-title: Pilot Program
-subtitle: Gradual approach to weak links
-
-Narration: Starting with volunteers demonstrates the system works while avoiding forcing change on reluctant community members. Success with early adopters can help shift broader community attitudes.
-
-Narration: **This action manages social weak links** by allowing gradual acceptance and proof of concept.
-
-- @wls_learn_more: Learn more about managing social weak links
-- @wls_complete: I understand this check
-
-@wls_learn_more
-title: Managing Social Weak Links
-subtitle: Building and Maintaining Support
-
-Narration: Social weak links often arise from:
-- Cultural or religious beliefs
-- Past negative experiences
-- Lack of understanding
-- Feeling excluded from decisions
-- Economic concerns
-
-Narration: The key is identifying whose support you need and understanding their perspectives. Sometimes you need to modify your approach, sometimes you need to invest time in relationship-building or education.
-
-Narration: Remember: you're not trying to please everyone, but you do need to maintain the relationships that are crucial to your success.
-
-- @wls_complete: I understand how to manage social weak links
 
 @wls_complete
-title: Social Weak Link Check Complete
 on-arrival: filter_wls_status = 1; filter_checks_completed_count += 1
 go-to: filter_weak_link_biological

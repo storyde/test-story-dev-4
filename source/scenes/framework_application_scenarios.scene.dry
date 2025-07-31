@@ -149,8 +149,14 @@ Narration: Six months later, you can see the results of applying holistic manage
 
 Narration: This demonstrates how using your holistic context as a decision-making framework leads to outcomes that align with your deeper values and long-term goals.
 
+Narration: Now that you've experienced applying your holistic context to real decisions, you might be interested in learning about the formal context checks that can help you evaluate any decision systematically.
+
 - @return_to_scenarios: Try another scenario
+- @learn_context_checks: Learn about the seven context checks for systematic decision evaluation
 - @return_to_context: Return to review my holistic context
+
+@learn_context_checks
+go-to: filter_orchestrator
 
 @scenario_business_expansion
 title: Business Expansion Decision

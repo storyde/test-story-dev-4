@@ -3,70 +3,16 @@ subtitle: Considering Long-Term Consequences
 new-page: true
 on-arrival: filter_current_check_id = "sus"
 
-Narration: The sustainability check asks you to consider the long-term environmental and social consequences of your actions relative to your holistic context.
+Narration: The **Sustainability** check considers long-term environmental and social consequences.
 
 Narration: The question you ask is: **"If we take this action, will it lead toward or away from the future resource base described in our holistic context?"**
 
-Narration: This check ensures your short-term actions support your long-term vision. It's about making decisions that benefit both present and future.
+Narration: This ensures your short-term actions support your long-term vision.
 
 Narration: A planning robot nearby is optimizing today's efficiency by burning tomorrow's resources. It's achieving excellent short-term metrics while undermining long-term sustainability.
 
-**Example Scenario**: Your community needs more energy, and you're considering options.
-
-- @sus_example_coal: Build a coal power plant for cheap, reliable energy
-- @sus_example_solar: Install solar panels with battery storage
-- @sus_example_conservation: Focus on energy conservation and efficiency first
-
-@sus_example_coal
-title: Coal Power Plant
-subtitle: Short-term solution, long-term problems
-
-Narration: Coal provides cheap, reliable energy now but contributes to climate change, air pollution, and resource depletion. It moves away from the healthy environment described in most holistic contexts.
-
-Narration: **Fails sustainability check** - undermines the future resource base through environmental degradation.
-
-- @sus_learn_more: Learn more about sustainability analysis
 - @sus_complete: I understand this check
-
-@sus_example_solar
-title: Solar with Storage
-subtitle: Long-term thinking
-
-Narration: Solar panels require higher upfront investment but provide clean, renewable energy that doesn't degrade the environment. They support a future resource base that includes clean air and stable climate.
-
-Narration: **Passes sustainability check** - moves toward the healthy future resource base described in your holistic context.
-
-- @sus_learn_more: Learn more about sustainability analysis
-- @sus_complete: I understand this check
-
-@sus_example_conservation
-title: Conservation First
-subtitle: Reducing demand sustainably
-
-Narration: Energy conservation reduces environmental impact while saving money. It builds habits and systems that support long-term sustainability while meeting immediate needs more efficiently.
-
-Narration: **Passes sustainability check** - reduces pressure on future resource base while meeting current needs.
-
-- @sus_learn_more: Learn more about sustainability analysis
-- @sus_complete: I understand this check
-
-@sus_learn_more
-title: Understanding Sustainability
-subtitle: Future Resource Base Thinking
-
-Narration: Your sustainability analysis should consider:
-
-**Environmental Impact**: How does this action affect the four ecosystem processes (water cycle, mineral cycle, energy flow, community dynamics)?
-
-**Social Impact**: How does this action affect the social conditions needed for your future resource base?
-
-**Your Behavior**: Does this action align with the behaviors you identified as necessary for your social environment to be supportive?
-
-Narration: The key question is whether this action moves you toward or away from the future you described in your holistic context. Sometimes short-term sacrifice is necessary for long-term sustainability.
-
-- @sus_complete: I understand sustainability analysis
 
 @sus_complete
-title: Sustainability Check Complete
 on-arrival: filter_sus_status = 1; filter_checks_completed_count += 1
 go-to: filter_gut_feel

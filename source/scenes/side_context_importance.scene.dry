@@ -1,0 +1,31 @@
+title: The Importance and Privacy of Your Holistic Context
+subtitle: Your Most Important Framework
+new-page: true
+tags: side_conversations
+
+Narration: Your holistic context is now the most important thing in your decision-making life. Nothing should mean more to you than this context - instead, everything that means much to you should be *within* this context.
+
+Narration: A priority-management robot nearby is frantically trying to rank the importance of individual raindrops while completely missing the storm. It demonstrates the confusion that comes from not having a unifying framework.
+
+Narration: Think of your holistic context as your North Star. When you face any decision - from what to have for breakfast to major life changes - you can ask: "Which choice better supports my holistic context?"
+
+= Living and Evolving Context
+
+Narration: Your context is not set in stone. It's perfectly natural and healthy to refine it over time as you learn, grow, and your circumstances change. The framework remains the same, but the content can evolve.
+
+Narration: You might discover new aspects of how you want life to be, or realize that your resource base has changed, or find that different behaviors are needed for social support.
+
+= Privacy and Personal Use
+
+[? if player_background = "individual" or player_background = "family" : Narration: Your holistic context is deeply personal. It reflects your values, dreams, and vision for life. You don't need to share it with anyone unless you choose to. ?]
+
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : Narration: While your organization's holistic context was created collaboratively, it's not a marketing tool or promotional material. It's a working document for decision-making, not for external consumption. ?]
+
+Narration: The power of your holistic context comes from its authenticity and its use in actual decision-making, not from how it sounds to others.
+
+Narration: A publicity robot rolls by, apparently trying to promote the artistic merits of a broken fire hydrant to a completely uninterested audience. Some things are valuable for their function, not their appearance.
+
+- @return_to_context: I understand. Let me return to my holistic context.
+
+@return_to_context
+go-to: holistic_context_complete

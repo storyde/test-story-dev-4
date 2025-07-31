@@ -3,7 +3,9 @@ subtitle: The Foundation for All Decisions
 new-page: true
 on-arrival: context_progress = 7
 
-Narration: Congratulations! You have created your holistic context - the foundation that will guide all your future decisions. Let's review what you've built:
+Narration: Congratulations! You have created your draft holistic context - the foundation that will guide all your future decisions. This draft is now displayed in the right sidebar where you can reference it at any time.
+
+Narration: Let's review what you've built:
 
 [? if player_context = "organization" or player_context = "school" or player_context = "company" : 
 = Your Statement of Purpose
@@ -71,11 +73,15 @@ Narration: A celebration robot rolls by, apparently throwing confetti made of re
 
 Narration: You now have the foundation for holistic management. Every choice you make can be evaluated against this context. You're ready to navigate this complex world with clarity and purpose.
 
-- @begin_application: Learn to apply the context checks to real decisions
+- @begin_application: Practice applying your holistic context to real decisions
+- @side_context_importance: Tell me more about the importance and privacy of my holistic context
 - @review_framework: Review how this framework works in practice
 
 @begin_application
 go-to: framework_application_scenarios
+
+@side_context_importance
+go-to: side_context_importance
 
 @review_framework  
 go-to: framework_review_placeholder

@@ -3,70 +3,16 @@ subtitle: Getting the Biggest Bang for Your Buck
 new-page: true
 on-arrival: filter_current_check_id = "mr"
 
-Narration: The marginal reaction check only applies when you're comparing two or more actions that have already passed the other checks.
+Narration: The **Marginal Reaction** check applies when comparing multiple actions that have passed other checks.
 
 Narration: The question you ask is: **"Which action will provide the greatest return toward the goal for each additional unit of money or time invested?"**
 
-Narration: In other words, which action gets you the most progress per dollar or hour spent? Since your resources are limited, you want maximum impact from every investment.
+Narration: Which action gets you the most progress per dollar or hour spent? Since resources are limited, you want maximum impact from every investment.
 
 Narration: An efficiency robot nearby is calculating the precise optimal angle for stacking pebbles to maximize aesthetic appeal per unit of effort. Its dedication to marginal optimization is admirable, if somewhat misplaced.
 
-**Example Scenario**: You have $1000 to improve your community garden's water system.
-
-- @mr_example_drip: Install drip irrigation system ($1000, saves 50% water, covers whole garden)
-- @mr_example_rainwater: Build rainwater collection system ($1000, provides 30% of water needs)
-- @mr_example_both: Do partial versions of both ($500 each, drip covers half garden, smaller rainwater system)
-
-@mr_example_drip
-title: Drip Irrigation
-subtitle: High efficiency, immediate impact
-
-Narration: Drip irrigation gives you 50% water savings across the entire garden immediately. That's a high return on investment - significant water conservation for your $1000.
-
-Narration: **High marginal reaction** - substantial water savings per dollar invested.
-
-- @mr_learn_more: Learn more about marginal reaction analysis
 - @mr_complete: I understand this check
-
-@mr_example_rainwater
-title: Rainwater Collection
-subtitle: Moderate efficiency, long-term benefit
-
-Narration: Rainwater collection provides 30% of water needs, but only when it rains. The return varies by season and weather patterns. Still valuable, but less immediate impact per dollar.
-
-Narration: **Moderate marginal reaction** - good long-term value but variable returns.
-
-- @mr_learn_more: Learn more about marginal reaction analysis
-- @mr_complete: I understand this check
-
-@mr_example_both
-title: Partial Implementation
-subtitle: Diversified but diluted impact
-
-Narration: Doing both partially gives you some benefits from each approach but reduces the effectiveness of both. You get 25% water savings from half-garden drip irrigation plus variable rainwater collection.
-
-Narration: **Lower marginal reaction** - spreading resources reduces the impact per dollar of each approach.
-
-- @mr_learn_more: Learn more about marginal reaction analysis
-- @mr_complete: I understand this check
-
-@mr_learn_more
-title: Understanding Marginal Reaction
-subtitle: Maximizing Return on Investment
-
-Narration: Marginal reaction is about **incremental returns**. The first $100 you spend on something often has higher impact than the second $100 spent on the same thing.
-
-Narration: **Key principles**:
-- Compare actions that have passed other checks
-- Focus on return per unit of resource (time/money)
-- Consider both immediate and long-term returns
-- Remember that returns often diminish as you invest more
-
-Narration: This check helps you prioritize when you can't do everything at once. Do the highest-return actions first, then reassess.
-
-- @mr_complete: I understand marginal reaction analysis
 
 @mr_complete
-title: Marginal Reaction Check Complete
 on-arrival: filter_mr_status = 1; filter_checks_completed_count += 1
 go-to: filter_gross_profit_analysis

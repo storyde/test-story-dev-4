@@ -3,74 +3,18 @@ subtitle: The Final Integration
 new-page: true
 on-arrival: filter_current_check_id = "gf"
 
-Narration: The gut feel check is always done last because it builds on the mental picture that has formed after passing through all the other checks.
+Narration: The **Gut Feel** check is always done last because it builds on the analysis from all other checks.
 
 Narration: The questions you ask are: **"How do we feel about this action now? Will it lead to the quality of life we desire? Will it adversely affect the lives of others?"**
 
-Narration: Where the other checks ask what you *think*, this one asks how you *feel*. It's based on the values reflected in your quality of life statement and your sense of what's right.
+Narration: Where other checks ask what you *think*, this asks how you *feel*. It's based on your values and sense of what's right.
 
 Narration: An intuition robot nearby is trying to calculate feelings using complex algorithms. It's missing the point that some things can't be reduced to pure logic - they require human wisdom and values.
 
-Narration: This check acknowledges that you might choose not to do something that passes all other checks because it doesn't feel right. Or you might do something that fails other checks because it feels like the right thing to do right now.
+Narration: This check acknowledges that you might choose not to do something that passes all other checks because it doesn't feel right. Trust your intuition - it integrates everything you've learned.
 
-**Example Scenario**: After running through all other checks, you're considering whether to expand your business into a new market.
-
-- @gf_example_feels_right: All checks passed and it feels right - proceed with confidence
-- @gf_example_feels_wrong: Checks passed but something feels off - investigate further
-- @gf_example_failed_but_right: Some checks failed but it feels like the right thing to do
-
-@gf_example_feels_right
-title: Aligned Decision
-subtitle: Logic and intuition agree
-
-Narration: When an action passes the other checks AND feels right, you can proceed with confidence. Your analytical mind and your intuitive wisdom are aligned.
-
-Narration: **Strong gut feel alignment** - this decision integrates well with your holistic context and values.
-
-- @gf_learn_more: Learn more about integrating gut feel
 - @gf_complete: I understand this check
-
-@gf_example_feels_wrong
-title: Something Feels Off
-subtitle: Trust your intuition
-
-Narration: When checks pass but something feels wrong, pay attention. Your intuition might be picking up on factors the other checks didn't capture. Take time to understand what's bothering you.
-
-Narration: **Gut feel warning** - investigate what your intuition is telling you before proceeding.
-
-- @gf_learn_more: Learn more about integrating gut feel
-- @gf_complete: I understand this check
-
-@gf_example_failed_but_right
-title: Right Thing Despite Risks
-subtitle: Values-based decision
-
-Narration: Sometimes you know something is right even though it fails some checks. In this case, proceed knowing the risks and plan to mitigate the negative consequences you've identified.
-
-Narration: **Values override analysis** - your core values sometimes require accepting known risks.
-
-- @gf_learn_more: Learn more about integrating gut feel
-- @gf_complete: I understand this check
-
-@gf_learn_more
-title: Understanding Gut Feel
-subtitle: Integrating Analysis and Intuition
-
-Narration: The gut feel check serves several important functions:
-
-**Integration**: It helps you synthesize all the information from other checks into a holistic assessment.
-
-**Values Check**: It ensures your decision aligns with your deepest values and quality of life vision.
-
-**Broader Impact**: It asks you to consider effects on people outside your immediate whole.
-
-**Wisdom Beyond Logic**: It acknowledges that human wisdom includes intuition, experience, and values that can't be fully captured in analytical checks.
-
-Narration: Trust this check - it represents the integration of everything you've learned about the decision through your holistic context.
-
-- @gf_complete: I understand the importance of gut feel
 
 @gf_complete
-title: Gut Feel Check Complete
 on-arrival: filter_gf_status = 1; filter_checks_completed_count += 1
 go-to: filter_checks_complete

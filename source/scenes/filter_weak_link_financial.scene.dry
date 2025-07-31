@@ -3,76 +3,18 @@ subtitle: Strengthening Your Chain of Production
 new-page: true
 on-arrival: filter_current_check_id = "wlf"
 
-Narration: The financial weak link check helps you identify where to invest your limited resources for maximum impact on your income.
+Narration: The **Financial Weak Link** check helps you identify where to invest limited resources for maximum impact on income.
 
 Narration: The question you ask is: **"Does this action strengthen the weakest link in the chain of production?"**
 
-Narration: Your chain of production has three links: **Resource Conversion** (turning raw materials into products), **Product Conversion** (refining products for market), and **Marketing** (converting products to money).
+Narration: Your chain of production has three links: **Resource Conversion** (raw materials to products), **Product Conversion** (refining for market), and **Marketing** (products to money).
 
 Narration: A business optimization robot nearby is polishing an already perfect product while completely ignoring the fact that nobody knows the product exists. Classic strong-link investment instead of weak-link focus.
 
 Narration: Like any chain, your business is only as strong as its weakest link. Investing in already-strong links won't improve overall performance.
 
-**Example Scenario**: Your small bakery is struggling financially.
-
-- @wlf_example_equipment: Buy expensive new ovens to make better bread
-- @wlf_example_marketing: Invest in advertising and social media presence
-- @wlf_example_analyze: First analyze which link is actually weakest
-
-@wlf_example_equipment
-title: Better Equipment
-subtitle: Strengthening product conversion
-
-Narration: New ovens improve your product conversion link - you can make better bread, faster. But if your bread is already good enough and people don't know about your bakery, this investment won't help much.
-
-Narration: **This action might not address the weakest link** - it could be strengthening an already adequate link.
-
-- @wlf_learn_more: Learn more about identifying weak links
 - @wlf_complete: I understand this check
-
-@wlf_example_marketing
-title: Marketing Investment
-subtitle: Strengthening money conversion
-
-Narration: Advertising improves your marketing link - more people learn about your bakery. But if your bread quality is poor or your costs are too high, marketing won't solve the fundamental problem.
-
-Narration: **This action might address the weak link** if lack of customers is your main constraint.
-
-- @wlf_learn_more: Learn more about identifying weak links
-- @wlf_complete: I understand this check
-
-@wlf_example_analyze
-title: Analyze First
-subtitle: Finding the actual weak link
-
-Narration: Smart approach! You need to identify which link is actually weakest before investing. Is it resource costs (resource conversion), product quality (product conversion), or customer awareness (marketing)?
-
-Narration: **This action follows the weak link principle** by identifying the constraint before investing.
-
-- @wlf_learn_more: Learn more about identifying weak links
-- @wlf_complete: I understand this check
-
-@wlf_learn_more
-title: Identifying Financial Weak Links
-subtitle: The Three Links Analysis
-
-Narration: **Resource Conversion**: Raw materials → Basic products
-- Weak if: High material costs, waste, inefficient processes
-- Strengthen by: Better suppliers, reducing waste, improving efficiency
-
-Narration: **Product Conversion**: Basic products → Market-ready products  
-- Weak if: Poor quality, slow production, high labor costs
-- Strengthen by: Better equipment, training, process improvement
-
-Narration: **Marketing (Money Conversion)**: Products → Money
-- Weak if: Low prices, few customers, poor sales process
-- Strengthen by: Better marketing, pricing, customer service
-
-Narration: The weakest link constrains your entire business. Strengthen it first, then reassess.
-
-- @wlf_complete: I understand how to identify financial weak links
 
 @wlf_complete
-title: Financial Weak Link Check Complete
 on-arrival: filter_wlf_status = 1; filter_checks_completed_count += 1
 go-to: filter_marginal_reaction
