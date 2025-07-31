@@ -182,6 +182,12 @@ Sarah: "That's okay. Clarity often comes through action, not just thinking."
 
 Sarah: "Why don't we start with a smaller scope—something you can manage well—and see how it feels? You can always expand later."
 
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : Sarah: "In your organization, what decisions do you make or influence? What resources do you control? Who listens to your input?" ?]
+
+[? if player_background = "family" : Sarah: "In your family, what decisions are you part of? What resources do you help manage? What relationships do you help maintain?" ?]
+
+[? if player_background = "individual" : Sarah: "As an individual, what decisions do you make? What resources do you control? What relationships do you have?" ?]
+
 - @start_small: "That sounds wise."
 - @ready_to_decide: "Actually, I think I do know my scope."
 

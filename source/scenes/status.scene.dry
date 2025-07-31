@@ -1,29 +1,16 @@
 # This scene contains information for the left sidebar.
 = Progress
-You are currently:
 
-- defining your Whole under management
-
-- Stating your Statement of purpose of the institution you are a part of
-
-- Formulating your Quality of Life
-
-- Defining your Future resource base of land and people
-
-- Describing Conditions of the four ecosystem processes and the social processes in the future so that your  descendants are able to live a life like you want to live
-
-- Descriebing How the you hhave to be or have to behave, so that the social environment is supportive
-
-
-- Goiing through the filter questions, when a solution to a problem, a need or a desire is considered (This will actually come at the very end of the game)
-
-
+You are currently: [+ context_progress +]
 
 ---
 
-[? if systems_awareness >= 7 : You see the world as interconnected systems. ?]
-[? if community_trust >= 5 : People in the community look to you for guidance. ?]
-[? if resilience >= 6 : You adapt well to changing circumstances. ?]
-[? if tech_dependency <= 3 : You're comfortable with low-tech solutions. ?]
+[? if player_background != "individual" : 
+**Group Consensus**: [+ group_consensus +]
+
+---
+?]
+
+**Long-term Perspective**: [+ long_term_perspective +]
 
 ---

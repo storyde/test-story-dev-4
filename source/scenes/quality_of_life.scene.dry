@@ -489,7 +489,7 @@ Narration: "I want continuous learning" - intellectual growth and curiosity. Thi
 title: Quality of Life Summary
 subtitle: Your Vision Takes Shape
 new-page: true
-on-arrival: qol_complete = 1
+on-arrival: qol_complete = 1; context_progress = 3; long_term_perspective += 1
 
 Narration: Excellent work. You've articulated how you want your life to be - not what you want to do or have, but the qualities you want your life to possess.
 

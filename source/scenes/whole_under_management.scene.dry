@@ -7,11 +7,11 @@ Narration: Every action, every decision, ripples outwards. You don't exist in is
 
 Narration: A neighbor walks by, watering plants with greywater from their kitchen. A small, personal act, yet it affects the building's water bill, the local water system, even the plants that clean the air you breathe.
 
-[? if player_context = "individual" : Narration: As an individual, your decisions still ripple outwards. What's the boundary of what you feel responsible for? ?]
+[? if player_background = "individual" : Narration: As an individual, your decisions still ripple outwards. What's the boundary of what you feel responsible for? ?]
 
-[? if player_context = "family" : Narration: Your family doesn't exist in isolation. What's the whole system that affects your family's wellbeing? ?]
+[? if player_background = "family" : Narration: Your family doesn't exist in isolation. What's the whole system that affects your family's wellbeing? ?]
 
-[? if player_context = "organization" or player_context = "school" or player_context = "company" : Narration: Your organization doesn't exist in isolation. What's the whole system you're really responsible for? ?]
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : Narration: Your organization doesn't exist in isolation. What's the whole system you're really responsible for? ?]
 
 Narration: Consider the boundaries of your responsibility. What is the largest system you feel you can, and should, manage effectively?
 
@@ -24,27 +24,27 @@ Narration: Consider the boundaries of your responsibility. What is the largest s
 - @side_boundaries: How do I figure out the right boundaries?
 
 @scope_individual
-on-arrival: player_whole_under_management = "individual"
+on-arrival: whole_under_management = "individual"; context_progress = 1
 go-to: quality_of_life
 
 @scope_family
-on-arrival: player_whole_under_management = "family"
+on-arrival: whole_under_management = "family"; context_progress = 1
 go-to: quality_of_life
 
 @scope_household
-on-arrival: player_whole_under_management = "household"
+on-arrival: whole_under_management = "household"; context_progress = 1
 go-to: quality_of_life
 
 @scope_community
-on-arrival: player_whole_under_management = "community"
+on-arrival: whole_under_management = "community"; context_progress = 1
 go-to: quality_of_life
 
 @scope_organization
-on-arrival: player_whole_under_management = "organization"
+on-arrival: whole_under_management = "organization"; context_progress = 1
 go-to: quality_of_life
 
 @scope_region
-on-arrival: player_whole_under_management = "region"
+on-arrival: whole_under_management = "region"; context_progress = 1
 go-to: quality_of_life
 
 @side_boundaries

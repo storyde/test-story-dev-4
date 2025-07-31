@@ -2,100 +2,100 @@ title: Deeper Purpose Understanding
 subtitle: Getting to the Heart of It
 new-page: true
 
-[? if player_purpose = "production" : Narration: Producing goods and services - but what need are you really meeting? What would people lose if your goods or services didn't exist? ?]
+[? if purpose = "production" : Narration: Producing goods and services - but what need are you really meeting? What would people lose if your goods or services didn't exist? ?]
 
-[? if player_purpose = "finance" : Narration: Financial services... in a world where the economy keeps breaking down. Are you helping people build security? Enabling dreams? Or just moving money around? ?]
+[? if purpose = "finance" : Narration: Financial services... in a world where the economy keeps breaking down. Are you helping people build security? Enabling dreams? Or just moving money around? ?]
 
-[? if player_purpose = "technology" : Narration: Digital technology... like that confused drone overhead? Technology can connect or isolate, empower or control. What's your real intention? ?]
+[? if purpose = "technology" : Narration: Digital technology... like that confused drone overhead? Technology can connect or isolate, empower or control. What's your real intention? ?]
 
-[? if player_purpose = "education" : Narration: Education... but are you preparing people for the world that was, or the world that's becoming? What kind of learning are you fostering? ?]
+[? if purpose = "education" : Narration: Education... but are you preparing people for the world that was, or the world that's becoming? What kind of learning are you fostering? ?]
 
-[? if player_purpose = "health" : Narration: Health services... essential, especially now. But are you treating symptoms or addressing root causes? How broad is your vision of health? ?]
+[? if purpose = "health" : Narration: Health services... essential, especially now. But are you treating symptoms or addressing root causes? How broad is your vision of health? ?]
 
 Narration: Let's get more specific about your organization's deeper purpose:
 
-[? if player_purpose = "production" : - @essential_needs: We meet essential daily needs
+[? if purpose = "production" : - @essential_needs: We meet essential daily needs
 - @convenience_efficiency: We make life more convenient and efficient
 - @innovation_progress: We drive innovation and progress ?]
 
-[? if player_purpose = "finance" : - @building_security: We help people build financial security
+[? if purpose = "finance" : - @building_security: We help people build financial security
 - @enabling_dreams: We help people achieve their goals and dreams
 - @facilitating_exchange: We make economic exchange possible and fair ?]
 
-[? if player_purpose = "technology" : - @connecting_people: We connect people and communities
+[? if purpose = "technology" : - @connecting_people: We connect people and communities
 - @solving_problems: We solve real-world problems with digital tools
 - @empowering_individuals: We empower individuals with information and capabilities ?]
 
-[? if player_purpose = "education" : - @practical_skills: We teach practical skills people need
+[? if purpose = "education" : - @practical_skills: We teach practical skills people need
 - @critical_thinking: We develop people's ability to think and adapt
 - @personal_growth: We support people's personal and professional growth ?]
 
-[? if player_purpose = "health" : - @treating_illness: We treat illness and injury
+[? if purpose = "health" : - @treating_illness: We treat illness and injury
 - @promoting_wellness: We promote overall health and wellness
 - @addressing_systems: We address the systems that affect health ?]
 
 - @purpose_confirmed: Our purpose is clear now
 
 @essential_needs
-on-arrival: player_purpose_detail = "essential_needs"
+on-arrival: purpose_detail = "essential_needs"
 go-to: purpose_confirmed
 
 @convenience_efficiency
-on-arrival: player_purpose_detail = "convenience"
+on-arrival: purpose_detail = "convenience"
 go-to: purpose_confirmed
 
 @innovation_progress
-on-arrival: player_purpose_detail = "innovation"
+on-arrival: purpose_detail = "innovation"
 go-to: purpose_confirmed
 
 @building_security
-on-arrival: player_purpose_detail = "security"
+on-arrival: purpose_detail = "security"
 go-to: purpose_confirmed
 
 @enabling_dreams
-on-arrival: player_purpose_detail = "dreams"
+on-arrival: purpose_detail = "dreams"
 go-to: purpose_confirmed
 
 @facilitating_exchange
-on-arrival: player_purpose_detail = "exchange"
+on-arrival: purpose_detail = "exchange"
 go-to: purpose_confirmed
 
 @connecting_people
-on-arrival: player_purpose_detail = "connection"
+on-arrival: purpose_detail = "connection"
 go-to: purpose_confirmed
 
 @solving_problems
-on-arrival: player_purpose_detail = "problem_solving"
+on-arrival: purpose_detail = "problem_solving"
 go-to: purpose_confirmed
 
 @empowering_individuals
-on-arrival: player_purpose_detail = "empowerment"
+on-arrival: purpose_detail = "empowerment"
 go-to: purpose_confirmed
 
 @practical_skills
-on-arrival: player_purpose_detail = "skills"
+on-arrival: purpose_detail = "skills"
 go-to: purpose_confirmed
 
 @critical_thinking
-on-arrival: player_purpose_detail = "thinking"
+on-arrival: purpose_detail = "thinking"
 go-to: purpose_confirmed
 
 @personal_growth
-on-arrival: player_purpose_detail = "growth"
+on-arrival: purpose_detail = "growth"
 go-to: purpose_confirmed
 
 @treating_illness
-on-arrival: player_purpose_detail = "treatment"
+on-arrival: purpose_detail = "treatment"
 go-to: purpose_confirmed
 
 @promoting_wellness
-on-arrival: player_purpose_detail = "wellness"
+on-arrival: purpose_detail = "wellness"
 go-to: purpose_confirmed
 
 @addressing_systems
-on-arrival: player_purpose_detail = "systems"
+on-arrival: purpose_detail = "systems"
 go-to: purpose_confirmed
 
 @purpose_confirmed
-on-arrival: purpose_clarity += 2
+on-arrival: long_term_perspective += 1
 go-to: get_stakeholders_involved
