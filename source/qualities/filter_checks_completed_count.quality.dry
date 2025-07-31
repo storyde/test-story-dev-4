@@ -1,0 +1,4 @@
+name: filter_checks_completed_count
+initial: 0
+min: 0
+max: 9

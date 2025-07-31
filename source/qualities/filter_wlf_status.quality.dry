@@ -1,0 +1,4 @@
+name: filter_wlf_status
+initial: 0
+min: 0
+max: 1

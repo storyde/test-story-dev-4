@@ -14,3 +14,9 @@ You are currently: [+ context_progress +]
 **Long-term Perspective**: [+ long_term_perspective +]
 
 ---
+
+[? if filter_checks_completed_count > 0 : 
+**Context Checks Progress**: [+ filter_checks_completed_count +] of [+ filter_checks_total_count +] completed
+
+---
+?]

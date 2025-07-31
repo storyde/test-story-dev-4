@@ -71,11 +71,10 @@ Narration: A celebration robot rolls by, apparently throwing confetti made of re
 
 Narration: You now have the foundation for holistic management. Every choice you make can be evaluated against this context. You're ready to navigate this complex world with clarity and purpose.
 
-- @begin_application: Begin applying my holistic context to real decisions
+- @begin_application: Learn to apply the context checks to real decisions
 - @review_framework: Review how this framework works in practice
 
 @begin_application
-go-to: framework_application
+go-to: framework_application_placeholder
 
 @review_framework  
-go-to: framework_review

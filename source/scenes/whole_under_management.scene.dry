@@ -490,7 +490,7 @@ go-to: quality_of_life
 
 @ask_about_framework
 title: Ask About Framework
-go-to: framework_overview
+go-to: framework_overview_placeholder
 
 @observe_community
 title: Observe Community

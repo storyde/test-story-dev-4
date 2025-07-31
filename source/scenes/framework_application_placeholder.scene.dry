@@ -1,0 +1,16 @@
+title: Framework Application
+subtitle: Coming Soon - Applying Your Holistic Context
+new-page: true
+
+Narration: This section will guide you through applying your holistic context to real-world decisions and actions. Here you would learn to use the seven context checks to evaluate any proposed action against your holistic framework.
+
+Narration: The seven context checks are: Cause and Effect, Weak Link (Social, Biological, Financial), Marginal Reaction, Gross Profit Analysis, Energy/Money Source and Use, Sustainability, and Gut Feel.
+
+Narration: A planning robot sits nearby, apparently trying to organize clouds by color and density. Its systematic approach is admirable, even if the clouds remain uncooperative.
+
+Narration: For now, this section is under development. You can return to review your completed holistic context.
+
+- @return_to_context: Return to review my holistic context
+
+@return_to_context
+go-to: holistic_context_complete

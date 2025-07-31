@@ -1,0 +1,16 @@
+title: Framework Overview
+subtitle: Coming Soon - The Big Picture
+new-page: true
+
+Narration: This section will provide an overview of how the Holistic Management framework works as a complete system for decision-making.
+
+Narration: You would see how your holistic context connects to the ecosystem processes, management tools, and context checks to create a comprehensive approach to managing complexity.
+
+Narration: An overview robot hovers above, apparently trying to create a map of the entire community by taking pictures of individual leaves. Its attention to detail is impressive, though its understanding of scale needs work.
+
+Narration: For now, this section is under development. You can return to continue building your holistic context.
+
+- @return_to_management: Return to defining my whole under management
+
+@return_to_management
+go-to: whole_under_management

@@ -1,0 +1,4 @@
+name: filter_gpa_status
+initial: 0
+min: 0
+max: 1

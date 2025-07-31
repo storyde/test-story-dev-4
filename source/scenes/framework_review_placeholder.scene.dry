@@ -1,0 +1,16 @@
+title: Framework Review
+subtitle: Coming Soon - Understanding the Framework
+new-page: true
+
+Narration: This section will provide a comprehensive review of the Holistic Management framework, its principles, and how all the pieces fit together.
+
+Narration: You would learn about the four key insights, the ecosystem processes, the management tools, and how your holistic context guides all decision-making.
+
+Narration: A teaching robot rolls by, apparently giving a lecture to a group of very attentive pigeons about the importance of systematic thinking. The pigeons seem genuinely interested, or perhaps they're just hoping for breadcrumbs.
+
+Narration: For now, this section is under development. You can return to review your completed holistic context.
+
+- @return_to_context: Return to review my holistic context
+
+@return_to_context
+go-to: holistic_context_complete
