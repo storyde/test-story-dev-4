@@ -25,27 +25,27 @@ Narration: Consider the boundaries of your responsibility. What is the largest s
 
 @scope_individual
 on-arrival: whole_under_management = "individual"; context_progress = 1
-go-to: quality_of_life
+go-to: qol_categories
 
 @scope_family
 on-arrival: whole_under_management = "family"; context_progress = 1
-go-to: quality_of_life
+go-to: qol_categories
 
 @scope_household
 on-arrival: whole_under_management = "household"; context_progress = 1
-go-to: quality_of_life
+go-to: qol_categories
 
 @scope_community
 on-arrival: whole_under_management = "community"; context_progress = 1
-go-to: quality_of_life
+go-to: qol_categories
 
 @scope_organization
 on-arrival: whole_under_management = "organization"; context_progress = 1
-go-to: quality_of_life
+go-to: qol_categories
 
 @scope_region
 on-arrival: whole_under_management = "region"; context_progress = 1
-go-to: quality_of_life
+go-to: qol_categories
 
 @side_boundaries
 title: Understanding Boundaries
