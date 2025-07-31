@@ -1,0 +1,71 @@
+title: Gross Profit Analysis Check
+subtitle: Choosing the Right Enterprises
+new-page: true
+on-arrival: filter_current_check_id = "gpa"
+
+Narration: The gross profit analysis check helps you select enterprises (income-generating activities) that contribute most to covering your overhead costs.
+
+Narration: The question you ask is: **"Which enterprises contribute the most to covering the overheads of the business?"**
+
+Narration: Gross profit = Income from enterprise - Additional costs you wouldn't have without that enterprise. The enterprise with the highest gross profit helps cover your fixed costs (rent, insurance, basic utilities) most effectively.
+
+Narration: A financial analysis robot nearby is calculating the profitability of selling individual grains of sand. Its precision is impressive, though its business model needs work.
+
+**Example Scenario**: You're choosing between three potential income sources for your homestead.
+
+- @gpa_example_vegetables: Sell vegetables at farmers market (Income: $2000/month, Additional costs: $800/month)
+- @gpa_example_consulting: Offer permaculture consulting (Income: $1500/month, Additional costs: $200/month)  
+- @gpa_example_workshops: Run weekend workshops (Income: $1000/month, Additional costs: $300/month)
+
+@gpa_example_vegetables
+title: Vegetable Sales
+subtitle: High income, high costs
+
+Narration: **Gross Profit**: $2000 income - $800 additional costs = **$1200/month**
+
+Narration: Vegetables generate the highest income but also require significant additional costs for seeds, market fees, transportation, packaging, and extra labor.
+
+- @gpa_learn_more: Learn more about gross profit analysis
+- @gpa_complete: I understand this check
+
+@gpa_example_consulting
+title: Permaculture Consulting
+subtitle: Moderate income, low costs
+
+Narration: **Gross Profit**: $1500 income - $200 additional costs = **$1300/month**
+
+Narration: Consulting has lower income but very low additional costs - mainly transportation and some materials. This gives the highest gross profit despite lower total income.
+
+- @gpa_learn_more: Learn more about gross profit analysis
+- @gpa_complete: I understand this check
+
+@gpa_example_workshops
+title: Weekend Workshops
+subtitle: Lower income, moderate costs
+
+Narration: **Gross Profit**: $1000 income - $300 additional costs = **$700/month**
+
+Narration: Workshops have the lowest gross profit. While income is decent and costs moderate, it contributes least to covering your fixed overhead costs.
+
+- @gpa_learn_more: Learn more about gross profit analysis
+- @gpa_complete: I understand this check
+
+@gpa_learn_more
+title: Understanding Gross Profit Analysis
+subtitle: Income vs. Additional Costs
+
+Narration: **Key concepts**:
+- **Additional costs**: Only costs you wouldn't have without this enterprise
+- **Fixed costs not included**: Rent, basic utilities, insurance - you pay these anyway
+- **Gross profit covers overheads**: The enterprise with highest gross profit best covers your fixed costs
+
+Narration: **Common mistake**: Choosing enterprises based on total income rather than gross profit. A high-income enterprise with high additional costs might contribute less to your bottom line than a moderate-income enterprise with low additional costs.
+
+Narration: This analysis helps you select the combination of enterprises that maximizes your ability to cover overhead and generate actual profit.
+
+- @gpa_complete: I understand gross profit analysis
+
+@gpa_complete
+title: Gross Profit Analysis Check Complete
+on-arrival: filter_gpa_status = 1; filter_checks_completed_count += 1
+go-to: filter_energy_money

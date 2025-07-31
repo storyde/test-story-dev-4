@@ -1,0 +1,31 @@
+title: Context Checks
+subtitle: Applying Your Holistic Context to Decisions
+new-page: true
+on-arrival: filter_checks_completed_count = 0; filter_current_check_id = "ce"
+
+Narration: Now that you have your complete holistic context, it's time to learn how to use it. Every decision you make - big or small - should be checked against your holistic context to ensure it moves you toward the life you want.
+
+Narration: The Holistic Management framework provides seven context checks that help you evaluate any proposed action or decision. These checks consider the social, economic, and environmental impacts of your choices.
+
+Narration: A decision-making robot rolls by, apparently trying to choose between two identical pebbles by conducting extensive cost-benefit analyses on each one. It's been at this for three hours, demonstrating the importance of having a clear framework for decisions.
+
+Narration: Let's walk through each of the seven context checks. You'll learn what each one does and how to apply it to real situations.
+
+- @start_filter_checks: Begin learning the context checks
+- @side_why_seven_checks: Why are there seven different checks?
+
+@start_filter_checks
+on-arrival: filter_current_check_id = "ce"
+go-to: filter_cause_effect
+
+@side_why_seven_checks
+title: Why Seven Checks?
+tags: side_conversations
+
+Narration: Each check looks at your decision from a different angle - like examining a diamond from multiple facets. Some focus on immediate effects, others on long-term consequences. Some look at social impacts, others at environmental or economic ones.
+
+Narration: Together, they help you see the full picture of what your decision might create. No single check can capture everything, but together they provide a comprehensive evaluation framework.
+
+Narration: The beauty is that once you internalize these checks, they become almost automatic - you'll start thinking holistically without even realizing it.
+
+- @start_filter_checks: I understand. Let's learn the checks.

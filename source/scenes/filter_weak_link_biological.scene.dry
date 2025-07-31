@@ -1,0 +1,70 @@
+title: Weak Link Check - Biological
+subtitle: Understanding Life Cycles
+new-page: true
+on-arrival: filter_current_check_id = "wlb"
+
+Narration: The biological weak link check applies when dealing with plant or animal populations - whether you want to increase them or decrease them.
+
+Narration: The question you ask is: **"Does this action address the weakest point in the life cycle of this organism?"**
+
+Narration: A pest control robot is methodically spraying adult mosquitoes one by one while ignoring the stagnant water where they breed. It's working very hard at the wrong point in the life cycle.
+
+Narration: Every organism has a point of greatest vulnerability during its life cycle. Target that point, and you maximize your effectiveness with minimum effort.
+
+**Example Scenario**: Your garden is overrun with aphids damaging your plants.
+
+- @wlb_example_spray_adults: Spray insecticide on the adult aphids
+- @wlb_example_encourage_predators: Encourage ladybugs and other natural predators
+- @wlb_example_remove_eggs: Focus on removing aphid eggs and disrupting breeding
+
+@wlb_example_spray_adults
+title: Target Adults
+subtitle: Not the weakest link
+
+Narration: Spraying adult aphids addresses the visible problem but not necessarily the weakest point. Adults can be mobile and resistant, and you're not preventing new generations from emerging.
+
+Narration: **This action doesn't target the biological weak link** - it's treating symptoms rather than the most vulnerable life stage.
+
+- @wlb_learn_more: Learn more about biological weak links
+- @wlb_complete: I understand this check
+
+@wlb_example_encourage_predators
+title: Natural Predators
+subtitle: Targeting the weak link
+
+Narration: Ladybugs and other predators often target aphids at their most vulnerable stages - eggs and young nymphs. This creates ongoing population control that targets the weak link in the aphid life cycle.
+
+Narration: **This action targets the biological weak link** by using natural predators that attack vulnerable life stages.
+
+- @wlb_learn_more: Learn more about biological weak links
+- @wlb_complete: I understand this check
+
+@wlb_example_remove_eggs
+title: Disrupt Breeding
+subtitle: Direct weak link approach
+
+Narration: Aphid eggs and early nymphs are the most vulnerable stages - they can't move, can't reproduce, and are easily disrupted. Targeting reproduction prevents future generations more effectively than treating adults.
+
+Narration: **This action directly targets the biological weak link** by focusing on the most vulnerable life stage.
+
+- @wlb_learn_more: Learn more about biological weak links
+- @wlb_complete: I understand this check
+
+@wlb_learn_more
+title: Understanding Biological Weak Links
+subtitle: Life Cycle Vulnerabilities
+
+Narration: Common weak links in organism life cycles:
+- **Reproduction stage**: Often the most vulnerable - eggs, seeds, mating
+- **Early development**: Young organisms are usually most fragile
+- **Resource bottlenecks**: Times when organisms need specific resources
+- **Environmental stress**: Periods when organisms are most susceptible to weather, disease
+
+Narration: For beneficial organisms you want to encourage, protect and support their weak links. For problem organisms, target their weak links for maximum impact with minimum effort.
+
+- @wlb_complete: I understand biological weak links
+
+@wlb_complete
+title: Biological Weak Link Check Complete
+on-arrival: filter_wlb_status = 1; filter_checks_completed_count += 1
+go-to: filter_weak_link_financial

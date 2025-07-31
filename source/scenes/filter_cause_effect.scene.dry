@@ -1,0 +1,70 @@
+title: Cause and Effect Check
+subtitle: Addressing Root Causes, Not Just Symptoms
+new-page: true
+on-arrival: filter_current_check_id = "ce"
+
+Narration: The first context check is Cause and Effect. This check carries considerable weight when you're trying to solve a problem.
+
+Narration: The question you ask is: **"Does this action address the root cause of the problem?"**
+
+Narration: A maintenance robot nearby is spraying pesticide on cockroaches while completely ignoring the pile of food scraps that attracted them in the first place. Classic symptom treatment instead of cause addressing.
+
+Narration: This check helps you avoid the trap of quick fixes that only suppress symptoms. When cockroaches appear, spraying them removes the visible problem but doesn't address why they came - unsealed food, entry points, poor sanitation.
+
+Narration: If the problem persists or returns, you haven't addressed the cause.
+
+**Example Scenario**: Your community garden keeps getting vandalized.
+
+- @ce_example_security: Install more security cameras and lighting
+- @ce_example_engagement: Engage with local youth to understand their concerns and involve them in the garden
+- @ce_example_fencing: Build higher fences around the garden
+
+@ce_example_security
+title: Security Response
+subtitle: Symptom-focused approach
+
+Narration: Installing cameras and lighting addresses the symptom (vandalism happening) but not the cause (why people want to vandalize). This might reduce incidents temporarily, but doesn't solve the underlying issue.
+
+Narration: **This action fails the Cause and Effect check** because it treats symptoms, not causes.
+
+- @ce_learn_more: Learn more about finding root causes
+- @ce_complete: I understand this check
+
+@ce_example_engagement
+title: Community Engagement
+subtitle: Cause-focused approach
+
+Narration: Engaging with local youth addresses a potential root cause - perhaps they feel excluded from community activities, or the garden represents something they resent. By involving them, you're addressing the underlying social dynamics.
+
+Narration: **This action passes the Cause and Effect check** because it addresses potential root causes of the vandalism.
+
+- @ce_learn_more: Learn more about finding root causes
+- @ce_complete: I understand this check
+
+@ce_example_fencing
+title: Physical Barriers
+subtitle: Mixed approach
+
+Narration: Higher fences might prevent access (addressing the immediate cause of damage) but don't address why people want to cause damage in the first place. It's a partial solution that might just move the problem elsewhere.
+
+Narration: **This action partially addresses causes** but may not solve the deeper social issues.
+
+- @ce_learn_more: Learn more about finding root causes
+- @ce_complete: I understand this check
+
+@ce_learn_more
+title: Finding Root Causes
+subtitle: The Investigation Process
+
+Narration: Finding root causes often requires asking "What caused this?" multiple times, peeling away layers of symptoms.
+
+Narration: **Example**: Soil erosion → What caused it? → Overgrazing → What caused that? → Too many animals → What caused that? → Economic pressure to maximize short-term income → What caused that? → Lack of understanding of long-term land health impacts.
+
+Narration: Each layer reveals a deeper cause. The most effective solutions often address the deepest cause you can practically influence.
+
+- @ce_complete: I understand how to find root causes
+
+@ce_complete
+title: Cause and Effect Check Complete
+on-arrival: filter_ce_status = 1; filter_checks_completed_count += 1
+go-to: filter_weak_link_social

@@ -75,6 +75,7 @@ Narration: You now have the foundation for holistic management. Every choice you
 - @review_framework: Review how this framework works in practice
 
 @begin_application
-go-to: framework_application_placeholder
+go-to: filter_orchestrator
 
 @review_framework  
+go-to: framework_review_placeholder

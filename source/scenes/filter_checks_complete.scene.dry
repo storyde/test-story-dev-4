@@ -1,0 +1,43 @@
+title: Context Checks Complete
+subtitle: Your Decision-Making Framework
+new-page: true
+on-arrival: context_progress = 7
+
+Narration: Congratulations! You now understand all seven context checks that help you evaluate any decision against your holistic context.
+
+= The Seven Context Checks
+
+**1. Cause and Effect**: Does this action address the root cause of the problem?
+
+**2. Weak Link - Social**: Could this action create a weak link between us and those whose support we need?
+
+**3. Weak Link - Biological**: Does this action address the weakest point in the organism's life cycle?
+
+**4. Weak Link - Financial**: Does this action strengthen the weakest link in the chain of production?
+
+**5. Marginal Reaction**: Which action provides the greatest return for each unit of time or money invested?
+
+**6. Gross Profit Analysis**: Which enterprises contribute most to covering overheads?
+
+**7. Energy/Money Source and Use**: Are the sources appropriate and uses sustainable?
+
+**8. Sustainability**: Will this action lead toward or away from our future resource base?
+
+**9. Gut Feel**: How do we feel about this action? Will it lead to the quality of life we desire?
+
+---
+
+Narration: A mastery robot rolls by, apparently having learned to juggle all seven checks simultaneously while riding a unicycle. Its integration skills are impressive, though perhaps unnecessarily complex.
+
+Narration: With practice, these checks become almost automatic. You'll start thinking holistically without even realizing it, naturally considering root causes, weak links, and long-term consequences in every decision.
+
+Narration: You now have both your holistic context AND the tools to apply it to real decisions. You're ready to manage holistically.
+
+- @practice_scenario: Practice with a real scenario
+- @return_to_context: Review my complete holistic context
+
+@practice_scenario
+go-to: framework_application_placeholder
+
+@return_to_context
+go-to: holistic_context_complete
