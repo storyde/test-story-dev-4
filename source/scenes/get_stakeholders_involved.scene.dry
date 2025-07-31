@@ -23,47 +23,47 @@ Narration: For your organization to truly manage holistically, you need the righ
 - @side_why_involve_everyone: Why involve so many people?
 
 @school_stakeholders
-on-arrival: stakeholder_inclusion = "comprehensive"
+on-arrival: stakeholder_inclusion = "comprehensive"; group_consensus = 1
 go-to: stakeholder_commitment
 
 @school_leadership_only
-on-arrival: stakeholder_inclusion = "limited"
+on-arrival: stakeholder_inclusion = "limited"; group_consensus = 0
 go-to: stakeholder_warning
 
 @school_teachers_only
-on-arrival: stakeholder_inclusion = "partial"
+on-arrival: stakeholder_inclusion = "partial"; group_consensus = 0
 go-to: stakeholder_warning
 
 @company_all_stakeholders
-on-arrival: stakeholder_inclusion = "comprehensive"
+on-arrival: stakeholder_inclusion = "comprehensive"; group_consensus = 1
 go-to: stakeholder_commitment
 
 @company_management
-on-arrival: stakeholder_inclusion = "limited"
+on-arrival: stakeholder_inclusion = "limited"; group_consensus = 0
 go-to: stakeholder_warning
 
 @company_workers
-on-arrival: stakeholder_inclusion = "partial"
+on-arrival: stakeholder_inclusion = "partial"; group_consensus = 0
 go-to: stakeholder_warning
 
 @org_all_stakeholders
-on-arrival: stakeholder_inclusion = "comprehensive"
+on-arrival: stakeholder_inclusion = "comprehensive"; group_consensus = 1
 go-to: stakeholder_commitment
 
 @org_leadership
-on-arrival: stakeholder_inclusion = "limited"
+on-arrival: stakeholder_inclusion = "limited"; group_consensus = 0
 go-to: stakeholder_warning
 
 @org_members
-on-arrival: stakeholder_inclusion = "partial"
+on-arrival: stakeholder_inclusion = "partial"; group_consensus = 0
 go-to: stakeholder_warning
 
 @community_stakeholders
-on-arrival: stakeholder_inclusion = "comprehensive"
+on-arrival: stakeholder_inclusion = "comprehensive"; group_consensus = 1
 go-to: community_type
 
 @nation_stakeholders
-on-arrival: stakeholder_inclusion = "comprehensive"
+on-arrival: stakeholder_inclusion = "comprehensive"; group_consensus = 1
 go-to: stakeholder_commitment
 
 @community_type

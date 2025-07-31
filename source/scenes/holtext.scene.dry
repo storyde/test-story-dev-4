@@ -8,30 +8,30 @@ This holistic context can help you manage complexity.
 [? if player_context != "" : 
 **Statement of Purpose**
 [? if player_context = "organization" or player_context = "school" or player_context = "company" : 
-[? if player_purpose = "production" : We exist to produce goods and services that meet essential needs. ?]
-[? if player_purpose = "finance" : We exist to provide financial and investment services. ?]
-[? if player_purpose = "technology" : We exist to develop digital technologies and platforms. ?]
-[? if player_purpose = "consulting" : We exist to offer professional advice and consulting. ?]
-[? if player_purpose = "education" : We exist to educate and cultivate human potential and skills. ?]
-[? if player_purpose = "health" : We exist to promote health and deliver medical services. ?]
-[? if player_purpose = "advocacy" : We exist to advocate for social or environmental causes. ?]
-[? if player_purpose = "culture" : We exist to preserve arts, culture, and heritage. ?]
-[? if player_purpose = "safety" : We exist to ensure public safety and emergency response. ?]
-[? if player_purpose = "community" : We exist to support communities through engagement and aid. ?]
-[? if player_purpose = "" : Not yet defined. ?]
+[? if purpose = "production" : We exist to produce goods and services that meet essential needs. ?]
+[? if purpose = "finance" : We exist to provide financial and investment services. ?]
+[? if purpose = "technology" : We exist to develop digital technologies and platforms. ?]
+[? if purpose = "consulting" : We exist to offer professional advice and consulting. ?]
+[? if purpose = "education" : We exist to educate and cultivate human potential and skills. ?]
+[? if purpose = "health" : We exist to promote health and deliver medical services. ?]
+[? if purpose = "advocacy" : We exist to advocate for social or environmental causes. ?]
+[? if purpose = "culture" : We exist to preserve arts, culture, and heritage. ?]
+[? if purpose = "safety" : We exist to ensure public safety and emergency response. ?]
+[? if purpose = "community" : We exist to support communities through engagement and aid. ?]
+[? if purpose = "" : Not yet defined. ?]
 ?]
 
 ---
 ?]
 
-[? if player_whole_under_management != "" : 
+[? if whole_under_management != "" : 
 **Whole Under Management**
-[? if player_whole_under_management = "individual" : Myself and my immediate well-being ?]
-[? if player_whole_under_management = "family" : My family unit and its direct environment ?]
-[? if player_whole_under_management = "household" : My household and immediate surroundings ?]
-[? if player_whole_under_management = "community" : My local community and its shared resources ?]
-[? if player_whole_under_management = "organization" : My organization and its direct stakeholders ?]
-[? if player_whole_under_management = "region" : My region or larger geographic area ?]
+[? if whole_under_management = "individual" : Myself and my immediate well-being ?]
+[? if whole_under_management = "family" : My family unit and its direct environment ?]
+[? if whole_under_management = "household" : My household and immediate surroundings ?]
+[? if whole_under_management = "community" : My local community and its shared resources ?]
+[? if whole_under_management = "organization" : My organization and its direct stakeholders ?]
+[? if whole_under_management = "region" : My region or larger geographic area ?]
 
 ---
 ?]
@@ -56,12 +56,12 @@ return qolList.length > 0 ? qolList.join(", ") : "Not yet defined.";
 ---
 ?]
 
-[? if player_resource_base != "" : 
+[? if resource_base != "" : 
 **Future Resource Base**
-[? if player_resource_base = "urban" : Network of farmers, suppliers, and systems that support city life ?]
-[? if player_resource_base = "local" : Surrounding landscape and local community ?]
-[? if player_resource_base = "direct" : Land I manage directly plus supporting systems ?]
-[? if player_resource_base = "mixed" : Combination of local and distant sources ?]
+[? if resource_base = "urban" : Network of farmers, suppliers, and systems that support city life ?]
+[? if resource_base = "local" : Surrounding landscape and local community ?]
+[? if resource_base = "direct" : Land I manage directly plus supporting systems ?]
+[? if resource_base = "mixed" : Combination of local and distant sources ?]
 
 ---
 ?]
@@ -100,10 +100,10 @@ return behaviorList.length > 0 ? behaviorList.join(", ") : "Not yet defined.";
 ---
 ?]
 
-[? if framework_complete != 1 : 
+[? if context_progress < 7 : 
 *Building your holistic context...*
 ?]
 
-[? if framework_complete = 1 : 
+[? if context_progress = 7 : 
 *Your holistic context is complete and ready to guide your decisions.*
 ?]

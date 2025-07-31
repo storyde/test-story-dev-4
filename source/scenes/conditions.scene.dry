@@ -19,27 +19,27 @@ Narration: We need to consider both the ecological processes that sustain life a
 - @side_wholism: How are land, people, society and economy interconnected?
 
 @regenerating_soil
-on-arrival: condition_soil = 1
+on-arrival: condition_soil = 1; context_progress = 5; long_term_perspective += 1
 go-to: conditions_deeper
 
 @clean_water
-on-arrival: condition_water = 1  
+on-arrival: condition_water = 1; context_progress = 5; long_term_perspective += 1
 go-to: conditions_deeper
 
 @stable_climate
-on-arrival: condition_climate = 1
+on-arrival: condition_climate = 1; context_progress = 5; long_term_perspective += 1
 go-to: conditions_deeper
 
 @equitable_economy
-on-arrival: condition_economy = 1
+on-arrival: condition_economy = 1; context_progress = 5; long_term_perspective += 1
 go-to: conditions_deeper
 
 @social_cohesion
-on-arrival: condition_social = 1
+on-arrival: condition_social = 1; context_progress = 5; long_term_perspective += 1
 go-to: conditions_deeper
 
 @education_culture
-on-arrival: condition_culture = 1
+on-arrival: condition_culture = 1; context_progress = 5; long_term_perspective += 1
 go-to: conditions_deeper
 
 @side_ecosystem_processes

@@ -24,27 +24,27 @@ Narration: Consider the boundaries of your responsibility. What is the largest s
 - @side_boundaries: How do I figure out the right boundaries?
 
 @scope_individual
-on-arrival: player_whole_under_management = "individual"
+on-arrival: whole_under_management = "individual"; context_progress = 1
 go-to: quality_of_life
 
 @scope_family
-on-arrival: player_whole_under_management = "family"
+on-arrival: whole_under_management = "family"; context_progress = 1
 go-to: quality_of_life
 
 @scope_household
-on-arrival: player_whole_under_management = "household"
+on-arrival: whole_under_management = "household"; context_progress = 1
 go-to: quality_of_life
 
 @scope_community
-on-arrival: player_whole_under_management = "community"
+on-arrival: whole_under_management = "community"; context_progress = 1
 go-to: quality_of_life
 
 @scope_organization
-on-arrival: player_whole_under_management = "organization"
+on-arrival: whole_under_management = "organization"; context_progress = 1
 go-to: quality_of_life
 
 @scope_region
-on-arrival: player_whole_under_management = "region"
+on-arrival: whole_under_management = "region"; context_progress = 1
 go-to: quality_of_life
 
 @side_boundaries

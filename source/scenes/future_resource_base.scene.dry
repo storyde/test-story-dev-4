@@ -16,19 +16,19 @@ Narration: Your resource base isn't just what you own or control directly - it's
 - @side_explain_resource_base: Please explain what you mean by "future resource base"
 
 @city_resource_base
-on-arrival: player_resource_base = "urban"
+on-arrival: resource_base = "urban"; context_progress = 4
 go-to: resource_base_deeper
 
 @small_town_resource_base  
-on-arrival: player_resource_base = "local"
+on-arrival: resource_base = "local"; context_progress = 4
 go-to: resource_base_deeper
 
 @land_manager
-on-arrival: player_resource_base = "direct"
+on-arrival: resource_base = "direct"; context_progress = 4
 go-to: resource_base_deeper
 
 @mixed_resource_base
-on-arrival: player_resource_base = "mixed"
+on-arrival: resource_base = "mixed"; context_progress = 4
 go-to: resource_base_deeper
 
 @side_explain_resource_base

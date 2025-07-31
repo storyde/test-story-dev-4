@@ -1,31 +1,31 @@
 title: Your Holistic Context
 subtitle: The Foundation for All Decisions
 new-page: true
-on-arrival: framework_complete = 1
+on-arrival: context_progress = 7
 
 Narration: Congratulations! You have created your holistic context - the foundation that will guide all your future decisions. Let's review what you've built:
 
 [? if player_context = "organization" or player_context = "school" or player_context = "company" : 
 = Your Statement of Purpose
-[? if player_purpose = "production" : Your organization exists to produce goods and services that meet essential needs. ?]
-[? if player_purpose = "education" : Your organization exists to educate and cultivate human potential and skills. ?]
-[? if player_purpose = "health" : Your organization exists to promote health and deliver medical services. ?]
-[? if player_purpose = "finance" : Your organization exists to provide financial and investment services. ?]
-[? if player_purpose = "technology" : Your organization exists to develop digital technologies and platforms. ?]
-[? if player_purpose = "consulting" : Your organization exists to offer professional advice and consulting. ?]
-[? if player_purpose = "advocacy" : Your organization exists to advocate for social or environmental causes. ?]
-[? if player_purpose = "culture" : Your organization exists to preserve arts, culture, and heritage. ?]
-[? if player_purpose = "safety" : Your organization exists to ensure public safety and emergency response. ?]
-[? if player_purpose = "community" : Your organization exists to support communities through engagement and aid. ?]
+[? if purpose = "production" : Your organization exists to produce goods and services that meet essential needs. ?]
+[? if purpose = "education" : Your organization exists to educate and cultivate human potential and skills. ?]
+[? if purpose = "health" : Your organization exists to promote health and deliver medical services. ?]
+[? if purpose = "finance" : Your organization exists to provide financial and investment services. ?]
+[? if purpose = "technology" : Your organization exists to develop digital technologies and platforms. ?]
+[? if purpose = "consulting" : Your organization exists to offer professional advice and consulting. ?]
+[? if purpose = "advocacy" : Your organization exists to advocate for social or environmental causes. ?]
+[? if purpose = "culture" : Your organization exists to preserve arts, culture, and heritage. ?]
+[? if purpose = "safety" : Your organization exists to ensure public safety and emergency response. ?]
+[? if purpose = "community" : Your organization exists to support communities through engagement and aid. ?]
 ?]
 
 = Your Whole Under Management
-[? if player_whole_under_management = "individual" : You are managing yourself and your immediate well-being. ?]
-[? if player_whole_under_management = "family" : You are managing your family unit and its direct environment. ?]
-[? if player_whole_under_management = "household" : You are managing your household and immediate surroundings. ?]
-[? if player_whole_under_management = "community" : You are managing your local community and its shared resources. ?]
-[? if player_whole_under_management = "organization" : You are managing your organization and its direct stakeholders. ?]
-[? if player_whole_under_management = "region" : You are managing your region or larger geographic area. ?]
+[? if whole_under_management = "individual" : You are managing yourself and your immediate well-being. ?]
+[? if whole_under_management = "family" : You are managing your family unit and its direct environment. ?]
+[? if whole_under_management = "household" : You are managing your household and immediate surroundings. ?]
+[? if whole_under_management = "community" : You are managing your local community and its shared resources. ?]
+[? if whole_under_management = "organization" : You are managing your organization and its direct stakeholders. ?]
+[? if whole_under_management = "region" : You are managing your region or larger geographic area. ?]
 
 = How You Want Your Life to Be
 [? if qol_freedom = 1 : You want freedom and independence in your life. ?]
@@ -40,10 +40,10 @@ Narration: Congratulations! You have created your holistic context - the foundat
 [? if qol_clean_water = 1 : You want access to clean, reliable water. ?]
 
 = Your Future Resource Base
-[? if player_resource_base = "urban" : Your resource base includes the network of farmers, suppliers, and systems that support city life. ?]
-[? if player_resource_base = "local" : Your resource base is the surrounding landscape and local community. ?]
-[? if player_resource_base = "direct" : Your resource base includes land you manage directly. ?]
-[? if player_resource_base = "mixed" : Your resource base combines local and distant sources. ?]
+[? if resource_base = "urban" : Your resource base includes the network of farmers, suppliers, and systems that support city life. ?]
+[? if resource_base = "local" : Your resource base is the surrounding landscape and local community. ?]
+[? if resource_base = "direct" : Your resource base includes land you manage directly. ?]
+[? if resource_base = "mixed" : Your resource base combines local and distant sources. ?]
 
 = Conditions Needed for the Future
 [? if condition_soil = 1 : You need regenerating soil and increasing biodiversity. ?]

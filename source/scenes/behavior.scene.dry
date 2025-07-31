@@ -21,33 +21,33 @@ Narration: Think about the people in your life who you most want to support you.
 - @behavior_responsible: Responsible and reliable in my commitments
 
 @behavior_open
-on-arrival: behavior_open = 1
+on-arrival: behavior_open = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_respectful
-on-arrival: behavior_respectful = 1
+on-arrival: behavior_respectful = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_collaborative  
-on-arrival: behavior_collaborative = 1
+on-arrival: behavior_collaborative = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_honest
-on-arrival: behavior_honest = 1
+on-arrival: behavior_honest = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_generous
-on-arrival: behavior_generous = 1
+on-arrival: behavior_generous = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_patient
-on-arrival: behavior_patient = 1
+on-arrival: behavior_patient = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_curious
-on-arrival: behavior_curious = 1
+on-arrival: behavior_curious = 1; context_progress = 6
 go-to: behavior_deeper
 
 @behavior_responsible
-on-arrival: behavior_responsible = 1
+on-arrival: behavior_responsible = 1; context_progress = 6
 go-to: behavior_deeper

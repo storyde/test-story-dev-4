@@ -1,8 +1,0 @@
-# resilience
-
-(0..1) : Fragile
-(2..3) : Vulnerable
-(4..5) : Stable
-(6..7) : Resilient
-(8..9) : Highly adaptable
-(10) : Antifragile

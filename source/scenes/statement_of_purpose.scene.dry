@@ -26,43 +26,43 @@ Narration: That's an organization that's lost sight of its real purpose. What is
 - @side_purpose_examples: Can you give me examples of good purpose statements?
 
 @producing_goods
-on-arrival: player_purpose = "production"
+on-arrival: purpose = "production"; context_progress = 2
 go-to: purpose_deeper
 
 @financial_services
-on-arrival: player_purpose = "finance"
+on-arrival: purpose = "finance"; context_progress = 2
 go-to: purpose_deeper
 
 @digital_tech
-on-arrival: player_purpose = "technology"
+on-arrival: purpose = "technology"; context_progress = 2
 go-to: purpose_deeper
 
 @consulting
-on-arrival: player_purpose = "consulting"
+on-arrival: purpose = "consulting"; context_progress = 2
 go-to: purpose_deeper
 
 @education
-on-arrival: player_purpose = "education"
+on-arrival: purpose = "education"; context_progress = 2
 go-to: purpose_deeper
 
 @healthcare
-on-arrival: player_purpose = "health"
+on-arrival: purpose = "health"; context_progress = 2
 go-to: purpose_deeper
 
 @advocacy
-on-arrival: player_purpose = "advocacy"
+on-arrival: purpose = "advocacy"; context_progress = 2
 go-to: purpose_deeper
 
 @culture
-on-arrival: player_purpose = "culture"
+on-arrival: purpose = "culture"; context_progress = 2
 go-to: purpose_deeper
 
 @safety
-on-arrival: player_purpose = "safety"
+on-arrival: purpose = "safety"; context_progress = 2
 go-to: purpose_deeper
 
 @community_support
-on-arrival: player_purpose = "community"
+on-arrival: purpose = "community"; context_progress = 2
 go-to: purpose_deeper
 
 @side_purpose_examples
