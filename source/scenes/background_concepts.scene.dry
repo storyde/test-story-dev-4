@@ -21,7 +21,7 @@ Sarah: "See that? That's a small example. The robot was designed to solve one pr
 title: Understanding Polycrisis
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: polycrisis_understanding += 2
+
 
 Sarah: "Polycrisis means everything's connected, and when one system fails, it cascades through others."
 
@@ -40,7 +40,7 @@ Sarah: "Each problem is real, but trying to solve them one at a time is like try
 title: Human Causes
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: human_responsibility += 1; systems_awareness += 1
+
 
 Sarah: "We didn't set out to create a polycrisis. We made thousands of individual decisions that seemed rational at the time."
 
@@ -59,7 +59,7 @@ Sarah: "We optimized each piece of the system separately—make it cheaper, fast
 title: Feeling Guilty
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: guilt += 1; self_awareness += 1
+
 
 Me: "I feel guilty about my part in all this."
 
@@ -80,7 +80,7 @@ Sarah: "That child isn't guilty about the world they inherited. But they're alre
 title: Understanding Responsibility
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: responsibility_clarity += 1
+
 
 Sarah: "Everyone's responsible for their piece. The question is: what's your piece?"
 
@@ -99,7 +99,7 @@ Sarah: "What's your piece of the puzzle?"
 title: Solving Interconnected Problems
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: solution_focus += 1; holistic_thinking += 1
+
 
 Sarah: "That's exactly what Holistic Management is for. Instead of trying to solve problems in isolation, we make decisions that consider the whole system."
 
@@ -118,7 +118,7 @@ Sarah: "Third, choose practices that move you toward what you want while strengt
 title: How It Works in Practice
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: practical_interest += 1
+
 
 Sarah: "Let me give you a simple example. That argument we saw earlier about the streetlight versus the water filter?"
 
@@ -135,7 +135,7 @@ Sarah: "They ended up with a solar-powered water filter that also provides LED l
 title: More Examples
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: example_learning += 1
+
 
 Sarah: "Sure. A business owner was losing customers because of unreliable power. Traditional thinking: buy a generator. Holistic thinking: what do customers really need? Reliable service. What are we managing? The whole customer experience."
 
@@ -152,7 +152,7 @@ Sarah: "That's her, actually. Her business is thriving now, and so are her neigh
 title: Personal Application
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: personal_relevance += 1
+
 
 Sarah: "That depends on your situation. What challenges are you facing? What are you trying to achieve?"
 
@@ -166,7 +166,7 @@ Sarah: "The framework works the same way whether you're managing yourself, a fam
 title: Share Your Challenges
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: openness += 1; trust += 1
+
 
 Me: "Well, I'm trying to figure out..."
 
@@ -182,7 +182,7 @@ Sarah: "The first step is getting clear about your vision for how you want life 
 title: Overwhelmed by Complexity
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: overwhelm += 2
+
 
 Me: "This feels impossibly complex. How can anyone manage all these interconnections?"
 
@@ -200,7 +200,7 @@ Sarah: "That's what holistic management helps you do. Find your role in the larg
 title: Finding Your Role
 tags: deep_dive_topics
 max-visits: 1
-on-arrival: role_clarity += 1
+
 
 Sarah: "That's what we're here to figure out. The framework helps you identify what you're uniquely positioned to manage, and how to manage it in a way that serves the larger whole."
 
@@ -210,5 +210,4 @@ Sarah: "It starts with clarity about what you want, then understanding what you'
 
 @ready_for_framework
 title: Ready for Framework
-on-arrival: framework_readiness += 1
-go-to: quality_of_life
+go-to: qol_categories

@@ -26,7 +26,7 @@ Narration: Each person or group has found their niche, their way of contributing
 @talk_to_educator
 title: Talk to the Educator
 tags: community_interactions
-on-arrival: education_perspective += 1
+
 
 Educator: "Oh, you're working with Sarah! She helped me realize that teaching composting isn't just about waste reduction—it's about helping people understand cycles, interconnection, resilience."
 
@@ -43,7 +43,7 @@ Educator: "Exactly. Everything's connected. What we throw away becomes what feed
 
 @ask_about_scope
 title: Ask About Scope
-on-arrival: scope_learning += 1
+
 
 Educator: "I manage this composting program and the educational workshops. But really, I'm managing relationships—between people and natural cycles, between waste and resources, between knowledge and practice."
 
@@ -54,7 +54,7 @@ Educator: "Sarah helped me see that I'm not just managing a program. I'm managin
 @talk_to_tech_helper
 title: Talk to the Tech Helper
 tags: community_interactions
-on-arrival: tech_perspective += 1
+
 
 Tech Helper: "Sarah calls it 'appropriate technology'—not the fanciest solution, but the one that actually works for this community."
 
@@ -69,7 +69,7 @@ Tech Helper: "When the power grid failed, I realized I wasn't just managing tech
 
 @ask_about_challenges
 title: Ask About Challenges
-on-arrival: challenge_awareness += 1
+
 
 Tech Helper: "The biggest challenge is balancing individual needs with collective resources. Everyone wants their device to work perfectly, but we have limited power, limited bandwidth, limited repair materials."
 
@@ -80,7 +80,7 @@ Tech Helper: "Sarah's framework helps me think about what we're all trying to ac
 @talk_to_repair_cafe
 title: Talk to the Repair Café
 tags: community_interactions
-on-arrival: youth_perspective += 1
+
 
 Teenager 1: "We started this because we were tired of throwing things away when they broke. But it became about so much more."
 
@@ -97,7 +97,7 @@ Teenager 2: "Sarah helped us see that we're managing the flow of materials throu
 
 @ask_about_learning
 title: Ask About Learning
-on-arrival: learning_from_youth += 1
+
 
 Teenager 1: "We learned that everything can be fixed if you understand how it works and you have the right tools."
 
@@ -110,7 +110,7 @@ Teenager 1: "And we learned that teaching people to fix their own stuff is more 
 @talk_to_librarians
 title: Talk to the Librarians
 tags: community_interactions
-on-arrival: information_perspective += 1
+
 
 Librarian: "Information is like water—it needs to flow to stay healthy. Our job is maintaining the channels."
 
@@ -129,7 +129,7 @@ Husband: "Sarah helped us see that we're not just managing books and information
 
 @ask_about_information_flow
 title: Ask About Information Flow
-on-arrival: information_literacy += 1
+
 
 Librarian: "We ask: What does the community need to know to thrive? Not just survive, but thrive."
 
@@ -141,7 +141,7 @@ Husband: "And we try to connect people who have knowledge with people who need i
 
 @continue_observing
 title: Continue Observing
-on-arrival: observation_complete += 1
+
 
 Narration: You continue walking through the community, noticing how each person or group has found their way to contribute to the whole.
 
@@ -156,12 +156,12 @@ Narration: You begin to see how your own skills, interests, and situation might 
 
 @ready_to_decide
 title: Ready to Decide
-on-arrival: decision_readiness += 2
+
 go-to: whole_under_management
 
 @find_sarah
 title: Find Sarah
-on-arrival: integration_seeking += 1
+
 
 Narration: You find Sarah back at the garden, now working with a small group planning winter preparations.
 
@@ -176,7 +176,7 @@ Sarah: "Exactly. And what's your piece?"
 
 @still_uncertain
 title: Still Uncertain
-on-arrival: uncertainty += 1
+
 
 Sarah: "That's okay. Clarity often comes through action, not just thinking."
 
@@ -193,5 +193,5 @@ Sarah: "Why don't we start with a smaller scope—something you can manage well�
 
 @start_small
 title: Start Small
-on-arrival: incremental_approach += 1
+
 go-to: whole_under_management

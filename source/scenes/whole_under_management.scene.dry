@@ -147,7 +147,7 @@ Sarah: "The question is: where can you actually make a difference? Sometimes the
 @think_about_boundaries
 title: Understanding Boundaries
 tags: scope_exploration
-on-arrival: systems_thinking += 1; boundary_awareness += 1
+
 
 Sarah: "Great question! Boundaries are partly practical and partly philosophical."
 
@@ -171,7 +171,7 @@ Sarah: "And systemically, what's connected to what? What affects what you care a
 @practical_influence
 title: Practical Influence
 tags: scope_exploration
-on-arrival: pragmatic_thinking += 1
+
 
 Sarah: "Smart approach. What can you actually influence with the resources, relationships, and authority you have?"
 
@@ -187,7 +187,7 @@ Sarah: "Smart approach. What can you actually influence with the resources, rela
 @value_based_responsibility
 title: Value-Based Responsibility
 tags: scope_exploration
-on-arrival: values_clarity += 1
+
 
 Sarah: "Values-based thinking—what feels right to you? What do you feel called to take care of?"
 
@@ -218,7 +218,7 @@ Sarah: "What are the key connections that affect what you care about most?"
 
 @all_three
 title: Integrating All Perspectives
-on-arrival: holistic_thinking += 2; integration_skills += 1
+
 
 Sarah: "Excellent! That's truly holistic thinking—considering practical influence, values-based responsibility, and systemic connections together."
 
@@ -233,7 +233,7 @@ Sarah: "This might take some reflection, but it's worth getting right. Your whol
 
 @expand_gradually
 title: Gradual Expansion
-on-arrival: adaptive_thinking += 1
+
 
 Sarah: "Wise approach. Start with a scope you can manage well, learn from experience, then expand as you develop capacity."
 
@@ -248,7 +248,7 @@ Sarah: "What feels like the right starting scope for you?"
 
 @extended_network
 title: Extended Network
-on-arrival: network_thinking += 1
+
 
 Sarah: "Your extended network—that's thinking about relationships and influence patterns. Family, friends, colleagues, neighbors..."
 
@@ -263,47 +263,47 @@ Sarah: "But networks are also complex to manage, because you're working with and
 
 @confirm_household
 title: Confirm Household Scope
-on-arrival: scope_clarity += 1; household_focus += 1
+
 go-to: scope_confirmed
 
 @expand_to_community
 title: Expand to Community
-on-arrival: scope_expansion += 1
+
 go-to: my_community
 
 @just_internal
 title: Internal Operations Focus
-on-arrival: internal_focus += 1
+
 go-to: scope_confirmed
 
 @including_stakeholders
 title: Stakeholder Focus
-on-arrival: stakeholder_focus += 1
+
 go-to: scope_confirmed
 
 @full_ecosystem
 title: Ecosystem Focus
-on-arrival: ecosystem_focus += 1
+
 go-to: scope_confirmed
 
 @geographic_community
 title: Geographic Community
-on-arrival: geographic_focus += 1
+
 go-to: scope_confirmed
 
 @professional_community
 title: Professional Community
-on-arrival: professional_focus += 1
+
 go-to: scope_confirmed
 
 @multiple_communities
 title: Multiple Communities
-on-arrival: multi_community_focus += 1
+
 go-to: scope_confirmed
 
 @start_smaller
 title: Start with Smaller Scope
-on-arrival: scale_adjustment += 1
+
 
 Sarah: "That's often the wisest choice. You can always expand your scope as you develop your skills and understanding."
 
@@ -320,7 +320,7 @@ go-to: scope_confirmed
 
 @step_by_step
 title: Step by Step Approach
-on-arrival: strategic_thinking += 1
+
 go-to: scope_confirmed
 
 @direct_influence
@@ -330,12 +330,12 @@ go-to: scope_confirmed
 
 @both_levels
 title: Multi-Level Thinking
-on-arrival: multi_level_focus += 1
+
 go-to: scope_confirmed
 
 @think_globally_act_locally
 title: Global Thinking, Local Action
-on-arrival: glocal_thinking += 1
+
 go-to: scope_confirmed
 
 @direct_global_impact
@@ -345,7 +345,7 @@ go-to: scope_confirmed
 
 @start_local
 title: Start Local
-on-arrival: local_focus += 1
+
 
 Sarah: "Starting local is often the most effective approach. You can see direct results, learn quickly, and build from there."
 
@@ -356,7 +356,7 @@ Sarah: "What feels like the right local scope for you?"
 
 @assess_influence
 title: Assess Your Influence
-on-arrival: self_assessment += 1
+
 
 Sarah: "Take a moment to really think about this. Where do you have actual decision-making power? What resources do you control or influence? Who asks for your input?"
 
@@ -368,7 +368,7 @@ Sarah: "Remember, influence isn't just formal authority. It's also relationships
 
 @feel_responsible_for
 title: Feel Responsible For
-on-arrival: responsibility_clarity += 1
+
 
 Sarah: "What keeps you up at night? What do you feel you should be taking care of? What would you regret not addressing?"
 
@@ -380,7 +380,7 @@ Sarah: "Sometimes our sense of responsibility is bigger than our current influen
 
 @map_connections
 title: Map the Connections
-on-arrival: systems_mapping += 1
+
 
 Sarah: "Let's think through this systematically. What do you care about most? What affects that? What affects what affects that?"
 
@@ -394,7 +394,7 @@ Sarah: "What are the key connections in your situation?"
 
 @take_time_to_integrate
 title: Take Time to Integrate
-on-arrival: contemplation += 1
+
 
 Sarah: "That's wise. This is one of the most important decisions you'll make—it shapes everything else."
 
@@ -407,7 +407,7 @@ Sarah: "Why don't you spend some time observing this community? See how differen
 
 @ready_to_choose
 title: Ready to Choose Scope
-on-arrival: decision_readiness += 1
+
 
 Sarah: "Good. What feels like the right scope for your 'whole under management'?"
 
@@ -421,37 +421,37 @@ Sarah: "Good. What feels like the right scope for your 'whole under management'?
 
 @choose_individual
 title: Individual Scope
-on-arrival: individual_scope += 1
+
 go-to: scope_confirmed
 
 @choose_household
 title: Household Scope
-on-arrival: household_scope += 1
+
 go-to: scope_confirmed
 
 @choose_organization
 title: Organizational Scope
-on-arrival: organizational_scope += 1
+
 go-to: scope_confirmed
 
 @choose_community
 title: Community Scope
-on-arrival: community_scope += 1
+
 go-to: scope_confirmed
 
 @choose_network
 title: Network Scope
-on-arrival: network_scope += 1
+
 go-to: scope_confirmed
 
 @choose_region
 title: Regional Scope
-on-arrival: regional_scope += 1
+
 go-to: scope_confirmed
 
 @choose_multiple
 title: Multiple Scopes
-on-arrival: multi_scope += 1
+
 go-to: scope_confirmed
 
 @confirm_network
@@ -466,7 +466,7 @@ go-to: my_household
 
 @scope_confirmed
 title: Scope Confirmed
-on-arrival: scope_clarity += 2; framework_progress += 1
+
 
 Sarah: "Excellent. Now you're clear about what you're actually managing. That's the foundation for everything else."
 

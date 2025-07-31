@@ -67,7 +67,6 @@ Elena: "She's usually over there, helping people figure out what they really wan
 @observe_more
 title: Taking It All In
 subtitle: Careful observation of the environment
-on-arrival: understanding += 1
 
 Narration: You watch the scene unfold. A food truck powered by pedaling customers—the AI chef inside keeps apologizing for burning everything. Children playing with broken tablets, using them as building blocks. 
 
@@ -137,7 +136,6 @@ Elena: "Each one's right, from their perspective. But they're all thinking about
 
 @ask_what_would_facilitator_do
 title: Learn the Approach
-on-arrival: learning_orientation += 1
 
 Elena: "She'd probably ask them: 'What do you all want this neighborhood to be like?' Get them talking about the life they want, not just the problems they see."
 
@@ -152,7 +150,7 @@ Elena: "Then she might ask: 'What are you all managing together?' Help them see 
 
 @try_facilitator_approach
 title: Apply the Framework
-on-arrival: practical_application += 1; leadership += 1; community_engagement += 1
+on-arrival: leadership += 1; community_engagement += 1
 
 Me: "Excuse me, everyone. What if we stepped back and asked: what do you all want this neighborhood to be like?"
 
@@ -177,7 +175,7 @@ Elena: "Not bad for a beginner! But there's more to learn. Want to meet the real
 
 @continue_helping
 title: Keep Helping
-on-arrival: helpfulness += 2; practical_skills += 1; community_trust += 1
+on-arrival: community_engagement += 2
 
 Narration: You spend the next hour helping the group brainstorm solutions. They end up deciding to use some materials for a solar-powered water filter that also provides LED lighting—solving both problems.
 
@@ -197,7 +195,6 @@ go-to: framework_intro
 title: Understanding the Polycrisis
 tags: arrival_side_conversations
 max-visits: 1
-on-arrival: understanding += 1; systems_awareness += 1
 
 Elena: "Polycrisis... that's when everything goes wrong at once, and each problem makes the others worse."
 
@@ -216,7 +213,6 @@ Narration: A food delivery drone crashes into a tree, its AI confused by the hea
 title: Human Origins
 tags: arrival_side_conversations
 max-visits: 1
-on-arrival: responsibility_awareness += 1
 
 Elena: "Human-made? Well, we didn't create the heat waves directly, but we created the systems that can't handle them."
 
@@ -233,7 +229,6 @@ Elena: "We built everything to be efficient, not resilient. Cheap, not sustainab
 title: Understanding the Polycrisis
 subtitle: Side conversation about the crisis
 tags: side_conversations
-on-arrival: understanding += 1; systems_awareness += 1
 
 Elena: "Polycrisis... that's when everything goes wrong at once, and each problem makes the others worse."
 
@@ -251,7 +246,6 @@ Narration: A food delivery drone crashes into a tree, its AI confused by the hea
 title: Human Origins
 subtitle: Understanding our role in the crisis
 tags: side_conversations
-on-arrival: responsibility_awareness += 1
 
 Elena: "Human-made? Well, we didn't create the heat waves directly, but we created the systems that can't handle them."
 
@@ -265,7 +259,6 @@ Elena: "We built everything to be efficient, not resilient. Cheap, not sustainab
 
 @ask_about_solutions
 title: Seeking Solutions
-on-arrival: solution_orientation += 1
 
 Elena: "That's exactly what Maya talks about. She says the solution isn't to fix each problem separately, but to change how we make decisions in the first place."
 
@@ -278,7 +271,6 @@ Elena: "She calls it 'holistic management'—making decisions that consider ever
 
 @ask_how_it_works
 title: Practical Application
-on-arrival: practical_thinking += 1
 
 Elena: "She starts with simple questions, but they get you thinking differently. Like, instead of asking 'How do we fix the power grid?' she might ask 'How do we want our community to live?'"
 
@@ -291,7 +283,6 @@ Elena: "Once you're clear on what you really want, then you can ask what you're 
 
 @feel_overwhelmed
 title: Feeling Overwhelmed
-on-arrival: overwhelm += 1
 
 Me: "This all feels too big, too complicated."
 
@@ -306,7 +297,6 @@ Elena: "You don't have to fix the world today. You just have to get clear about 
 
 @ask_about_my_piece
 title: Understanding Your Role
-on-arrival: self_awareness += 1
 
 [? if part_of = "alone" : Elena: "Well, you said you're here by yourself. So maybe your piece is just you—your life, your choices, your impact." ?]
 
@@ -320,7 +310,7 @@ Elena: "Maya would help you get clear on exactly what you're managing, and then 
 
 @intervene_in_argument
 title: Try to Help
-on-arrival: intervention_skills += 1; community_engagement += 1
+on-arrival: community_engagement += 1
 
 Me: "Excuse me, what if you all stepped back and thought about what you're trying to achieve together?"
 
@@ -341,7 +331,6 @@ Elena: "Not bad! You're thinking like Maya already. Want to meet her and learn t
 
 @ask_more_questions
 title: Learn More Questions
-on-arrival: questioning_skills += 1
 
 Elena: "Maya has a whole framework. She'd ask them what they're really managing—not streetlights or water filters, but their community. Then she'd help them figure out what practices actually support their vision."
 
@@ -353,7 +342,6 @@ Elena: "But you should learn it properly. Come on, let's find her."
 
 @realize_connection
 title: See the Connections
-on-arrival: systems_awareness += 2; insight += 1
 
 Me: "I'm starting to see how everything connects. The problems, the solutions, the people..."
 
