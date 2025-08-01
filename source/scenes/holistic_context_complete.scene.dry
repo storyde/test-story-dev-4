@@ -9,56 +9,27 @@ Narration: Let's review what you've built:
 
 = Your Statement of Purpose
 
-[? if player_background = "organization" or player_background = "school" or player_background = "company" : [? if purpose = "production" : Your organization exists to produce goods and services that meet essential needs. ?][? if purpose = "education" : Your organization exists to educate and cultivate human potential and skills. ?][? if purpose = "health" : Your organization exists to promote health and deliver medical services. ?][? if purpose = "finance" : Your organization exists to provide financial and investment services. ?][? if purpose = "technology" : Your organization exists to develop digital technologies and platforms. ?][? if purpose = "consulting" : Your organization exists to offer professional advice and consulting. ?][? if purpose = "advocacy" : Your organization exists to advocate for social or environmental causes. ?][? if purpose = "culture" : Your organization exists to preserve arts, culture, and heritage. ?][? if purpose = "safety" : Your organization exists to ensure public safety and emergency response. ?][? if purpose = "community" : Your organization exists to support communities through engagement and aid. ?] ?]
+
 
 = Your Whole Under Management
 
-[? if whole_under_management = "individual" : You are managing yourself and your immediate well-being. ?]
-[? if whole_under_management = "family" : You are managing your family unit and its direct environment. ?]
-[? if whole_under_management = "household" : You are managing your household and immediate surroundings. ?]
-[? if whole_under_management = "community" : You are managing your local community and its shared resources. ?]
-[? if whole_under_management = "organization" : You are managing your organization and its direct stakeholders. ?]
-[? if whole_under_management = "region" : You are managing your region or larger geographic area. ?]
+
 
 = How You Want Your Life to Be
 
-[? if qol_freedom = 1 : You want freedom and independence in your life. ?]
-[? if qol_peace = 1 : You want peace and tranquility. ?]
-[? if qol_nature = 1 : You want a close connection with nature. ?]
-[? if qol_service = 1 : You want to help others and serve your community. ?]
-[? if qol_respect = 1 : You want to be respected and valued by others. ?]
-[? if qol_security = 1 : You want security and stability. ?]
-[? if qol_health = 1 : You want good health and vitality. ?]
-[? if qol_community = 1 : You want strong community connections and belonging. ?]
-[? if qol_meaning = 1 : You want meaning and purpose in your daily life. ?]
-[? if qol_clean_water = 1 : You want access to clean, reliable water. ?]
+
 
 = Your Future Resource Base
 
-[? if resource_base = "urban" : Your resource base includes the network of farmers, suppliers, and systems that support city life. ?]
-[? if resource_base = "local" : Your resource base is the surrounding landscape and local community. ?]
-[? if resource_base = "direct" : Your resource base includes land you manage directly. ?]
-[? if resource_base = "mixed" : Your resource base combines local and distant sources. ?]
+
 
 = Conditions Needed for the Future
 
-[? if condition_soil = 1 : You need regenerating soil and increasing biodiversity. ?]
-[? if condition_water = 1 : You need clean water systems and healthy watersheds. ?]
-[? if condition_climate = 1 : You need stable climate and functioning weather patterns. ?]
-[? if condition_economy = 1 : You need an equitable economy with fair distribution. ?]
-[? if condition_social = 1 : You need strong social cohesion and mutual support. ?]
-[? if condition_culture = 1 : You need thriving education and cultural systems. ?]
+
 
 = How You Must Behave
 
-[? if behavior_open = 1 : You will be open and transparent in your communications. ?]
-[? if behavior_respectful = 1 : You will be respectful of others' perspectives and needs. ?]
-[? if behavior_collaborative = 1 : You will be collaborative and willing to work together. ?]
-[? if behavior_honest = 1 : You will be honest and trustworthy in all your dealings. ?]
-[? if behavior_generous = 1 : You will be generous with your time, resources, and knowledge. ?]
-[? if behavior_patient = 1 : You will be patient and understanding with others. ?]
-[? if behavior_curious = 1 : You will be curious and willing to learn from others. ?]
-[? if behavior_responsible = 1 : You will be responsible and reliable in your commitments. ?]
+
 
 Narration: This is your holistic context. From now on, when you face any decision - big or small - you can ask: "Which choice better supports my holistic context? Which option moves me toward the life I want while strengthening my resource base and maintaining the conditions I need?"
 
