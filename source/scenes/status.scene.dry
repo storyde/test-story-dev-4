@@ -1,4 +1,8 @@
+title: Status
+new-page: true
+
 # This scene contains information for the left sidebar.
+
 = Progress
 
 You are currently: [+ context_progress +]
