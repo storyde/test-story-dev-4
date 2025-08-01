@@ -3,14 +3,14 @@ Run npm run dendry make-html
 > dendry-game@1.0.0 dendry
 > dendry make-html
 
-(node:2126) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(node:2127) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
 (Use `node --trace-warnings ...` to show where the warning was created)
 Game file is out of date, recompiling.
 Narration: Congratulations! You have created your draft holistic context - the foundation that will guide all your future decisions. This draft is now displayed in the right sidebar where you can reference it at any time.
 
 Narration: Let's review what you've built:
 
-[? if player_context = "organization" or player_context = "school" or player_context = "company" : 
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : 
 = Your Statement of Purpose
 [? if purpose = "production" : Your organization exists to produce goods and services that meet essential needs. ?]
 [? if purpose = "education" : Your organization exists to educate and cultivate human potential and skills. ?]
@@ -45,56 +45,48 @@ Narration: Let's review what you've built:
 [? if qol_clean_water = 1 : You want access to clean, reliable water. ?]
 
 = Your Future Resource Base
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:250:19
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:181:20
-    at async.forEachOf.async.eachOf (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:233:13)
-    at async.forEach.async.each (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:209:22)
-    at Game._fullyQualifyIdsInOptions (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:245:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:423:12
-    at Game._fullyQualifyIdsInGoto (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:263:14)
-    at Game._fullyQualifyIdsInScene (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:418:10)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:445:12
-Error: Couldn't find an id matching "go_to_facilitator" in "arrival.feel_overwhelmed".
-    at getFullyQualifiedId (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:113:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:250:19
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:181:20
-    at async.forEachOf.async.eachOf (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:233:13)
-    at async.forEach.async.each (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:209:22)
-    at Game._fullyQualifyIdsInOptions (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:245:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:423:12
-    at Game._fullyQualifyIdsInGoto (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:263:14)
-    at Game._fullyQualifyIdsInScene (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:418:10)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:445:12
-Error: Couldn't find an id matching "holistic_context_complete" in "framework_application_scenarios.return_to_context".
-    at getFullyQualifiedId (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:113:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:272:17
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:181:20
-    at async.forEachOf.async.eachOf (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:233:13)
-    at async.forEach.async.each (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:209:22)
-    at Game._fullyQualifyIdsInGoto (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:268:11)
-    at Game._fullyQualifyIdsInScene (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:418:10)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:445:12
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:181:20
-    at async.forEachOf.async.eachOf (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:233:13)
-Error: Couldn't find an id matching "go_to_facilitator" in "arrival.ask_about_my_piece".
-    at getFullyQualifiedId (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:113:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:250:19
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:181:20
-    at async.forEachOf.async.eachOf (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:233:13)
-    at async.forEach.async.each (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:209:22)
-    at Game._fullyQualifyIdsInOptions (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:245:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:423:12
-    at Game._fullyQualifyIdsInGoto (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:263:14)
-    at Game._fullyQualifyIdsInScene (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:418:10)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:445:12
-Error: Couldn't find an id matching "go_to_facilitator" in "arrival.intervene_in_argument".
-    at getFullyQualifiedId (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:113:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:250:19
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:181:20
-    at async.forEachOf.async.eachOf (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:233:13)
-    at async.forEach.async.each (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/async/lib/async.js:209:22)
-    at Game._fullyQualifyIdsInOptions (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:245:11)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:423:12
-    at Game._fullyQualifyIdsInGoto (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:263:14)
-    at Game._fullyQualifyIdsInScene (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:418:10)
-    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/compiler.js:445:12
+[? if resource_base = "urban" : Your resource base includes the network of farmers, suppliers, and systems that support city life. ?]
+[? if resource_base = "local" : Your resource base is the surrounding landscape and local community. ?]
+[? if resource_base = "direct" : Your resource base includes land you manage directly. ?]
+[? if resource_base = "mixed" : Your resource base combines local and distant sources. ?]
+
+= Conditions Needed for the Future
+[? if condition_soil = 1 : You need regenerating soil and increasing biodiversity. ?]
+[? if condition_water = 1 : You need clean water systems and healthy watersheds. ?]
+[? if condition_climate = 1 : You need stable climate and functioning weather patterns. ?]
+[? if condition_economy = 1 : You need an equitable economy with fair distribution. ?]
+[? if condition_social = 1 : You need strong social cohesion and mutual support. ?]
+[? if condition_culture = 1 : You need thriving education and cultural systems. ?]
+
+= How You Must Behave
+[? if behavior_open = 1 : You will be open and transparent in your communications. ?]
+[? if behavior_respectful = 1 : You will be respectful of others' perspectives and needs. ?]
+[? if behavior_collaborative = 1 : You will be collaborative and willing to work together. ?]
+[? if behavior_honest = 1 : You will be honest and trustworthy in all your dealings. ?]
+[? if behavior_generous = 1 : You will be generous with your time, resources, and knowledge. ?]
+[? if behavior_patient = 1 : You will be patient and understanding with others. ?]
+[? if behavior_curious = 1 : You will be curious and willing to learn from others. ?]
+[? if behavior_responsible = 1 : You will be responsible and reliable in your commitments. ?]
+
+---
+
+Narration: This is your holistic context. From now on, when you face any decision - big or small - you can ask: "Which choice better supports my holistic context? Which option moves me toward the life I want while strengthening my resource base and maintaining the conditions I need?"
+
+Narration: A celebration robot rolls by, apparently throwing confetti made of recycled circuit boards while playing a slightly off-key version of "Congratulations." The sentiment is genuine, even if the execution is questionable.
+
+Narration: You now have the foundation for holistic management. Every choice you make can be evaluated against this context. You're ready to navigate this complex world with clarity and purpose.
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert(range.content[1].type === 'magic')
+
+    at _extractPredicate (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/content.js:421:7)
+    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/content.js:507:11
+    at arrayEach (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/lodash/index.js:1289:13)
+    at Function.<anonymous> (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/lodash/index.js:3345:13)
+    at _extractStateDependencies (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/content.js:501:7)
+    at /home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/content.js:517:9
+    at arrayEach (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/lodash/index.js:1289:13)
+    at Function.<anonymous> (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/lodash/index.js:3345:13)
+    at _extractStateDependencies (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/content.js:501:7)
+    at Object.compile (/home/runner/work/test-story-dev-4/test-story-dev-4/node_modules/dendry/lib/parsers/content.js:620:7)
+Error: Unknown range declaration.
