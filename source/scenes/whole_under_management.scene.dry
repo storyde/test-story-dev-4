@@ -243,8 +243,8 @@ Sarah: "This garden started with one person growing herbs in a container. As peo
 
 Sarah: "What feels like the right starting scope for you?"
 
-- @my_household: "My household and immediate surroundings."
-- @my_community: "My local community."
+- @scope_household: "My household and immediate surroundings."
+- @scope_community: "My local community."
 
 @extended_network
 title: Extended Network
@@ -351,8 +351,8 @@ Sarah: "Starting local is often the most effective approach. You can see direct 
 
 Sarah: "What feels like the right local scope for you?"
 
-- @my_household: "My household and immediate surroundings."
-- @my_community: "My local community."
+- @scope_household: "My household and immediate surroundings."
+- @scope_community: "My local community."
 
 @assess_influence
 title: Assess Your Influence
@@ -462,7 +462,7 @@ go-to: scope_confirmed
 @simplify_to_household
 title: Simplify to Household
 on-arrival: simplification += 1
-go-to: my_household
+go-to: scope_household
 
 @scope_confirmed
 title: Scope Confirmed
@@ -486,7 +486,7 @@ go-to: background_concepts
 
 @define_quality_of_life
 title: Define Quality of Life
-go-to: quality_of_life
+go-to: qol_categories
 
 @ask_about_framework
 title: Ask About Framework

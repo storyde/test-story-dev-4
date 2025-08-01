@@ -75,25 +75,6 @@ title: Ask About Holistic Management
 subtitle: Learn about the framework
 go-to: qol_categories
 
-@express_skepticism
-title: Express Overwhelm
-subtitle: Voice concerns about scale
-
-Me: "That all sounds overwhelming. How can a few people in a community center change systems that big?"
-
-Facilitator: "You're right that it's overwhelming if you think about changing everything at once. But what if we started by changing how we make decisions? What if we had a framework for thinking about problems that considered the whole system, not just the parts?"
-
-Business Man: "I use frameworks all the time in business. ROI, cost-benefit analysis, market research."
-
-Facilitator: "Those are useful tools. But they're designed to optimize one thing—usually profit. What if we had a framework that helped us optimize for multiple things at once? Profit and environmental health and social wellbeing?"
-
-Teenager: "Is that even possible?"
-
-Facilitator: "That's what we're here to explore. It's called Holistic Management, and it starts with a simple question: How do you want your life to be?"
-
-- @ask_about_framework: "Tell me more about this framework"
-- @remain_skeptical: "I'm still not convinced this isn't just theory"
-
 @remain_skeptical
 title: Remain Skeptical
 subtitle: Push back on the approach

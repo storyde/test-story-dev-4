@@ -225,38 +225,6 @@ Elena: "We built everything to be efficient, not resilient. Cheap, not sustainab
 - @go_to_facilitator: "I want to learn how to see the whole picture."
 - #arrival_side_conversations: "Tell me about other aspects of this situation"
 
-@polycrisis_side
-title: Understanding the Polycrisis
-subtitle: Side conversation about the crisis
-tags: side_conversations
-
-Elena: "Polycrisis... that's when everything goes wrong at once, and each problem makes the others worse."
-
-Narration: She points to different scenes around you: the broken infrastructure, the improvised economy, the social tensions.
-
-Elena: "Climate change stresses the power grid. Power failures crash the economy. Economic stress breaks down social trust. Broken trust makes it harder to solve climate change. Round and round."
-
-Narration: A food delivery drone crashes into a tree, its AI confused by the heat-warped GPS signals. A small crowd gathers to salvage the packages.
-
-- @humanmade: "Is this all human-made?"
-- @ask_about_solutions: "Is there a way out of this cycle?"
-- @go_to_facilitator: "I need to understand how to think about this differently."
-
-@humanmade
-title: Human Origins
-subtitle: Understanding our role in the crisis
-tags: side_conversations
-
-Elena: "Human-made? Well, we didn't create the heat waves directly, but we created the systems that can't handle them."
-
-Narration: She gestures at the struggling infrastructure around you.
-
-Elena: "We built everything to be efficient, not resilient. Cheap, not sustainable. Fast, not thoughtful. Each decision made sense at the time, but nobody was looking at the whole picture."
-
-- @ask_about_solutions: "So how do we fix it?"
-- @feel_overwhelmed: "This feels too big to solve."
-- @go_to_facilitator: "I want to learn how to see the whole picture."
-
 @ask_about_solutions
 title: Seeking Solutions
 
