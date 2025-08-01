@@ -1,4 +1,8 @@
+title: holtext
+new-page: true
+
 # This scene contains information for the right sidebar.
+
 = My Holistic Context
 
 [? if context_progress < 1 : *Building your holistic context...* ?]
