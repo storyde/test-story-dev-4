@@ -1,7 +1,7 @@
 title: Holtext
 subtitle: Your holistic context
 new-page: true
-on-arrival: context_progress = context_progress || 0; player_background = player_background || ""; purpose = purpose || ""; whole_under_management = whole_under_management || ""; resource_base = resource_base || ""
+on-arrival: {! Q.context_progress = Q.context_progress || 0; Q.player_background = Q.player_background || ""; Q.purpose = Q.purpose || ""; Q.whole_under_management = Q.whole_under_management || ""; Q.resource_base = Q.resource_base || ""; !}
 
 # This scene contains information for the right sidebar.
 
