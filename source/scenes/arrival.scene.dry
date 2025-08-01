@@ -189,7 +189,7 @@ Elena: "Maya's the facilitator I mentioned. Looks like you're ready to meet her.
 
 @go_to_framework
 title: Learn the Framework
-go-to: framework_intro
+go-to: intro
 
 @polycrisis_side
 title: Understanding the Polycrisis

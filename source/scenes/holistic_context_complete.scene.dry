@@ -7,8 +7,8 @@ Narration: Congratulations! You have created your draft holistic context - the f
 
 Narration: Let's review what you've built:
 
-[? if player_background = "organization" or player_background = "school" or player_background = "company" : 
 = Your Statement of Purpose
+[? if player_background = "organization" or player_background = "school" or player_background = "company" : 
 [? if purpose = "production" : Your organization exists to produce goods and services that meet essential needs. ?]
 [? if purpose = "education" : Your organization exists to educate and cultivate human potential and skills. ?]
 [? if purpose = "health" : Your organization exists to promote health and deliver medical services. ?]
@@ -19,6 +19,8 @@ Narration: Let's review what you've built:
 [? if purpose = "culture" : Your organization exists to preserve arts, culture, and heritage. ?]
 [? if purpose = "safety" : Your organization exists to ensure public safety and emergency response. ?]
 [? if purpose = "community" : Your organization exists to support communities through engagement and aid. ?]
+
+---
 ?]
 
 = Your Whole Under Management

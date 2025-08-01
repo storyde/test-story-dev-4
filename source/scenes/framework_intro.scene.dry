@@ -25,31 +25,31 @@ Narration: But first, let's be clear about your situation. Are you here alone, w
 - @side_why_this_matters: Why does this distinction matter?
 
 @here_alone
-on-arrival: player_background = "individual"; context_progress = 0
+on-arrival: player_background = "individual"
 go-to: qol_categories
 
 @here_with_family
-on-arrival: player_background = "family"; context_progress = 0
+on-arrival: player_background = "family"
 go-to: qol_categories
 
 @here_as_organization
-on-arrival: player_background = "organization"; context_progress = 0
+on-arrival: player_background = "organization"
 go-to: statement_of_purpose
 
 @here_as_school
-on-arrival: player_background = "school"; context_progress = 0
+on-arrival: player_background = "school"
 go-to: statement_of_purpose
 
 @here_as_company
-on-arrival: player_background = "company"; context_progress = 0
+on-arrival: player_background = "company"
 go-to: statement_of_purpose
 
 @here_as_community
-on-arrival: player_background = "community"; context_progress = 0
+on-arrival: player_background = "community"
 go-to: qol_categories
 
 @here_as_nation
-on-arrival: player_background = "nation"; context_progress = 0
+on-arrival: player_background = "nation"
 go-to: qol_categories
 
 @side_why_this_matters
