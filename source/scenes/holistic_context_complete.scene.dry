@@ -19,9 +19,9 @@ Narration: Let's review what you've built:
 [? if purpose = "culture" : Your organization exists to preserve arts, culture, and heritage. ?]
 [? if purpose = "safety" : Your organization exists to ensure public safety and emergency response. ?]
 [? if purpose = "community" : Your organization exists to support communities through engagement and aid. ?]
+?]
 
 ---
-?]
 
 = Your Whole Under Management
 [? if whole_under_management = "individual" : You are managing yourself and your immediate well-being. ?]
