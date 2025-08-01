@@ -306,7 +306,7 @@ Narration: The group is still standing there, looking thoughtful rather than arg
 
 Elena: "But you should learn it properly. Come on, let's find her."
 
-- @go_to_facilitator: "Lead the way."
+- @go_to_framework: "Lead the way."
 
 @realize_connection
 title: See the Connections
@@ -319,4 +319,4 @@ Narration: You look around with new eyes. The broken streetlight affects safety,
 
 Elena: "Ready to learn how to work with those connections instead of against them?"
 
-- @go_to_facilitator: "Absolutely. Let's go."
+- @go_to_framework: "Absolutely. Let's go."

@@ -70,11 +70,6 @@ Facilitator: "Exactly. We optimized for efficiency, but not for resilience. We f
 - @express_skepticism: "That sounds overwhelming. How can individuals change such big systems?"
 - @ask_about_framework: "Is this where Holistic Management comes in?"
 
-@ask_about_framework
-title: Ask About Holistic Management
-subtitle: Learn about the framework
-go-to: qol_categories
-
 @remain_skeptical
 title: Remain Skeptical
 subtitle: Push back on the approach

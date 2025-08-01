@@ -309,9 +309,9 @@ Sarah: "That's often the wisest choice. You can always expand your scope as you 
 
 Sarah: "What feels like the right starting scope?"
 
-- @my_household: "My household and immediate surroundings."
-- @my_organization: "My organization or business."
-- @my_community: "My local community."
+- @scope_household: "My household and immediate surroundings."
+- @scope_organization: "My organization or business."
+- @scope_community: "My local community."
 
 @regional_role
 title: Regional Role Confirmed
