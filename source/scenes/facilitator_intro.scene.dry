@@ -21,7 +21,6 @@ Facilitator: "Thank you for sharing. What I'm hearing is that we're all experien
 
 - @share_feelings: "Share how you're feeling about the crisis"
 - @ask_about_framework: "Ask about this Holistic Management framework"
-- @listen_more: "Continue listening to the group"
 
 @share_feelings
 title: Share Your Feelings
@@ -40,8 +39,6 @@ Business Man: "With respect, normal was working fine until the power went out."
 
 Teenager: "Was it though? My parents were always stressed about money, the environment, politics. That didn't seem fine to me."
 
-- @support_teenager: "The teenager has a point about underlying problems"
-- @support_businessman: "But the system did provide stability and prosperity"
 - @ask_deeper_question: "What do you mean by 'normal was the problem'?"
 
 @ask_deeper_question
@@ -66,8 +63,6 @@ Me: "Because... we built everything to work perfectly, but nothing to handle whe
 
 Facilitator: "Exactly. We optimized for efficiency, but not for resilience. We focused on short-term profits, but not long-term sustainability. We treated symptoms, but not root causes."
 
-- @ask_about_solutions: "So what's the alternative?"
-- @express_skepticism: "That sounds overwhelming. How can individuals change such big systems?"
 - @ask_about_framework: "Is this where Holistic Management comes in?"
 
 @remain_skeptical
@@ -169,7 +164,7 @@ Business Man: "She's right. I've seen too many well-intentioned projects fail be
 
 Young Mother: "And I've seen aid programs that created more problems than they solved because they didn't think about the whole situation."
 
-- @accept_framework_approach: "Alright, let's start with the framework"
+go-to: ask_about_framework
 - @compromise_position: "Can we do both? Learn the framework while taking some immediate action?"
 
 @compromise_position

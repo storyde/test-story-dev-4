@@ -46,9 +46,6 @@ Narration: **Option A (Coal)**: Addresses insufficient capacity but not efficien
 
 Narration: Which option best addresses the root cause in your view?
 
-- @energy_choose_conservation: Conservation addresses root cause best
-- @energy_choose_solar: Solar addresses capacity sustainably
-- @energy_choose_coal: Coal provides immediate capacity relief
 - @energy_sustainability: Continue to Sustainability check
 
 @energy_sustainability
@@ -180,4 +177,3 @@ Narration: This scenario is under development. It will help you apply holistic t
 go-to: framework_application_scenarios
 
 @return_to_context
-go-to: holistic_context_complete

@@ -44,7 +44,7 @@ Elena: "That robot cost the city fifty thousand dollars. It's been stuck there f
 
 Elena: "But there's someone around here who thinks differently. Says there's a way to look at the *whole picture*, not just the broken pieces. She's probably the only person in the city who still believes technology can be helpful."
 
-- @ask_about_someone: "Who is this someone?"
+- @ask_more_about_facilitator: "Who is this someone?"
 - #arrival_side_conversations: "Tell me more about this situation"
 - @look_for_help: "I'd like to meet them."
 
@@ -206,7 +206,7 @@ Narration: A food delivery drone crashes into a tree, its AI confused by the hea
 
 - @humanmade: "Is this all human-made?"
 - @ask_about_solutions: "Is there a way out of this cycle?"
-- @go_to_facilitator: "I need to understand how to think about this differently."
+- @go_to_framework: "I need to understand how to think about this differently."
 - #arrival_side_conversations: "Tell me about other aspects of this situation"
 
 @humanmade
@@ -222,7 +222,7 @@ Elena: "We built everything to be efficient, not resilient. Cheap, not sustainab
 
 - @ask_about_solutions: "So how do we fix it?"
 - @feel_overwhelmed: "This feels too big to solve."
-- @go_to_facilitator: "I want to learn how to see the whole picture."
+- @go_to_framework: "I want to learn how to see the whole picture."
 - #arrival_side_conversations: "Tell me about other aspects of this situation"
 
 @ask_about_solutions
@@ -234,7 +234,7 @@ Narration: A group of teenagers walks by, their homemade air purifier backpacks 
 
 Elena: "She calls it 'holistic management'—making decisions that consider everything together: what you want, what you're responsible for, and what's actually sustainable."
 
-- @go_to_facilitator: "I need to learn this approach."
+- @go_to_framework: "I need to learn this approach."
 - @ask_how_it_works: "How does that actually work in practice?"
 
 @ask_how_it_works
@@ -246,7 +246,7 @@ Narration: The questions hang in the air as you watch people around you making d
 
 Elena: "Once you're clear on what you really want, then you can ask what you're actually managing, and what practices will get you there sustainably."
 
-- @go_to_facilitator: "I want to learn this framework."
+- @go_to_framework: "I want to learn this framework."
 - @feel_overwhelmed: "It sounds complicated."
 
 @feel_overwhelmed
@@ -260,7 +260,7 @@ Narration: She smiles kindly.
 
 Elena: "You don't have to fix the world today. You just have to get clear about your piece of it."
 
-- @go_to_facilitator: "Okay, let's start with my piece."
+- @go_to_framework: "Okay, let's start with my piece."
 - @ask_about_my_piece: "What do you mean by 'my piece'?"
 
 @ask_about_my_piece
@@ -274,7 +274,7 @@ title: Understanding Your Role
 
 Elena: "Maya would help you get clear on exactly what you're managing, and then how to manage it well."
 
-- @go_to_facilitator: "That makes sense. Let's go meet Maya."
+- @go_to_framework: "That makes sense. Let's go meet Maya."
 
 @intervene_in_argument
 title: Try to Help
@@ -294,7 +294,7 @@ Person C: "A place that... works, I guess. Where we can live safely and healthil
 
 Elena: "Not bad! You're thinking like Maya already. Want to meet her and learn the full framework?"
 
-- @go_to_facilitator: "Yes, let's go."
+- @go_to_framework: "Yes, let's go."
 - @ask_more_questions: "What other questions should I ask?"
 
 @ask_more_questions

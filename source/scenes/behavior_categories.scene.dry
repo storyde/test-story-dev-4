@@ -17,5 +17,3 @@ Narration: Think about the people in your life who you most want to support you.
 - @complete_behavior: I've identified the key behaviors
 
 @complete_behavior
-on-arrival: context_progress = 7
-go-to: holistic_context_complete
