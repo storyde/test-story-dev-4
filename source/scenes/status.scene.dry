@@ -9,13 +9,10 @@ You are currently: [+ context_progress +]
 
 ---
 
-[? if player_background != "individual" : 
-**Group Consensus**: [+ group_consensus +]
-?]
+
 
 ---
 
-**Long-term Perspective**: [+ long_term_perspective +]
 
 ---
 
