@@ -1,7 +1,7 @@
 title: Your Holistic Context
 subtitle: The Foundation for All Decisions
 new-page: true
-on-arrival: {! Q.context_progress = 7; Q.player_background = Q.player_background || ""; Q.purpose = Q.purpose || ""; Q.whole_under_management = Q.whole_under_management || ""; Q.resource_base = Q.resource_base || ""; !}
+on-arrival: context_progress = 7
 
 Narration: Congratulations! You have created your draft holistic context - the foundation that will guide all your future decisions. This draft is now displayed in the right sidebar where you can reference it at any time.
 
