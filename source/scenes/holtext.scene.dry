@@ -1,6 +1,3 @@
-title: holtext
-new-page: true
-
 # This scene contains information for the right sidebar.
 
 = My Holistic Context
@@ -23,24 +20,26 @@ new-page: true
 [? if purpose = "safety" : To ensure safety while building community resilience. ?]
 [? if purpose = "community" : To support thriving, connected communities. ?]
 [? if purpose = "" : *Not yet defined* ?]
-
----
 ?]
 
-[? if whole_under_management != "" : 
+---
+
 **Whole Under Management**
+
+[? if whole_under_management != "" : 
 [? if whole_under_management = "individual" : Myself and my personal impact on the world ?]
 [? if whole_under_management = "family" : My family and the environment that sustains us ?]
 [? if whole_under_management = "household" : My household and our immediate community ?]
 [? if whole_under_management = "community" : My community and our shared resources ?]
 [? if whole_under_management = "organization" : My organization and all who depend on it ?]
 [? if whole_under_management = "region" : My region and its interconnected systems ?]
-
----
 ?]
 
-[? if qol_freedom = 1 or qol_peace = 1 or qol_nature = 1 or qol_service = 1 or qol_respect = 1 or qol_security = 1 or qol_health = 1 or qol_community = 1 or qol_meaning = 1 or qol_clean_water = 1 : 
+---
+
 **Quality of Life We Seek**
+
+[? if qol_freedom = 1 or qol_peace = 1 or qol_nature = 1 or qol_service = 1 or qol_respect = 1 or qol_security = 1 or qol_health = 1 or qol_community = 1 or qol_meaning = 1 or qol_clean_water = 1 : 
 {! 
 var qolList = [];
 if (Q.qol_freedom == 1) qolList.push("Freedom and independence");
@@ -57,22 +56,24 @@ if (Q.qol_creativity == 1) qolList.push("Creative expression");
 if (Q.qol_learning == 1) qolList.push("Continuous learning and growth");
 return qolList.length > 0 ? qolList.join("; ") : "*Not yet defined*";
 !}
-
----
 ?]
 
-[? if resource_base != "" : 
+---
+
 **Resource Base**
+
+[? if resource_base != "" : 
 [? if resource_base = "urban" : The network of land, people, and systems that sustain urban life ?]
 [? if resource_base = "local" : Our local landscape and community relationships ?]
 [? if resource_base = "direct" : The land we steward and the community we serve ?]
 [? if resource_base = "mixed" : Our diverse network of local and distant resources ?]
-
----
 ?]
 
-[? if condition_soil = 1 or condition_water = 1 or condition_climate = 1 or condition_economy = 1 or condition_social = 1 or condition_culture = 1 : 
+---
+
 **Future Resource Base Conditions**
+
+[? if condition_soil = 1 or condition_water = 1 or condition_climate = 1 or condition_economy = 1 or condition_social = 1 or condition_culture = 1 : 
 {! 
 var conditionsList = [];
 if (Q.condition_soil == 1) conditionsList.push("Regenerating soils and diverse biological communities");
@@ -83,12 +84,13 @@ if (Q.condition_social == 1) conditionsList.push("Strong social bonds and mutual
 if (Q.condition_culture == 1) conditionsList.push("Thriving education and cultural heritage");
 return conditionsList.length > 0 ? conditionsList.join("; ") : "*Not yet defined*";
 !}
-
----
 ?]
 
-[? if behavior_open = 1 or behavior_respectful = 1 or behavior_collaborative = 1 or behavior_honest = 1 or behavior_generous = 1 or behavior_patient = 1 or behavior_curious = 1 or behavior_responsible = 1 : 
+---
+
 **Behaviors for Social Support**
+
+[? if behavior_open = 1 or behavior_respectful = 1 or behavior_collaborative = 1 or behavior_honest = 1 or behavior_generous = 1 or behavior_patient = 1 or behavior_curious = 1 or behavior_responsible = 1 : 
 {! 
 var behaviorList = [];
 if (Q.behavior_open == 1) behaviorList.push("Open and transparent communication");
@@ -101,9 +103,9 @@ if (Q.behavior_curious == 1) behaviorList.push("Curious and eager to learn");
 if (Q.behavior_responsible == 1) behaviorList.push("Reliable and responsible");
 return behaviorList.length > 0 ? behaviorList.join("; ") : "*Not yet defined*";
 !}
+?]
 
 ---
-?]
 
 [? if context_progress >= 7 : 
 *This holistic context guides all decisions, ensuring they move toward the life we want while maintaining the conditions needed for future generations.*
