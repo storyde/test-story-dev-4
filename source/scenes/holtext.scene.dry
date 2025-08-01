@@ -9,10 +9,9 @@ new-page: true
 [? if context_progress >= 7 : This holistic context guides all your decisions. ?]
 [? if context_progress >= 1 and context_progress < 7 : *Developing your holistic context...* ?]
 
----
-
-[? if player_background = "organization" or player_background = "school" or player_background = "company" : 
 **Statement of Purpose**
+
+[? if player_background = "organization" or player_background = "school" or player_background = "company" :
 [? if purpose = "production" : To produce goods and services that meet essential human needs. ?]
 [? if purpose = "finance" : To provide financial services that build security and enable dreams. ?]
 [? if purpose = "technology" : To develop technologies that solve real problems and empower people. ?]
