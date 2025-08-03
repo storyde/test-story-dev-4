@@ -5,7 +5,7 @@ new-page: true
 
 = Progress
 
-You are currently: [+ context_progress +]
+You are currently: [+ context_progress : qcontext_progress +]
 
 ---
 
