@@ -11,6 +11,7 @@ Narration: Your personal qualities and reliability determine whether others see 
 - @back_to_behavior_categories: Explore other behavior areas
 
 @behavior_responsible
+title: Responsible and reliable in commitments
 tags: behavior_personal_qualities
 max-visits: 1
 on-arrival: behavior_responsible = 1
@@ -21,6 +22,7 @@ Narration: Reliability and responsibility make you someone others can count on. 
 - #behavior_personal_qualities: Consider other personal qualities
 
 @behavior_generous
+title: Generous with time, resources, and knowledge
 tags: behavior_personal_qualities
 max-visits: 1
 on-arrival: behavior_generous = 1
@@ -31,6 +33,7 @@ Narration: Generosity creates abundance. When you freely share what you have, ot
 - #behavior_personal_qualities: Consider other personal qualities
 
 @behavior_curious
+title: Curious and willing to learn from others
 tags: behavior_personal_qualities
 max-visits: 1
 on-arrival: behavior_curious = 1

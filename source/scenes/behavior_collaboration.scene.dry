@@ -11,6 +11,7 @@ Narration: Your ability to work with others and show respect for their perspecti
 - @back_to_behavior_categories: Explore other behavior areas
 
 @behavior_respectful
+title: Respectful of others' perspectives and needs
 tags: behavior_collaboration
 max-visits: 1
 on-arrival: behavior_respectful = 1
@@ -21,6 +22,7 @@ Narration: Respect for others creates reciprocal respect. When people feel value
 - #behavior_collaboration: Consider other collaboration behaviors
 
 @behavior_collaborative
+title: Collaborative and willing to work together
 tags: behavior_collaboration
 max-visits: 1
 on-arrival: behavior_collaborative = 1
@@ -31,6 +33,7 @@ Narration: Collaboration creates win-win situations. When you help others achiev
 - #behavior_collaboration: Consider other collaboration behaviors
 
 @behavior_patient
+title: Patient and understanding with others
 tags: behavior_collaboration
 max-visits: 1
 on-arrival: behavior_patient = 1
