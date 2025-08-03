@@ -1,4 +1,11 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make tamplates that are fully featured and worthy for production.
+
 This project is written using the Dendry Framework. 
+
+For layout, this template uses UiKit framework. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use stock photos from unsplash where appropriate.
+
 This is the foundation of an interactive chat-like game with many branches and choices, so the player can choose his own answers. 
 The main focus is on a facilitation session on the Holistic Management Framework  in a chat like style, in which the player develops his holistic context. The player will be guided by the questions of the facilitator. The player can also learn some background information in side-conversations or side-branches.
 This game will help users to experience and apply Holistic Management in an entertaining way.
